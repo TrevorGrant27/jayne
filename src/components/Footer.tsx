@@ -39,6 +39,21 @@ export function Footer() {
                   Work With Us
                 </Link>
               </li>
+              <li>
+                <Link href="/case-studies" className="text-[#1a1a1a] hover:text-[#ff6b00] transition-colors">
+                  Case Studies
+                </Link>
+              </li>
+              <li>
+                <Link href="/speaking" className="text-[#1a1a1a] hover:text-[#ff6b00] transition-colors">
+                  Speaking
+                </Link>
+              </li>
+              <li>
+                <Link href="/agency-advisory" className="text-[#1a1a1a] hover:text-[#ff6b00] transition-colors">
+                  Agency & Advisory
+                </Link>
+              </li>
             </ul>
           </div>
 
