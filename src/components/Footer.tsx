@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export function Footer() {
   return (
@@ -7,8 +8,14 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="md:col-span-2">
-            <Link href="/" className="text-3xl font-semibold tracking-tight text-[#1a1a1a]">
-              <span className="font-[family-name:var(--font-playfair)]">Jayne</span>
+            <Link href="/" className="inline-block">
+              <Image
+                src="/jaynelogo.png"
+                alt="Jayne Agency"
+                width={150}
+                height={75}
+                className="w-auto h-16"
+              />
             </Link>
             <p className="mt-4 text-[#666666] max-w-md">
               Brand clarity and alignment for all. Since 2009, we&apos;ve equipped

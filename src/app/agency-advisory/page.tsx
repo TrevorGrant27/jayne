@@ -37,7 +37,7 @@ export default function AgencyAdvisory() {
             </p>
             <Link
               href="/work-with-us"
-              className="inline-flex items-center justify-center px-12 py-6 text-lg font-bold bg-[#ff6b00] text-white rounded-full hover:bg-[#1a1a1a] transition-all duration-300 group"
+              className="inline-flex items-center justify-center px-8 md:px-12 py-5 md:py-6 text-base md:text-lg font-bold bg-[#ff6b00] text-white rounded-full hover:bg-[#1a1a1a] transition-all duration-300 group"
             >
               Start With Strategy
               <svg className="w-5 h-5 ml-3 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -106,11 +106,14 @@ export default function AgencyAdvisory() {
           {/* Stacked full-width rows */}
           <div className="space-y-0">
             {/* Step 1 */}
-            <div className="group border-t border-[#1a1a1a]/10 py-12 lg:py-16 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-              <div className="lg:col-span-1">
-                <span className="text-5xl md:text-6xl font-[family-name:var(--font-playfair)] text-[#ff6b00]">1</span>
+            <div className="group border-t border-[#1a1a1a]/10 py-8 lg:py-16 grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-8 items-center">
+              <div className="lg:col-span-1 flex items-center gap-4 lg:block">
+                <span className="text-4xl md:text-6xl font-[family-name:var(--font-playfair)] text-[#ff6b00]">1</span>
+                <h3 className="lg:hidden text-2xl md:text-4xl font-[family-name:var(--font-playfair)] text-[#1a1a1a] group-hover:text-[#ff6b00] transition-colors">
+                  Start with strategy
+                </h3>
               </div>
-              <div className="lg:col-span-4">
+              <div className="lg:col-span-4 hidden lg:block">
                 <h3 className="text-3xl md:text-4xl font-[family-name:var(--font-playfair)] text-[#1a1a1a] group-hover:text-[#ff6b00] transition-colors">
                   Start with strategy
                 </h3>
@@ -121,18 +124,21 @@ export default function AgencyAdvisory() {
                 </svg>
               </div>
               <div className="lg:col-span-6">
-                <p className="text-[#666666] text-lg lg:text-xl">
+                <p className="text-[#666666] text-base lg:text-xl">
                   Begin with a Strategy Sprint or Strategy Partnership to build your foundation.
                 </p>
               </div>
             </div>
 
             {/* Step 2 */}
-            <div className="group border-t border-[#1a1a1a]/10 py-12 lg:py-16 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-              <div className="lg:col-span-1">
-                <span className="text-5xl md:text-6xl font-[family-name:var(--font-playfair)] text-[#ff6b00]">2</span>
+            <div className="group border-t border-[#1a1a1a]/10 py-8 lg:py-16 grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-8 items-center">
+              <div className="lg:col-span-1 flex items-center gap-4 lg:block">
+                <span className="text-4xl md:text-6xl font-[family-name:var(--font-playfair)] text-[#ff6b00]">2</span>
+                <h3 className="lg:hidden text-2xl md:text-4xl font-[family-name:var(--font-playfair)] text-[#1a1a1a] group-hover:text-[#ff6b00] transition-colors">
+                  Get clear
+                </h3>
               </div>
-              <div className="lg:col-span-4">
+              <div className="lg:col-span-4 hidden lg:block">
                 <h3 className="text-3xl md:text-4xl font-[family-name:var(--font-playfair)] text-[#1a1a1a] group-hover:text-[#ff6b00] transition-colors">
                   Get clear
                 </h3>
@@ -143,18 +149,21 @@ export default function AgencyAdvisory() {
                 </svg>
               </div>
               <div className="lg:col-span-6">
-                <p className="text-[#666666] text-lg lg:text-xl">
+                <p className="text-[#666666] text-base lg:text-xl">
                   Define who you are, what you stand for, and where you&apos;re going.
                 </p>
               </div>
             </div>
 
             {/* Step 3 */}
-            <div className="group border-t border-[#1a1a1a]/10 border-b py-12 lg:py-16 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-              <div className="lg:col-span-1">
-                <span className="text-5xl md:text-6xl font-[family-name:var(--font-playfair)] text-[#ff6b00]">3</span>
+            <div className="group border-t border-[#1a1a1a]/10 border-b py-8 lg:py-16 grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-8 items-center">
+              <div className="lg:col-span-1 flex items-center gap-4 lg:block">
+                <span className="text-4xl md:text-6xl font-[family-name:var(--font-playfair)] text-[#ff6b00]">3</span>
+                <h3 className="lg:hidden text-2xl md:text-4xl font-[family-name:var(--font-playfair)] text-[#1a1a1a] group-hover:text-[#ff6b00] transition-colors">
+                  Execute with us
+                </h3>
               </div>
-              <div className="lg:col-span-4">
+              <div className="lg:col-span-4 hidden lg:block">
                 <h3 className="text-3xl md:text-4xl font-[family-name:var(--font-playfair)] text-[#1a1a1a] group-hover:text-[#ff6b00] transition-colors">
                   Execute with us
                 </h3>
@@ -165,7 +174,7 @@ export default function AgencyAdvisory() {
                 </svg>
               </div>
               <div className="lg:col-span-6">
-                <p className="text-[#666666] text-lg lg:text-xl">
+                <p className="text-[#666666] text-base lg:text-xl">
                   Access our full suite of agency and advisory services to bring it all to life.
                 </p>
               </div>
@@ -258,7 +267,7 @@ export default function AgencyAdvisory() {
           </p>
           <Link
             href="/work-with-us"
-            className="inline-flex items-center justify-center px-12 py-6 text-lg font-bold bg-[#ff6b00] text-white rounded-full hover:bg-[#1a1a1a] transition-all duration-300 group"
+            className="inline-flex items-center justify-center px-8 md:px-12 py-5 md:py-6 text-base md:text-lg font-bold bg-[#ff6b00] text-white rounded-full hover:bg-[#1a1a1a] transition-all duration-300 group"
           >
             Book a Call
             <svg className="w-5 h-5 ml-3 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">

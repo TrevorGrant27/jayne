@@ -18,7 +18,7 @@ export default function Home() {
               Strategy That Delivers
             </p>
 
-            <h1 className="text-6xl md:text-8xl lg:text-9xl font-[family-name:var(--font-playfair)] leading-[0.9] tracking-tighter opacity-0 animate-fade-in-up animation-delay-100">
+            <h1 className="text-5xl md:text-8xl lg:text-9xl font-[family-name:var(--font-playfair)] leading-[0.9] tracking-tighter opacity-0 animate-fade-in-up animation-delay-100">
               <span className="text-[#1a1a1a] block mb-4">Business</span>
               <span className="text-[#ff6b00] block italic">Breakthroughs</span>
             </h1>
@@ -30,7 +30,7 @@ export default function Home() {
             <div className="mt-16 opacity-0 animate-fade-in-up animation-delay-400">
               <Link
                 href="/work-with-us"
-                className="inline-flex items-center justify-center px-12 py-6 text-lg font-bold bg-[#ff6b00] text-white rounded-full hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 border-2 border-[#ff6b00] hover:border-[#1a1a1a] group"
+                className="inline-flex items-center justify-center px-8 md:px-12 py-5 md:py-6 text-base md:text-lg font-bold bg-[#ff6b00] text-white rounded-full hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 border-2 border-[#ff6b00] hover:border-[#1a1a1a] group"
               >
                 Work With Us
                 <svg className="w-5 h-5 ml-3 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -47,29 +47,29 @@ export default function Home() {
             <p className="text-center text-sm text-[#ff6b00] uppercase tracking-widest mb-8 font-semibold">
               Companies we are proud to have partnered with
             </p>
-            <div className="flex flex-wrap justify-center items-center gap-6 md:gap-10 mb-8">
+            <div className="flex flex-wrap justify-center items-center gap-4 md:gap-10 mb-8">
               {/* PepsiCo logo */}
-              <div className="h-32 opacity-60 hover:opacity-100 transition-opacity bg-transparent">
+              <div className="h-20 md:h-32 opacity-60 hover:opacity-100 transition-opacity bg-transparent">
                 <img src="/pepsico.png" alt="PepsiCo" className="h-full w-auto object-contain bg-transparent" />
               </div>
 
               {/* Red Cross logo */}
-              <div className="h-20 opacity-60 hover:opacity-100 transition-opacity bg-transparent">
+              <div className="h-12 md:h-20 opacity-60 hover:opacity-100 transition-opacity bg-transparent">
                 <img src="/redcross.png" alt="Red Cross" className="h-full w-auto object-contain bg-transparent" />
               </div>
 
               {/* Mondelez logo */}
-              <div className="h-20 opacity-60 hover:opacity-100 transition-opacity bg-transparent">
+              <div className="h-12 md:h-20 opacity-60 hover:opacity-100 transition-opacity bg-transparent">
                 <img src="/mondelez.png" alt="Mondelez" className="h-full w-auto object-contain bg-transparent" />
               </div>
 
               {/* Allstate logo */}
-              <div className="h-20 opacity-60 hover:opacity-100 transition-opacity bg-transparent">
+              <div className="h-12 md:h-20 opacity-60 hover:opacity-100 transition-opacity bg-transparent">
                 <img src="/allstate.png" alt="Allstate" className="h-full w-auto object-contain bg-transparent" />
               </div>
 
               {/* Abbott logo */}
-              <div className="h-16 opacity-60 hover:opacity-100 transition-opacity bg-transparent">
+              <div className="h-10 md:h-16 opacity-60 hover:opacity-100 transition-opacity bg-transparent">
                 <img src="/abbott.png" alt="Abbott" className="h-full w-auto object-contain bg-transparent" />
               </div>
             </div>
