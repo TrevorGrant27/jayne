@@ -33,6 +33,19 @@ export function Navigation() {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-10">
             <Link
+              href="/about-us"
+              className={`text-sm font-medium relative group transition-colors duration-300 ${
+                isActive("/about-us")
+                  ? "text-black"
+                  : "text-gray-600 hover:text-black"
+              }`}
+            >
+              About Us
+              <span className={`absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-[#ff6b00] to-[#ff8c3a] transition-all duration-300 ${
+                isActive("/about-us") ? "w-full" : "w-0 group-hover:w-full"
+              }`} />
+            </Link>
+            <Link
               href="/work-with-us"
               className={`text-sm font-medium relative group transition-colors duration-300 ${
                 isActive("/work-with-us")
@@ -145,6 +158,17 @@ export function Navigation() {
         }`}
       >
         <div className="px-6 py-8 space-y-1">
+          <Link
+            href="/about-us"
+            onClick={() => setIsOpen(false)}
+            className={`block px-4 py-3 text-base font-medium rounded-lg transition-all duration-300 ${
+              isActive("/about-us")
+                ? "bg-[#ff6b00]/10 text-black border-l-2 border-[#ff6b00]"
+                : "text-gray-600 hover:text-black hover:bg-gray-50"
+            }`}
+          >
+            About Us
+          </Link>
           <Link
             href="/work-with-us"
             onClick={() => setIsOpen(false)}
