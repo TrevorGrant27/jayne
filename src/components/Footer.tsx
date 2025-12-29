@@ -1,87 +1,24 @@
 import Link from "next/link";
-import Image from "next/image";
 
 export function Footer() {
   return (
-    <footer className="bg-[#f5f3ef] border-t border-[#e5e3df]">
-      <div className="max-w-7xl mx-auto px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
-          {/* Brand */}
-          <div className="md:col-span-2">
-            <Link href="/" className="inline-block">
-              <Image
-                src="/jaynelogo.png"
-                alt="Jayne Agency"
-                width={150}
-                height={75}
-                className="w-auto h-16"
-              />
+    <footer className="border-t border-[#1a1a1a]/10 mt-24">
+      <div className="max-w-4xl mx-auto px-6 py-12">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
+          <div>
+            <Link href="/" className="text-lg font-bold">
+              Jayne
             </Link>
-            <p className="mt-4 text-[#666666] max-w-md">
-              Brand clarity and alignment for all. Since 2009, we&apos;ve equipped
-              business leaders to build dependable, scalable, repeatable revenue.
+            <p className="text-sm text-[#666666] mt-1">
+              Clarity for people who ship.
             </p>
           </div>
 
-          {/* Navigation */}
-          <div>
-            <h4 className="text-sm font-semibold uppercase tracking-wider text-[#666666] mb-4">
-              Navigation
-            </h4>
-            <ul className="space-y-3">
-              <li>
-                <Link href="/" className="text-[#1a1a1a] hover:text-[#ff6b00] transition-colors">
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link href="/work-with-us" className="text-[#1a1a1a] hover:text-[#ff6b00] transition-colors">
-                  Work With Us
-                </Link>
-              </li>
-              <li>
-                <Link href="/case-studies" className="text-[#1a1a1a] hover:text-[#ff6b00] transition-colors">
-                  Case Studies
-                </Link>
-              </li>
-              <li>
-                <Link href="/speaking" className="text-[#1a1a1a] hover:text-[#ff6b00] transition-colors">
-                  Speaking
-                </Link>
-              </li>
-              <li>
-                <Link href="/agency-advisory" className="text-[#1a1a1a] hover:text-[#ff6b00] transition-colors">
-                  Agency & Advisory
-                </Link>
-              </li>
-            </ul>
+          <div className="text-sm text-[#666666]">
+            <a href="mailto:hello@jayneagency.com" className="hover:text-[#ff6b00]">
+              hello@jayneagency.com
+            </a>
           </div>
-
-          {/* Contact */}
-          <div>
-            <h4 className="text-sm font-semibold uppercase tracking-wider text-[#666666] mb-4">
-              Contact
-            </h4>
-            <ul className="space-y-3">
-              <li>
-                <a
-                  href="mailto:hello@jayneagency.com"
-                  className="text-[#1a1a1a] hover:text-[#ff6b00] transition-colors"
-                >
-                  hello@jayneagency.com
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div className="mt-16 pt-8 border-t border-[#e5e3df] flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-[#666666]">
-            © {new Date().getFullYear()} Jayne Agency. All rights reserved.
-          </p>
-          <p className="text-sm text-[#666666]">
-            Making the world more gooder™
-          </p>
         </div>
       </div>
     </footer>
