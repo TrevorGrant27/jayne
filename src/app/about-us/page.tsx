@@ -36,7 +36,7 @@ export default function AboutUs() {
               <p className="text-white/50">Years in Business</p>
             </div>
             <div>
-              <p className="text-4xl md:text-5xl font-[family-name:var(--font-playfair)] text-white mb-2">100s</p>
+              <p className="text-4xl md:text-5xl font-[family-name:var(--font-playfair)] text-white mb-2">100+</p>
               <p className="text-white/50">Brands Transformed</p>
             </div>
             <div>
