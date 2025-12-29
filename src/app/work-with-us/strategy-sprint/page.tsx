@@ -17,7 +17,7 @@ export default function StrategySprint() {
               Back to Work With Us
             </Link>
             <p className="text-sm md:text-base uppercase tracking-[0.3em] text-[#ff6b00] font-bold mb-6">
-              For Growth-Stage Businesses
+              For SMEs
             </p>
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-[family-name:var(--font-playfair)] leading-[0.95] text-white mb-8">
               Strategy<br /><span className="italic text-[#ff6b00]">Sprint</span>

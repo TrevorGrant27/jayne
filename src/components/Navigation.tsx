@@ -102,7 +102,7 @@ export function Navigation() {
                       Strategy Sprint
                     </div>
                     <div className="text-sm text-gray-500 mt-0.5">
-                      For growth-stage businesses
+                      For SMEs
                     </div>
                   </Link>
                   <Link

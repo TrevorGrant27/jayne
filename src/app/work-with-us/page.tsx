@@ -28,21 +28,21 @@ export default function WorkWithUs() {
       {/* Three Offerings Section - Redesigned */}
       <section className="py-24 lg:py-32 bg-white font-[family-name:var(--font-open-sans)]">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          {/* Strategy Partnership - Full Width Feature */}
-          <Link href="/work-with-us/strategy-partnership" className="group block mb-6">
+          {/* Strategy Sprint - Full Width Feature */}
+          <Link href="/work-with-us/strategy-sprint" className="group block mb-6">
             <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#1a1a1a] to-[#2a2a2a] p-12 lg:p-16 transition-all duration-500 hover:shadow-2xl hover:shadow-black/20">
               <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-gradient-to-bl from-[#ff6b00]/20 to-transparent rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div>
-                  <p className="text-sm uppercase tracking-[0.2em] text-[#ff6b00] font-semibold mb-4">For Enterprise</p>
+                  <p className="text-sm uppercase tracking-[0.2em] text-[#ff6b00] font-semibold mb-4">For SMEs</p>
                   <h3 className="text-4xl md:text-5xl lg:text-6xl font-[family-name:var(--font-playfair)] text-white mb-6 group-hover:text-[#ff6b00] transition-colors duration-300">
-                    Strategy Partnership
+                    Strategy Sprint
                   </h3>
                   <p className="text-lg text-white/60 leading-relaxed mb-8">
-                    Deep, ongoing partnership for established enterprises navigating complex markets. Guaranteed outcomes, built for scale.
+                    For businesses between $1M-$20M ready to unlock their next level. Focused, fast, and designed for your most critical challenge.
                   </p>
                   <div className="inline-flex items-center text-white font-semibold group-hover:text-[#ff6b00] transition-colors">
-                    Explore Partnership
+                    Learn more
                     <svg className="w-5 h-5 ml-3 group-hover:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                     </svg>
@@ -52,22 +52,22 @@ export default function WorkWithUs() {
             </div>
           </Link>
 
-          {/* Two Column Grid for Sprint and University */}
+          {/* Two Column Grid for Partnership and University */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            {/* Strategy Sprint */}
-            <Link href="/work-with-us/strategy-sprint" className="group block">
+            {/* Strategy Partnership */}
+            <Link href="/work-with-us/strategy-partnership" className="group block">
               <div className="relative h-full overflow-hidden rounded-3xl border-2 border-[#e5e3df] bg-[#fafaf9] p-10 lg:p-12 transition-all duration-500 hover:border-[#ff6b00] hover:shadow-xl hover:shadow-[#ff6b00]/5">
                 <div className="absolute -bottom-20 -right-20 w-[300px] h-[300px] bg-gradient-to-tl from-[#ff6b00]/10 to-transparent rounded-full blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 <div className="relative z-10">
-                  <p className="text-sm uppercase tracking-[0.2em] text-[#ff6b00] font-semibold mb-4">For Growth-Stage</p>
+                  <p className="text-sm uppercase tracking-[0.2em] text-[#ff6b00] font-semibold mb-4">For Enterprise</p>
                   <h3 className="text-3xl md:text-4xl font-[family-name:var(--font-playfair)] text-[#1a1a1a] mb-4 group-hover:text-[#ff6b00] transition-colors duration-300">
-                    Strategy Sprint
+                    Strategy Partnership
                   </h3>
                   <p className="text-[#666666] leading-relaxed mb-8">
-                    For businesses between $1M-$20M ready to unlock their next level. Focused, fast, and designed for your most critical challenge.
+                    Deep, ongoing partnership for established enterprises navigating complex markets. Guaranteed outcomes, built for scale.
                   </p>
                   <div className="inline-flex items-center text-[#1a1a1a] font-semibold group-hover:text-[#ff6b00] transition-colors">
-                    Learn more
+                    Explore Partnership
                     <svg className="w-5 h-5 ml-3 group-hover:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                     </svg>
