@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      {/* Hero Section */}
+      {/* Hero Section - More Tension, More Stakes */}
       <section className="min-h-screen flex flex-col items-center justify-center pt-20 bg-[#f5f3ef] relative overflow-hidden">
         {/* Gradient overlay for depth */}
         <div className="absolute inset-0 bg-gradient-to-br from-[#ff6b00]/5 via-transparent to-transparent pointer-events-none"></div>
@@ -16,17 +16,17 @@ export default function Home() {
             {/* Left side - Copy */}
             <div>
               <p className="text-sm md:text-base uppercase tracking-[0.3em] text-[#ff6b00] font-bold mb-8 opacity-0 animate-fade-in-up">
-                Brand Strategy for SMEs
+                Brand Strategy for the Impatient
               </p>
 
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-[family-name:var(--font-playfair)] leading-[0.95] tracking-tight opacity-0 animate-fade-in-up animation-delay-100">
-                <span className="text-[#1a1a1a] block mb-2">Stop competing</span>
-                <span className="text-[#1a1a1a] block mb-2">on price.</span>
-                <span className="text-[#ff6b00] block italic">Start commanding it.</span>
+                <span className="text-[#1a1a1a] block mb-2">Your competition</span>
+                <span className="text-[#1a1a1a] block mb-2">is hoping you</span>
+                <span className="text-[#ff6b00] block italic">stay invisible.</span>
               </h1>
 
               <p className="mt-10 text-xl text-[#666666] max-w-xl leading-relaxed opacity-0 animate-fade-in-up animation-delay-200">
-                We help $1M–$20M businesses build brands so clear and compelling, customers stop asking "how much?" and start asking "how soon?"
+                Every day you blend in is a day they win. We help $1M–$20M businesses become impossible to ignore—the kind competitors worry about.
               </p>
 
               <div className="mt-10 flex flex-col sm:flex-row gap-4 opacity-0 animate-fade-in-up animation-delay-400">
@@ -34,7 +34,7 @@ export default function Home() {
                   href="/work-with-us/strategy-sprint"
                   className="inline-flex items-center justify-center px-8 py-5 text-lg font-bold bg-[#ff6b00] text-white rounded-full hover:bg-[#1a1a1a] transition-all duration-300 group"
                 >
-                  See How It Works
+                  Stop Hiding
                   <svg className="w-5 h-5 ml-3 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                   </svg>
@@ -43,7 +43,7 @@ export default function Home() {
                   href="/case-studies"
                   className="inline-flex items-center justify-center px-8 py-5 text-lg font-bold text-[#1a1a1a] rounded-full border-2 border-[#1a1a1a] hover:bg-[#1a1a1a] hover:text-white transition-all duration-300"
                 >
-                  View Results
+                  See Who Stopped
                 </Link>
               </div>
             </div>
@@ -112,6 +112,89 @@ export default function Home() {
                 <div className="text-4xl md:text-5xl font-[family-name:var(--font-playfair)] text-[#1a1a1a] mb-2">94%</div>
                 <p className="text-sm text-[#666666] uppercase tracking-wider">Client Retention</p>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* The Manifesto - What We Believe (Seth Godin: Create Tension, Take a Stance) */}
+      <section className="py-24 lg:py-32 bg-white font-[family-name:var(--font-open-sans)] border-b border-[#e5e3df]">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <p className="text-sm uppercase tracking-[0.3em] text-[#ff6b00] font-bold mb-8 text-center">
+            What We Believe
+          </p>
+          <div className="space-y-8 text-2xl md:text-3xl lg:text-4xl font-[family-name:var(--font-playfair)] text-[#1a1a1a] leading-snug">
+            <p>
+              We believe <span className="text-[#ff6b00]">being good isn&apos;t good enough.</span>
+            </p>
+            <p>
+              That the best product doesn&apos;t always win—the <span className="italic">clearest</span> one does.
+            </p>
+            <p>
+              That &quot;build it and they will come&quot; is a lie that keeps talented people poor.
+            </p>
+            <p>
+              That <span className="text-[#ff6b00]">clarity is a competitive advantage</span> most businesses never earn.
+            </p>
+            <p>
+              And that the biggest risk isn&apos;t being too bold—it&apos;s being too boring to notice.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* This Isn't For Everyone - Polarizing Section (Seth Godin: The Smallest Viable Audience) */}
+      <section className="py-24 lg:py-32 bg-[#1a1a1a] font-[family-name:var(--font-open-sans)]">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24">
+            {/* This ISN'T for you */}
+            <div>
+              <h2 className="text-3xl md:text-4xl font-[family-name:var(--font-playfair)] text-white/40 mb-10">
+                This isn&apos;t for you if...
+              </h2>
+              <ul className="space-y-6">
+                <li className="flex items-start gap-4">
+                  <span className="text-white/30 text-2xl mt-1">✕</span>
+                  <p className="text-xl text-white/50">You want to blend in. Some businesses prefer safety in sameness. We respect that—it&apos;s just not what we do.</p>
+                </li>
+                <li className="flex items-start gap-4">
+                  <span className="text-white/30 text-2xl mt-1">✕</span>
+                  <p className="text-xl text-white/50">You need a logo, not a strategy. We don&apos;t do cosmetic fixes. If you want pretty without purposeful, there are cheaper options.</p>
+                </li>
+                <li className="flex items-start gap-4">
+                  <span className="text-white/30 text-2xl mt-1">✕</span>
+                  <p className="text-xl text-white/50">You&apos;re not ready to make decisions. Clarity requires choices. If you need consensus from 47 stakeholders, we&apos;ll slow you down.</p>
+                </li>
+                <li className="flex items-start gap-4">
+                  <span className="text-white/30 text-2xl mt-1">✕</span>
+                  <p className="text-xl text-white/50">You want someone to tell you what you want to hear. We tell you what you need to hear. It&apos;s uncomfortable sometimes.</p>
+                </li>
+              </ul>
+            </div>
+
+            {/* This IS for you */}
+            <div>
+              <h2 className="text-3xl md:text-4xl font-[family-name:var(--font-playfair)] text-[#ff6b00] mb-10">
+                This is for you if...
+              </h2>
+              <ul className="space-y-6">
+                <li className="flex items-start gap-4">
+                  <span className="text-[#ff6b00] text-2xl mt-1">→</span>
+                  <p className="text-xl text-white">You&apos;re tired of being the best-kept secret. You&apos;re ready to be found, chosen, and remembered.</p>
+                </li>
+                <li className="flex items-start gap-4">
+                  <span className="text-[#ff6b00] text-2xl mt-1">→</span>
+                  <p className="text-xl text-white">You know something needs to change—and you&apos;re willing to be honest about what it is.</p>
+                </li>
+                <li className="flex items-start gap-4">
+                  <span className="text-[#ff6b00] text-2xl mt-1">→</span>
+                  <p className="text-xl text-white">You have a leader who can make the call. One person who says &quot;yes, let&apos;s do this.&quot;</p>
+                </li>
+                <li className="flex items-start gap-4">
+                  <span className="text-[#ff6b00] text-2xl mt-1">→</span>
+                  <p className="text-xl text-white">You want partners who push back, not yes-people who nod along.</p>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -325,6 +408,41 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Permission Asset - Free Resource (Seth Godin: Permission Marketing) */}
+      <section className="py-24 lg:py-32 bg-[#f5f3ef] font-[family-name:var(--font-open-sans)]">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+          <p className="text-sm uppercase tracking-[0.3em] text-[#ff6b00] font-bold mb-6">
+            Free Resource
+          </p>
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-[family-name:var(--font-playfair)] leading-[1.05] text-[#1a1a1a] mb-6">
+            The Visibility Audit
+          </h2>
+          <p className="text-xl text-[#666666] max-w-2xl mx-auto mb-10">
+            7 questions that reveal why your ideal customers can&apos;t find you—and what to do about it. Takes 5 minutes. Changes everything.
+          </p>
+
+          {/* Email Signup Form */}
+          <div className="max-w-md mx-auto">
+            <form className="flex flex-col sm:flex-row gap-4">
+              <input
+                type="email"
+                placeholder="Your email address"
+                className="flex-1 px-6 py-4 rounded-full border-2 border-[#e5e3df] focus:border-[#ff6b00] focus:outline-none text-lg"
+              />
+              <button
+                type="submit"
+                className="px-8 py-4 bg-[#ff6b00] text-white font-bold rounded-full hover:bg-[#1a1a1a] transition-colors"
+              >
+                Send It
+              </button>
+            </form>
+            <p className="text-sm text-[#999] mt-4">
+              No spam. Unsubscribe anytime. We respect your inbox.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Where Are You In Your Journey - Now Clickable */}
       <section className="py-24 lg:py-32 bg-[#1a1a1a] font-[family-name:var(--font-open-sans)] overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
@@ -425,7 +543,7 @@ export default function Home() {
       </section>
 
       {/* Testimonial/Case Study Teaser */}
-      <section className="py-24 lg:py-32 bg-[#f5f3ef] font-[family-name:var(--font-open-sans)]">
+      <section className="py-24 lg:py-32 bg-white font-[family-name:var(--font-open-sans)]">
         <div className="max-w-5xl mx-auto px-6 lg:px-8 text-center">
           {/*
             ============================================
@@ -480,14 +598,14 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Final CTA */}
+      {/* Final CTA - More Tension */}
       <section className="py-24 lg:py-32 bg-[#1a1a1a] font-[family-name:var(--font-open-sans)]">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-[family-name:var(--font-playfair)] text-white mb-6">
-            Ready to stop blending in?
+            Your competition hopes you&apos;ll wait.
           </h2>
           <p className="text-xl text-white/60 mb-10 max-w-2xl mx-auto">
-            Book a free 30-minute strategy call. We&apos;ll discuss your biggest challenge and whether we&apos;re the right fit.
+            Every week you delay is a week they get stronger. Book a free 30-minute strategy call and find out what&apos;s really holding you back.
           </p>
           <Link
             href="/work-with-us/strategy-sprint"
