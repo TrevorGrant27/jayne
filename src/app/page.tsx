@@ -59,10 +59,6 @@ export default function Home() {
                 <div className="text-3xl md:text-4xl font-[family-name:var(--font-playfair)] text-[#1a1a1a] font-bold">100+</div>
                 <div className="text-sm text-[#666666]">Brands Transformed</div>
               </div>
-              <div className="text-center">
-                <div className="text-3xl md:text-4xl font-[family-name:var(--font-playfair)] text-[#1a1a1a] font-bold">83%</div>
-                <div className="text-sm text-[#666666]">Avg. Engagement Rate</div>
-              </div>
             </div>
           </div>
         </div>
