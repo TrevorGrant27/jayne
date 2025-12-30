@@ -23,11 +23,7 @@ export default function Home() {
               <span className="text-[#ff6b00] block italic">Breakthrough</span>
             </h1>
 
-            <p className="mt-12 text-xl md:text-2xl text-[#666666] max-w-3xl mx-auto leading-relaxed opacity-0 animate-fade-in-up animation-delay-200 font-light">
-              You&apos;ve built something real. But if your market doesn&apos;t see what makes you different, growth stalls. We fix that.
-            </p>
-
-            <div className="mt-16 opacity-0 animate-fade-in-up animation-delay-400">
+            <div className="mt-16 opacity-0 animate-fade-in-up animation-delay-200">
               <Link
                 href="#offerings"
                 className="inline-flex items-center justify-center px-8 md:px-12 py-5 md:py-6 text-base md:text-lg font-bold bg-[#ff6b00] text-white rounded-full hover:bg-[#1a1a1a] hover:text-white transition-all duration-300 border-2 border-[#ff6b00] hover:border-[#1a1a1a] group"
