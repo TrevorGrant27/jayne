@@ -15,12 +15,12 @@ export default function Home() {
           <div className="max-w-5xl mx-auto">
             {/* Eyebrow text */}
             <p className="text-sm md:text-base uppercase tracking-[0.3em] text-[#ff6b00] font-bold mb-8 opacity-0 animate-fade-in-up">
-              Strategy That Delivers
+              Find Your
             </p>
 
             <h1 className="text-5xl md:text-8xl lg:text-9xl font-[family-name:var(--font-playfair)] leading-[0.9] tracking-tighter opacity-0 animate-fade-in-up animation-delay-100">
               <span className="text-[#1a1a1a] block mb-4">Business</span>
-              <span className="text-[#ff6b00] block italic">Breakthroughs</span>
+              <span className="text-[#ff6b00] block italic">Breakthrough</span>
             </h1>
 
             <p className="mt-12 text-xl md:text-2xl text-[#666666] max-w-3xl mx-auto leading-relaxed opacity-0 animate-fade-in-up animation-delay-200 font-light">
