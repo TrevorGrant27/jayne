@@ -56,7 +56,7 @@ export function Footer() {
               </li>
               <li>
                 <Link href="/case-studies" className="text-[#1a1a1a] hover:text-[#ff6b00] transition-colors">
-                  Case Studies
+                  Results
                 </Link>
               </li>
               <li>

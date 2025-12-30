@@ -127,7 +127,7 @@ export function Navigation() {
                   : "text-gray-600 hover:text-black"
               }`}
             >
-              Case Studies
+              Results
               <span className={`absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-[#ff6b00] to-[#ff8c3a] transition-all duration-300 ${
                 isActive("/case-studies") ? "w-full" : "w-0 group-hover:w-full"
               }`} />
@@ -249,7 +249,7 @@ export function Navigation() {
                 : "text-gray-600 hover:text-black hover:bg-gray-50"
             }`}
           >
-            Case Studies
+            Results
           </Link>
           <div className="pt-4">
             <Link
