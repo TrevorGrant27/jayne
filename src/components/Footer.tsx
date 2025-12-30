@@ -41,12 +41,12 @@ export function Footer() {
               </li>
               <li>
                 <Link href="/work-with-us/strategy-partnership" className="text-[#1a1a1a] hover:text-[#ff6b00] transition-colors">
-                  Strategy Partnership
+                  Partnership
                 </Link>
               </li>
               <li>
                 <Link href="/work-with-us/strategy-sprint" className="text-[#1a1a1a] hover:text-[#ff6b00] transition-colors">
-                  Strategy Sprint
+                  Sprint
                 </Link>
               </li>
               <li>

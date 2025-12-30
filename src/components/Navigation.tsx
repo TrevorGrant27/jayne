@@ -87,7 +87,7 @@ export function Navigation() {
                     className="block px-4 py-3 rounded-xl hover:bg-[#f5f3ef] transition-colors group"
                   >
                     <div className="font-medium text-[#1a1a1a] group-hover:text-[#ff6b00] transition-colors">
-                      Strategy Partnership
+                      Partnership
                     </div>
                     <div className="text-sm text-gray-500 mt-0.5">
                       For enterprise teams
@@ -98,7 +98,7 @@ export function Navigation() {
                     className="block px-4 py-3 rounded-xl hover:bg-[#f5f3ef] transition-colors group"
                   >
                     <div className="font-medium text-[#1a1a1a] group-hover:text-[#ff6b00] transition-colors">
-                      Strategy Sprint
+                      Sprint
                     </div>
                     <div className="text-sm text-gray-500 mt-0.5">
                       For SMEs
@@ -213,7 +213,7 @@ export function Navigation() {
                     : "text-gray-500 hover:text-black hover:bg-gray-50"
                 }`}
               >
-                Strategy Partnership
+                Partnership
               </Link>
               <Link
                 href="/work-with-us/strategy-sprint"
@@ -224,7 +224,7 @@ export function Navigation() {
                     : "text-gray-500 hover:text-black hover:bg-gray-50"
                 }`}
               >
-                Strategy Sprint
+                Sprint
               </Link>
               <Link
                 href="/work-with-us/clarity-university"

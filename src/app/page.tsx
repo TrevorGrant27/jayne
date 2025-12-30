@@ -159,7 +159,7 @@ export default function Home() {
 
             <Link href="/work-with-us/strategy-partnership" className="group">
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] group-hover:text-[#ff6b00] transition-colors mb-4">
-                Strategy Partnership
+                Partnership
               </h3>
               <p className="text-lg text-[#1a1a1a]/60 mb-4">
                 For organizations navigating major transitions and transformations.
@@ -183,7 +183,7 @@ export default function Home() {
 
             <Link href="/work-with-us/strategy-sprint" className="group">
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] group-hover:text-[#ff6b00] transition-colors mb-4">
-                Strategy Sprint
+                Sprint
               </h3>
               <p className="text-lg text-[#1a1a1a]/60 mb-4">
                 For growing businesses ready to solve their most critical challenge.
