@@ -25,147 +25,174 @@ export default function AboutUs() {
 
   return (
     <main className="font-[family-name:var(--font-playfair)]">
-      {/* Hero Section */}
+      {/* Hero - The Break */}
       <section className="min-h-[80vh] flex items-center pt-32 px-6">
         <div className="max-w-3xl mx-auto">
-          <p className="text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-6 opacity-0 animate-fade-in">
-            About Us
+          <p className="text-xl md:text-2xl text-[#8a8178] mb-6 opacity-0 animate-fade-in">
+            We spent two decades inside the machine.
           </p>
           <h1 className="text-5xl md:text-7xl leading-[1.05] text-[#1a1a1a] mb-8 opacity-0 animate-fade-in animation-delay-100">
-            Making the world more <span className="italic text-[#f57214]">gooder.</span>
+            We saw what works.
+            <br />
+            We saw what doesn&apos;t.
+            <br />
+            <span className="text-[#f57214]">We left.</span>
           </h1>
-          <p className="text-xl md:text-2xl text-[#8a8178] max-w-2xl leading-relaxed opacity-0 animate-fade-in animation-delay-200">
-            We&apos;re strategists, storytellers, and builders who believe every business deserves radical clarity.
-          </p>
         </div>
       </section>
 
-      {/* Our Story Section */}
+      {/* The Credentials - Earned, Then Rejected */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
-          <h2 className="reveal text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-12">
-            Our Story
-          </h2>
-          <div className="reveal-stagger space-y-8 text-xl text-[#8a8178] leading-relaxed">
-            <p>
-              Since 2009, Jayne Agency has served businesses across every industry, from startups to Fortune 50 companies. We&apos;ve equipped business leaders to build dependable, scalable, repeatable revenue through evidence-based strategies.
+          <div className="reveal">
+            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-8">
+              Our founder was Executive Creative Director at Ogilvy. Chief Creative Officer at Razorfish. The big offices. The big clients. The big budgets.
             </p>
-
-            <p>
-              Our journey began with a simple observation: too many businesses struggle not because they lack talent or ambition, but because they lack clarity. They don&apos;t know what makes them different. They can&apos;t articulate why they matter. And without that foundation, every marketing dollar is a gamble.
-            </p>
-
-            <p>
-              So we built something different. A methodology refined over three decades of experience working within hundreds of brands. A team of Jayniacs—black belt strategists in branding, marketing, and user-experience—who demystify what &apos;brand&apos; and &apos;marketing&apos; really mean.
-            </p>
-
-            <p className="text-[#1a1a1a] text-2xl md:text-3xl leading-snug">
-              We help founders and CEOs get clear on their strategy and then execute it effortlessly across their whole business.
-            </p>
-
-            <p>
-              We boldly rebuilt what strategy looks like at every level: enterprise, SME, and those just getting started. Cutting the timeline, right-sizing the cost, and raising the bar on outcomes. Designed for business leaders who need to move fast and spend smart.
+            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
+              And after watching millions of dollars disappear into decks that gathered dust, she walked away to build something that actually works.
             </p>
           </div>
         </div>
       </section>
 
-      {/* What We Believe Section */}
+      {/* What We Reject */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
-          <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-6">
-            Our principles
+          <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-12">
+            What we reject
           </p>
-          <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] mb-16">
-            What we believe
-          </h2>
+          <div className="reveal-stagger space-y-8">
+            <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug">
+              The six-month timelines.
+            </p>
+            <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug">
+              The $500k minimums.
+            </p>
+            <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug">
+              The 47-page strategy decks that no one implements.
+            </p>
+            <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug">
+              The layers of account managers between you and the actual strategist.
+            </p>
+            <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug">
+              The billable hour that incentivizes busywork over breakthroughs.
+            </p>
+          </div>
+        </div>
+      </section>
 
-          <div className="reveal-stagger space-y-12">
-            <div className="border-t border-[#e5e0d8] pt-8">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Clarity over complexity</h3>
-              <p className="text-xl text-[#8a8178]">The best strategies are simple enough to remember and clear enough to act on. We cut through the noise to find your signal.</p>
+      {/* What We Built Instead */}
+      <section className="py-24 lg:py-32 px-6">
+        <div className="max-w-3xl mx-auto">
+          <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-12">
+            What we built instead
+          </p>
+          <div className="reveal">
+            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-8">
+              A methodology refined over 17 years.
+            </p>
+            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-6">
+              Direct access to senior strategists—no layers, no handoffs.
+            </p>
+            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-6">
+              Engagements sized to your reality, not our overhead.
+            </p>
+            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed">
+              Outcomes you can measure, not outputs you can count.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* The Proof - Client Logos */}
+      <section className="py-24 lg:py-32 px-6">
+        <div className="max-w-5xl mx-auto">
+          <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-16">
+            We&apos;ve worked with
+          </p>
+          <div className="reveal grid grid-cols-2 md:grid-cols-4 gap-12 lg:gap-16 items-center opacity-60">
+            {/* Replace with actual client logos */}
+            <div className="text-2xl text-[#8a8178] font-medium">Fortune 50</div>
+            <div className="text-2xl text-[#8a8178] font-medium">Series A Startups</div>
+            <div className="text-2xl text-[#8a8178] font-medium">Private Equity</div>
+            <div className="text-2xl text-[#8a8178] font-medium">Family Businesses</div>
+            <div className="text-2xl text-[#8a8178] font-medium">Healthcare</div>
+            <div className="text-2xl text-[#8a8178] font-medium">SaaS</div>
+            <div className="text-2xl text-[#8a8178] font-medium">Manufacturing</div>
+            <div className="text-2xl text-[#8a8178] font-medium">Professional Services</div>
+          </div>
+          <p className="reveal text-xl text-[#8a8178] mt-16">
+            From startups finding their first message to Fortune 50 companies rediscovering theirs.
+          </p>
+        </div>
+      </section>
+
+      {/* Testimonials */}
+      <section className="py-24 lg:py-32 px-6">
+        <div className="max-w-3xl mx-auto">
+          <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-16">
+            In their words
+          </p>
+
+          <div className="reveal-stagger space-y-20">
+            <div>
+              <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug mb-8 italic">
+                &ldquo;We couldn&apos;t explain what we did. Not to investors, not to customers, not even to each other. Six weeks later, our sales team was closing deals in half the time.&rdquo;
+              </p>
+              <p className="text-lg text-[#8a8178]">
+                — CEO, Series B SaaS Company
+              </p>
             </div>
 
-            <div className="border-t border-[#e5e0d8] pt-8">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Evidence over opinion</h3>
-              <p className="text-xl text-[#8a8178]">We don&apos;t guess. Every recommendation is backed by data, research, and proven frameworks that actually work.</p>
+            <div>
+              <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug mb-8 italic">
+                &ldquo;We&apos;d spent $2M on agencies who gave us beautiful decks and zero clarity. Jayne gave us the strategy we actually use—every day, across every department.&rdquo;
+              </p>
+              <p className="text-lg text-[#8a8178]">
+                — CMO, Healthcare Technology
+              </p>
             </div>
 
-            <div className="border-t border-[#e5e0d8] pt-8">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Outcomes over outputs</h3>
-              <p className="text-xl text-[#8a8178]">Pretty decks don&apos;t pay the bills. We measure success by the results we deliver, not the hours we bill.</p>
-            </div>
-
-            <div className="border-t border-[#e5e0d8] pt-8">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Partnership over projects</h3>
-              <p className="text-xl text-[#8a8178]">We&apos;re not vendors who disappear after delivery. We&apos;re partners invested in your long-term success.</p>
-            </div>
-
-            <div className="border-t border-[#e5e0d8] pt-8">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Bold over safe</h3>
-              <p className="text-xl text-[#8a8178]">Playing it safe is the riskiest thing you can do. We help you make bold moves with confidence.</p>
-            </div>
-
-            <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Action over analysis</h3>
-              <p className="text-xl text-[#8a8178]">Strategy without execution is just theory. We don&apos;t just plan—we help you move.</p>
+            <div>
+              <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug mb-8 italic">
+                &ldquo;For the first time in 30 years, everyone in this company can tell the same story about who we are and why we matter.&rdquo;
+              </p>
+              <p className="text-lg text-[#8a8178]">
+                — Third-Generation Owner, Manufacturing
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* The Jayniacs Section */}
+      {/* The Founder's Why */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
-          <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-6">
-            The Team
-          </p>
-          <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] mb-8">
-            Meet the Jayniacs
-          </h2>
-          <p className="reveal text-xl text-[#8a8178] mb-16">
-            We&apos;re a team of black belt strategists in branding, marketing, and user-experience. We eject bad advertising habits and deliver strategy based on the brand promise—the part of your story that&apos;s ownable, unmistakable, and crystal clear.
-          </p>
-
-          <div className="reveal-stagger grid grid-cols-1 md:grid-cols-3 gap-12">
-            <div>
-              <div className="text-5xl md:text-6xl text-[#f57214] mb-4">15+</div>
-              <h3 className="text-xl text-[#1a1a1a] mb-3">Years in Business</h3>
-              <p className="text-[#8a8178]">Serving organizations of all sizes since 2009.</p>
-            </div>
-
-            <div>
-              <div className="text-5xl md:text-6xl text-[#f57214] mb-4">100s</div>
-              <h3 className="text-xl text-[#1a1a1a] mb-3">Brands Served</h3>
-              <p className="text-[#8a8178]">From startups to Fortune 50 companies.</p>
-            </div>
-
-            <div>
-              <div className="text-5xl md:text-6xl text-[#f57214] mb-4">30+</div>
-              <h3 className="text-xl text-[#1a1a1a] mb-3">Years of Experience</h3>
-              <p className="text-[#8a8178]">Methodology refined over three decades.</p>
-            </div>
+          <div className="reveal">
+            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-8">
+              &ldquo;I left because I was tired of watching good companies waste money on the wrong problems.&rdquo;
+            </p>
+            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-8">
+              The agency model is built for agencies, not clients. Long timelines justify big retainers. Complex deliverables justify complex fees. But none of it matters if you still can&apos;t answer the only question that counts: <em>why should anyone choose you?</em>
+            </p>
+            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed">
+              That&apos;s the question we answer. Everything else is noise.
+            </p>
+            <p className="text-lg text-[#9d968c] mt-12">
+              — Jayne, Founder
+            </p>
           </div>
         </div>
       </section>
 
-      {/* Pull Quote */}
-      <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-3xl mx-auto reveal">
-          <p className="text-3xl md:text-4xl lg:text-5xl italic text-[#1a1a1a] leading-tight">
-            &ldquo;Brand clarity and alignment for all. That&apos;s not just our mission—it&apos;s our obsession.&rdquo;
-          </p>
-        </div>
-      </section>
-
-      {/* CTA Section */}
+      {/* CTA */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
           <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-6">
-            Ready to work together?
+            Ready for clarity?
           </h2>
           <p className="reveal text-xl text-[#8a8178] mb-10">
-            Let&apos;s talk about how we can help your business reach its most important goals.
+            Let&apos;s talk about what&apos;s actually broken—and how to fix it.
           </p>
           <div className="reveal">
             <Link
