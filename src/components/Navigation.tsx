@@ -14,7 +14,7 @@ export function Navigation() {
   const isWorkWithUsActive = pathname.startsWith("/work-with-us");
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-lg border-b border-gray-200 shadow-lg shadow-black/5">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-lg border-b border-[#e8e4dc] shadow-lg shadow-black/5">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
@@ -39,7 +39,7 @@ export function Navigation() {
               className={`text-sm font-medium relative group transition-colors duration-300 ${
                 isActive("/about-us")
                   ? "text-black"
-                  : "text-gray-600 hover:text-black"
+                  : "text-[#8a8178] hover:text-black"
               }`}
             >
               About Us
@@ -58,7 +58,7 @@ export function Navigation() {
                 className={`text-sm font-medium relative group transition-colors duration-300 inline-flex items-center gap-1 cursor-pointer ${
                   isWorkWithUsActive
                     ? "text-black"
-                    : "text-gray-600 hover:text-black"
+                    : "text-[#8a8178] hover:text-black"
                 }`}
               >
                 Work With Us
@@ -81,37 +81,37 @@ export function Navigation() {
                   workWithUsOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2'
                 }`}
               >
-                <div className="bg-white rounded-2xl shadow-xl shadow-black/10 border border-gray-100 p-2 min-w-[280px]">
+                <div className="bg-white rounded-2xl shadow-xl shadow-black/10 border border-[#ebe7e0] p-2 min-w-[280px]">
                   <Link
                     href="/work-with-us/strategy-partnership"
-                    className="block px-4 py-3 rounded-xl hover:bg-[#f5f3ef] transition-colors group"
+                    className="block px-4 py-3 rounded-xl hover:bg-[#f5f1ea] transition-colors group"
                   >
                     <div className="font-medium text-[#1a1a1a] group-hover:text-[#ff6b00] transition-colors">
                       Partnership
                     </div>
-                    <div className="text-sm text-gray-500 mt-0.5">
+                    <div className="text-sm text-[#9d968c] mt-0.5">
                       For enterprise teams
                     </div>
                   </Link>
                   <Link
                     href="/work-with-us/strategy-sprint"
-                    className="block px-4 py-3 rounded-xl hover:bg-[#f5f3ef] transition-colors group"
+                    className="block px-4 py-3 rounded-xl hover:bg-[#f5f1ea] transition-colors group"
                   >
                     <div className="font-medium text-[#1a1a1a] group-hover:text-[#ff6b00] transition-colors">
                       Sprint
                     </div>
-                    <div className="text-sm text-gray-500 mt-0.5">
+                    <div className="text-sm text-[#9d968c] mt-0.5">
                       For SMEs
                     </div>
                   </Link>
                   <Link
                     href="/work-with-us/clarity-university"
-                    className="block px-4 py-3 rounded-xl hover:bg-[#f5f3ef] transition-colors group"
+                    className="block px-4 py-3 rounded-xl hover:bg-[#f5f1ea] transition-colors group"
                   >
                     <div className="font-medium text-[#1a1a1a] group-hover:text-[#ff6b00] transition-colors">
                       Clarity University
                     </div>
-                    <div className="text-sm text-gray-500 mt-0.5">
+                    <div className="text-sm text-[#9d968c] mt-0.5">
                       For entrepreneurs
                     </div>
                   </Link>
@@ -124,7 +124,7 @@ export function Navigation() {
               className={`text-sm font-medium relative group transition-colors duration-300 ${
                 isActive("/results")
                   ? "text-black"
-                  : "text-gray-600 hover:text-black"
+                  : "text-[#8a8178] hover:text-black"
               }`}
             >
               Results
@@ -147,7 +147,7 @@ export function Navigation() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden p-2 hover:bg-gray-100 rounded-lg transition-colors duration-300"
+            className="md:hidden p-2 hover:bg-[#f5f1ea] rounded-lg transition-colors duration-300"
             aria-label="Toggle menu"
           >
             <div className="w-6 h-5 relative flex flex-col justify-between">
@@ -181,7 +181,7 @@ export function Navigation() {
 
       {/* Mobile Menu */}
       <div
-        className={`md:hidden absolute top-full left-0 right-0 bg-white/98 backdrop-blur-xl border-b border-gray-200 shadow-2xl transition-all duration-300 ${
+        className={`md:hidden absolute top-full left-0 right-0 bg-white/98 backdrop-blur-xl border-b border-[#e8e4dc] shadow-2xl transition-all duration-300 ${
           isOpen ? "opacity-100 visible translate-y-0" : "opacity-0 invisible -translate-y-4"
         }`}
       >
@@ -192,7 +192,7 @@ export function Navigation() {
             className={`block px-4 py-3 text-base font-medium rounded-lg transition-all duration-300 ${
               isActive("/about-us")
                 ? "bg-[#ff6b00]/10 text-black border-l-2 border-[#ff6b00]"
-                : "text-gray-600 hover:text-black hover:bg-gray-50"
+                : "text-[#8a8178] hover:text-black hover:bg-[#faf6f0]"
             }`}
           >
             About Us
@@ -200,7 +200,7 @@ export function Navigation() {
 
           {/* Work With Us Section in Mobile */}
           <div className="space-y-1">
-            <div className="px-4 py-3 text-base font-medium text-gray-600">
+            <div className="px-4 py-3 text-base font-medium text-[#8a8178]">
               Work With Us
             </div>
             <div className="pl-4 space-y-1">
@@ -210,7 +210,7 @@ export function Navigation() {
                 className={`block px-4 py-2 text-sm rounded-lg transition-all duration-300 ${
                   isActive("/work-with-us/strategy-partnership")
                     ? "bg-[#ff6b00]/10 text-[#ff6b00]"
-                    : "text-gray-500 hover:text-black hover:bg-gray-50"
+                    : "text-[#9d968c] hover:text-black hover:bg-[#faf6f0]"
                 }`}
               >
                 Partnership
@@ -221,7 +221,7 @@ export function Navigation() {
                 className={`block px-4 py-2 text-sm rounded-lg transition-all duration-300 ${
                   isActive("/work-with-us/strategy-sprint")
                     ? "bg-[#ff6b00]/10 text-[#ff6b00]"
-                    : "text-gray-500 hover:text-black hover:bg-gray-50"
+                    : "text-[#9d968c] hover:text-black hover:bg-[#faf6f0]"
                 }`}
               >
                 Sprint
@@ -232,7 +232,7 @@ export function Navigation() {
                 className={`block px-4 py-2 text-sm rounded-lg transition-all duration-300 ${
                   isActive("/work-with-us/clarity-university")
                     ? "bg-[#ff6b00]/10 text-[#ff6b00]"
-                    : "text-gray-500 hover:text-black hover:bg-gray-50"
+                    : "text-[#9d968c] hover:text-black hover:bg-[#faf6f0]"
                 }`}
               >
                 Clarity University
@@ -246,7 +246,7 @@ export function Navigation() {
             className={`block px-4 py-3 text-base font-medium rounded-lg transition-all duration-300 ${
               isActive("/results")
                 ? "bg-[#ff6b00]/10 text-black border-l-2 border-[#ff6b00]"
-                : "text-gray-600 hover:text-black hover:bg-gray-50"
+                : "text-[#8a8178] hover:text-black hover:bg-[#faf6f0]"
             }`}
           >
             Results

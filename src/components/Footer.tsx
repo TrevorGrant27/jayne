@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export function Footer() {
   return (
-    <footer className="bg-[#f5f3ef] border-t border-[#e5e3df]">
+    <footer className="bg-[#f5f1ea] border-t border-[#e8e4dc]">
       <div className="max-w-7xl mx-auto px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           {/* Brand */}
@@ -17,7 +17,7 @@ export function Footer() {
                 className="w-auto h-16"
               />
             </Link>
-            <p className="mt-4 text-[#666666] max-w-md">
+            <p className="mt-4 text-[#8a8178] max-w-md">
               Brand clarity and alignment for all. Since 2009, we&apos;ve equipped
               business leaders to build dependable, scalable, repeatable revenue.
             </p>
@@ -25,7 +25,7 @@ export function Footer() {
 
           {/* Navigation */}
           <div>
-            <h4 className="text-sm font-semibold uppercase tracking-wider text-[#666666] mb-4">
+            <h4 className="text-sm font-semibold uppercase tracking-wider text-[#8a8178] mb-4">
               Navigation
             </h4>
             <ul className="space-y-3">
@@ -69,7 +69,7 @@ export function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="text-sm font-semibold uppercase tracking-wider text-[#666666] mb-4">
+            <h4 className="text-sm font-semibold uppercase tracking-wider text-[#8a8178] mb-4">
               Contact
             </h4>
             <ul className="space-y-3">
@@ -85,11 +85,11 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-16 pt-8 border-t border-[#e5e3df] flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-[#666666]">
+        <div className="mt-16 pt-8 border-t border-[#e8e4dc] flex flex-col md:flex-row justify-between items-center gap-4">
+          <p className="text-sm text-[#8a8178]">
             © {new Date().getFullYear()} Jayne Agency. All rights reserved.
           </p>
-          <p className="text-sm text-[#666666]">
+          <p className="text-sm text-[#8a8178]">
             Making the world more gooder™
           </p>
         </div>

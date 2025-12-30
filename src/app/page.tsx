@@ -28,7 +28,7 @@ export default function Home() {
       {/* Hero */}
       <section className="min-h-screen flex flex-col items-center justify-center px-6">
         <div className="max-w-3xl mx-auto text-center">
-          <p className="text-xl md:text-2xl text-[#1a1a1a]/60 mb-6 opacity-0 animate-fade-in">
+          <p className="text-xl md:text-2xl text-[#8a8178] mb-6 opacity-0 animate-fade-in">
             Hi, we&apos;re Jayne.
           </p>
           <h1 className="text-5xl md:text-7xl leading-[1] tracking-tight text-[#1a1a1a] opacity-0 animate-fade-in animation-delay-100">
@@ -46,7 +46,7 @@ export default function Home() {
           <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-12">
             Maybe it blindsided you.
           </p>
-          <p className="text-xl md:text-2xl text-[#1a1a1a]/60">
+          <p className="text-xl md:text-2xl text-[#8a8178]">
             Either way, yesterday&apos;s story doesn&apos;t work anymore.
           </p>
         </div>
@@ -58,7 +58,7 @@ export default function Home() {
           <h2 className="reveal text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-12">
             You&apos;ve probably already tried to fix it.
           </h2>
-          <div className="reveal-stagger text-xl md:text-2xl text-[#1a1a1a]/60 space-y-2">
+          <div className="reveal-stagger text-xl md:text-2xl text-[#8a8178] space-y-2">
             <p>Hired the marketing people.</p>
             <p>Refreshed the logo.</p>
             <p>Spent money on things that felt like progress but weren&apos;t.</p>
@@ -69,7 +69,7 @@ export default function Home() {
       {/* The Reframe */}
       <section className="py-32 lg:py-48 px-6">
         <div className="max-w-4xl mx-auto text-center">
-          <p className="reveal text-base md:text-lg text-[#1a1a1a]/50 uppercase tracking-widest mb-12">
+          <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-12">
             After 17 years and thousands of businesses
           </p>
           <h2 className="reveal text-5xl md:text-7xl text-[#1a1a1a] leading-[1.1]">
@@ -83,7 +83,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto space-y-24 lg:space-y-32">
 
           <div className="reveal">
-            <p className="text-xl md:text-2xl text-[#1a1a1a]/60 mb-4">
+            <p className="text-xl md:text-2xl text-[#8a8178] mb-4">
               When your team can&apos;t explain what you do the same way twice, it&apos;s not your messaging.
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a]">
@@ -92,7 +92,7 @@ export default function Home() {
           </div>
 
           <div className="reveal text-right">
-            <p className="text-xl md:text-2xl text-[#1a1a1a]/60 mb-4">
+            <p className="text-xl md:text-2xl text-[#8a8178] mb-4">
               When you attract the wrong clients and lose the right ones, it&apos;s not your sales team.
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a]">
@@ -101,7 +101,7 @@ export default function Home() {
           </div>
 
           <div className="reveal">
-            <p className="text-xl md:text-2xl text-[#1a1a1a]/60 mb-4">
+            <p className="text-xl md:text-2xl text-[#8a8178] mb-4">
               When growth stalls and you don&apos;t know where to focus, it&apos;s not your tactics.
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a]">
@@ -121,7 +121,7 @@ export default function Home() {
           <p className="text-xl md:text-2xl text-[#ff6b00] italic mb-8">
             A transaction. A transition. A transformation.
           </p>
-          <p className="text-xl md:text-2xl text-[#1a1a1a]/60">
+          <p className="text-xl md:text-2xl text-[#8a8178]">
             They can&apos;t quite name what&apos;s broken or how to move forward.
           </p>
         </div>
@@ -130,7 +130,7 @@ export default function Home() {
       {/* The Promise */}
       <section className="py-32 lg:py-48 px-6">
         <div className="max-w-3xl mx-auto text-center">
-          <p className="reveal text-base md:text-lg text-[#1a1a1a]/50 uppercase tracking-widest mb-12">
+          <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-12">
             What we do
           </p>
           <div className="reveal">
@@ -155,7 +155,7 @@ export default function Home() {
       {/* The Pathways */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-5xl mx-auto">
-          <p className="reveal text-base md:text-lg text-[#1a1a1a]/50 uppercase tracking-widest mb-16 text-center">
+          <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-16 text-center">
             How we do it
           </p>
           <div className="reveal-stagger grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-16">
@@ -164,7 +164,7 @@ export default function Home() {
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] group-hover:text-[#ff6b00] transition-colors mb-4">
                 Partnership
               </h3>
-              <p className="text-lg text-[#1a1a1a]/60 mb-4">
+              <p className="text-lg text-[#8a8178] mb-4">
                 For organizations navigating major transitions and transformations.
               </p>
               <span className="text-[#ff6b00]">
@@ -176,7 +176,7 @@ export default function Home() {
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] group-hover:text-[#ff6b00] transition-colors mb-4">
                 Clarity University
               </h3>
-              <p className="text-lg text-[#1a1a1a]/60 mb-4">
+              <p className="text-lg text-[#8a8178] mb-4">
                 For founders who need the methodology on their own timeline.
               </p>
               <span className="text-[#ff6b00]">
@@ -188,7 +188,7 @@ export default function Home() {
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] group-hover:text-[#ff6b00] transition-colors mb-4">
                 Sprint
               </h3>
-              <p className="text-lg text-[#1a1a1a]/60 mb-4">
+              <p className="text-lg text-[#8a8178] mb-4">
                 For growing businesses ready to solve their most critical challenge.
               </p>
               <span className="text-[#ff6b00]">

@@ -4,9 +4,9 @@
  * Design System: Jayne
  *
  * Colors (4 only):
- * - Cream: #faf9f7 (background)
+ * - Cream: #faf6f0 (background, warm)
  * - Black: #1a1a1a (headlines, primary)
- * - Gray: #6b6b6b (body text)
+ * - Warm Gray: #8a8178 (body text, warm undertone)
  * - Orange: #ff6b00 (accent, used sparingly)
  *
  * Typography (4 sizes):
@@ -21,9 +21,9 @@
  */
 
 :root {
-  --color-cream: #faf9f7;
+  --color-cream: #faf6f0;
   --color-black: #1a1a1a;
-  --color-gray: #6b6b6b;
+  --color-gray: #8a8178;
   --color-orange: #ff6b00;
 }
 
