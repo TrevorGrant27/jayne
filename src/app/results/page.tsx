@@ -61,45 +61,34 @@ export default function Results() {
         </div>
       </section>
 
-      {/* Case Studies */}
+      {/* Case Studies Grid */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-5xl mx-auto">
-          <div className="reveal-stagger space-y-24">
+          <div className="reveal-stagger grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16">
             {caseStudies.map((study) => (
               <Link
                 key={study.id}
                 href={`/results/${study.id}`}
                 className="group block"
               >
-                <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-center">
-                  {/* Content */}
-                  <div className="lg:col-span-8">
-                    <p className="text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-4">
-                      {study.client}
-                    </p>
-                    <h2 className="text-3xl md:text-4xl lg:text-5xl text-[#1a1a1a] leading-[1.1] mb-6 group-hover:text-[#f57214] transition-colors">
-                      {study.hook}
-                    </h2>
-                    <p className="text-xl text-[#8a8178] mb-6">
-                      {study.teaser}
-                    </p>
-                    <span className="text-[#f57214] inline-flex items-center gap-2">
-                      Read the story <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
-                    </span>
-                  </div>
-
-                  {/* Result */}
-                  <div className="lg:col-span-4">
-                    <div className="text-5xl md:text-6xl lg:text-7xl text-[#f57214] leading-none">
-                      {study.result}
-                    </div>
-                    <p className="text-lg text-[#8a8178] mt-2">
-                      {study.resultLabel}
-                    </p>
-                  </div>
+                <div className="text-4xl md:text-5xl text-[#f57214] leading-none mb-4">
+                  {study.result}
                 </div>
-
-                <div className="border-b border-[#e5e0d8] mt-16"></div>
+                <p className="text-base text-[#8a8178] mb-6">
+                  {study.resultLabel}
+                </p>
+                <p className="text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-3">
+                  {study.client}
+                </p>
+                <h2 className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug mb-4 group-hover:text-[#f57214] transition-colors">
+                  {study.hook}
+                </h2>
+                <p className="text-lg text-[#8a8178] mb-6">
+                  {study.teaser}
+                </p>
+                <span className="text-[#f57214] inline-flex items-center gap-2">
+                  Read the story <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
+                </span>
               </Link>
             ))}
           </div>
