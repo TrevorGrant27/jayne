@@ -91,7 +91,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="reveal">
+          <div className="reveal text-right">
             <p className="text-xl md:text-2xl text-[#8a8178] mb-4">
               When you attract the wrong clients and lose the right ones, it&apos;s not your sales team.
             </p>
