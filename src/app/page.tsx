@@ -36,45 +36,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
-        {/* Client Logo Carousel */}
-        <div className="w-full py-12 border-t border-[#e5e3df]">
-          <div className="max-w-7xl mx-auto px-6 lg:px-8">
-            <div className="flex flex-wrap justify-center items-center gap-4 md:gap-10 mb-8">
-              {/* PepsiCo logo */}
-              <div className="h-20 md:h-32 opacity-60 hover:opacity-100 transition-opacity bg-transparent">
-                <img src="/pepsico.png" alt="PepsiCo" className="h-full w-auto object-contain bg-transparent" />
-              </div>
-
-              {/* Red Cross logo */}
-              <div className="h-12 md:h-20 opacity-60 hover:opacity-100 transition-opacity bg-transparent">
-                <img src="/redcross.png" alt="Red Cross" className="h-full w-auto object-contain bg-transparent" />
-              </div>
-
-              {/* Mondelez logo */}
-              <div className="h-12 md:h-20 opacity-60 hover:opacity-100 transition-opacity bg-transparent">
-                <img src="/mondelez.png" alt="Mondelez" className="h-full w-auto object-contain bg-transparent" />
-              </div>
-
-              {/* Allstate logo */}
-              <div className="h-12 md:h-20 opacity-60 hover:opacity-100 transition-opacity bg-transparent">
-                <img src="/allstate.png" alt="Allstate" className="h-full w-auto object-contain bg-transparent" />
-              </div>
-
-              {/* Abbott logo */}
-              <div className="h-10 md:h-16 opacity-60 hover:opacity-100 transition-opacity bg-transparent">
-                <img src="/abbott.png" alt="Abbott" className="h-full w-auto object-contain bg-transparent" />
-              </div>
-            </div>
-
-            {/* Many more text on separate line */}
-            <div className="text-center">
-              <div className="text-2xl md:text-3xl font-[family-name:var(--font-playfair)] italic text-[#1a1a1a]">
-                + many more
-              </div>
-            </div>
-          </div>
-        </div>
       </section>
 
       {/* Sound Familiar? - Dark & Dramatic */}
