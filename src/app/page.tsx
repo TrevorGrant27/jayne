@@ -84,16 +84,16 @@ export default function Home() {
 
           <div className="reveal">
             <p className="text-xl md:text-2xl text-[#1a1a1a]/60 mb-4">
-              When your team can&apos;t explain what you do in the same way twice, that&apos;s not a messaging problem.
+              When your team can&apos;t explain what you do the same way twice, that&apos;s not a messaging problem.
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a]">
-              It&apos;s a <span className="text-[#ff6b00]">strategy</span> problem.
+              It&apos;s a <span className="text-[#ff6b00]">clarity</span> problem.
             </p>
           </div>
 
           <div className="reveal text-right">
             <p className="text-xl md:text-2xl text-[#1a1a1a]/60 mb-4">
-              When you keep attracting the wrong clients and losing the right ones, that&apos;s not a sales problem.
+              When you attract the wrong clients and lose the right ones, that&apos;s not a sales problem.
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a]">
               It&apos;s a <span className="text-[#ff6b00]">positioning</span> problem.
@@ -102,10 +102,10 @@ export default function Home() {
 
           <div className="reveal">
             <p className="text-xl md:text-2xl text-[#1a1a1a]/60 mb-4">
-              When growth stalls and you can&apos;t figure out what to do next, that&apos;s not a tactics problem.
+              When growth stalls and you don&apos;t know where to focus, that&apos;s not a tactics problem.
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a]">
-              It&apos;s a <span className="text-[#ff6b00]">clarity</span> problem.
+              It&apos;s a <span className="text-[#ff6b00]">strategy</span> problem.
             </p>
           </div>
 
