@@ -29,7 +29,7 @@ export default function Home() {
       <section className="min-h-screen flex flex-col items-center justify-center px-6">
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-xl md:text-2xl text-[#8a8178] mb-6 opacity-0 animate-fade-in">
-            Hi, we&apos;re Jayne.
+            If you&apos;re here
           </p>
           <h1 className="text-5xl md:text-7xl leading-[1] tracking-tight text-[#1a1a1a] opacity-0 animate-fade-in animation-delay-100">
             Something changed.
