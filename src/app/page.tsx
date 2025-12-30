@@ -200,26 +200,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* The Close */}
-      <section className="py-32 lg:py-48 px-6 bg-[#1a1a1a]">
-        <div className="max-w-3xl mx-auto text-center reveal">
-          <h2 className="text-3xl md:text-5xl text-white leading-tight mb-6">
-            Change is coming whether you&apos;re ready or not.
-          </h2>
-          <p className="text-lg text-white/50 mb-3">
-            The question is:
-          </p>
-          <p className="text-2xl md:text-4xl text-[#f57214] italic mb-12">
-            Will you steer it, or will it steer you?
-          </p>
-          <Link
-            href="/contact"
-            className="inline-block px-10 py-5 text-lg bg-[#f57214] text-white rounded-full hover:bg-white hover:text-[#1a1a1a] transition-colors duration-300"
-          >
-            Start the conversation
-          </Link>
-        </div>
-      </section>
     </main>
   );
 }
