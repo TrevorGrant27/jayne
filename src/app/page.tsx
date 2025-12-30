@@ -134,12 +134,11 @@ export default function Home() {
             What we do
           </p>
           <div className="reveal">
-            <h2 className="text-5xl md:text-7xl text-[#1a1a1a] leading-[1.1] mb-4">
+            <h2 className="text-5xl md:text-7xl text-[#1a1a1a] leading-[1.15]">
               We help you name the problem.
+              <br />
+              <span className="text-[#8a8178]">Then we build the path through it.</span>
             </h2>
-            <p className="text-5xl md:text-7xl text-[#1a1a1a] leading-[1.1]">
-              Then we build the path through it.
-            </p>
           </div>
           <div className="reveal mt-16">
             <Link
