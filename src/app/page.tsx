@@ -40,9 +40,6 @@ export default function Home() {
         {/* Client Logo Carousel */}
         <div className="w-full py-12 border-t border-[#e5e3df]">
           <div className="max-w-7xl mx-auto px-6 lg:px-8">
-            <p className="text-center text-sm text-[#ff6b00] uppercase tracking-widest mb-8 font-semibold">
-              Companies we are proud to have partnered with
-            </p>
             <div className="flex flex-wrap justify-center items-center gap-4 md:gap-10 mb-8">
               {/* PepsiCo logo */}
               <div className="h-20 md:h-32 opacity-60 hover:opacity-100 transition-opacity bg-transparent">
