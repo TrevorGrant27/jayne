@@ -22,6 +22,23 @@ const openSans = Open_Sans({
 export const metadata: Metadata = {
   title: "Jayne Agency | Brand Clarity for All",
   description: "Since 2009, Jayne Agency has equipped business leaders to build dependable, scalable, repeatable revenue through evidence-based brand platforms. We're driving the Clarity Economy™.",
+  openGraph: {
+    title: "Jayne Agency | Brand Clarity for All",
+    description: "Since 2009, Jayne Agency has equipped business leaders to build dependable, scalable, repeatable revenue through evidence-based brand platforms.",
+    url: "https://jayneagency.com",
+    siteName: "Jayne Agency",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Jayne Agency | Brand Clarity for All",
+    description: "Since 2009, Jayne Agency has equipped business leaders to build dependable, scalable, repeatable revenue through evidence-based brand platforms.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({

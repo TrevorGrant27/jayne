@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect } from "react";
+import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const caseStudies = [
   {
@@ -23,24 +23,7 @@ const caseStudies = [
 ];
 
 export default function Results() {
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("visible");
-          }
-        });
-      },
-      { threshold: 0.1, rootMargin: "0px 0px -50px 0px" }
-    );
-
-    document.querySelectorAll(".reveal, .reveal-stagger").forEach((el) => {
-      observer.observe(el);
-    });
-
-    return () => observer.disconnect();
-  }, []);
+  useScrollReveal();
 
   return (
     <main className="font-[family-name:var(--font-playfair)]">
