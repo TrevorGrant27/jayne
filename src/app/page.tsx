@@ -61,6 +61,16 @@ export default function Home() {
             <p>Refreshed the logo.</p>
             <p>Spent money on things that felt like progress but weren&apos;t.</p>
           </div>
+
+          {/* Investment vs Clarity visual - Jack Butcher style */}
+          <div className="reveal mt-16 flex items-end gap-3 md:gap-4">
+            {/* Ascending bars - money/time increasing */}
+            <div className="w-3 md:w-4 h-8 md:h-10 bg-[#1a1a1a]"></div>
+            <div className="w-3 md:w-4 h-14 md:h-18 bg-[#1a1a1a]"></div>
+            <div className="w-3 md:w-4 h-20 md:h-26 bg-[#1a1a1a]"></div>
+            {/* Flat line - clarity stays the same */}
+            <div className="w-16 md:w-24 h-[3px] bg-[#f57214] self-end mb-4"></div>
+          </div>
         </div>
       </section>
 
