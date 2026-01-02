@@ -14,9 +14,16 @@ export default function Home() {
           <p className="text-xl md:text-2xl text-[#6b6560] mb-6 opacity-0 animate-fade-in">
             If you&apos;re here
           </p>
-          <h1 className="text-5xl md:text-7xl leading-[1] tracking-tight text-[#1a1a1a] opacity-0 animate-fade-in animation-delay-100">
+          <h1 className="text-5xl md:text-7xl leading-[1] tracking-tight text-[#1a1a1a] mb-16 opacity-0 animate-fade-in animation-delay-100">
             Something changed.
           </h1>
+
+          {/* Visual break element */}
+          <div className="flex flex-col items-center opacity-0 animate-fade-in animation-delay-200">
+            <div className="w-px h-24 bg-[#1a1a1a]"></div>
+            <div className="w-px h-12 bg-[#f57214] rotate-[30deg] -my-2"></div>
+            <div className="w-px h-24 bg-[#1a1a1a]"></div>
+          </div>
         </div>
       </section>
 
