@@ -132,27 +132,13 @@ export function Navigation() {
                 isActive("/results") ? "w-full" : "w-0 group-hover:w-full"
               }`} />
             </Link>
-
-            <Link
-              href="/speaking"
-              className={`text-sm font-medium relative group transition-colors duration-300 ${
-                isActive("/speaking")
-                  ? "text-black"
-                  : "text-[#1a1a1a] hover:text-[#f57214]"
-              }`}
-            >
-              Speaking
-              <span className={`absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-[#f57214] to-[#f8923a] transition-all duration-300 ${
-                isActive("/speaking") ? "w-full" : "w-0 group-hover:w-full"
-              }`} />
-            </Link>
           </div>
 
           {/* CTA Button */}
           <div className="hidden md:block">
             <Link
-              href="mailto:hello@jayneagency.com"
-              className="group inline-flex items-center gap-2 px-6 py-2.5 text-sm font-semibold bg-[#1a1a1a] text-white rounded-lg transition-all duration-300 hover:bg-[#333] focus:outline-none focus:ring-2 focus:ring-[#f57214] focus:ring-offset-2"
+              href="#"
+              className="group inline-flex items-center gap-2 px-6 py-2.5 text-sm font-semibold bg-[#1a1a1a] text-white rounded-lg transition-all duration-300"
             >
               Let's talk
               <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
