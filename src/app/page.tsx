@@ -20,9 +20,9 @@ export default function Home() {
 
           {/* Visual break element */}
           <div className="flex flex-col items-center opacity-0 animate-fade-in animation-delay-200">
-            <div className="w-px h-24 bg-[#1a1a1a]"></div>
-            <div className="w-px h-12 bg-[#f57214] rotate-[30deg] -my-2"></div>
-            <div className="w-px h-24 bg-[#1a1a1a]"></div>
+            <div className="w-[1.5px] h-32 md:h-40 bg-[#1a1a1a]"></div>
+            <div className="w-[1.5px] h-10 md:h-14 bg-[#f57214] origin-top rotate-[25deg] -mb-1"></div>
+            <div className="w-[1.5px] h-32 md:h-40 bg-[#1a1a1a]"></div>
           </div>
         </div>
       </section>
