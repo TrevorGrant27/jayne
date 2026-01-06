@@ -140,7 +140,7 @@ export function Navigation() {
               href="#"
               className="group inline-flex items-center gap-2 px-6 py-2.5 text-sm font-semibold bg-[#1a1a1a] text-white rounded-lg transition-all duration-300"
             >
-              Let's talk
+              Book a call
               <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
             </Link>
           </div>
@@ -258,7 +258,7 @@ export function Navigation() {
               onClick={() => setIsOpen(false)}
               className="group flex items-center justify-center gap-2 w-full px-6 py-3 text-sm font-semibold bg-[#1a1a1a] text-white rounded-lg transition-all duration-300"
             >
-              Let's talk
+              Book a call
               <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
             </Link>
           </div>
