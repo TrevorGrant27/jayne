@@ -91,7 +91,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="reveal text-right">
+          <div className="reveal">
             <p className="text-xl md:text-2xl text-[#8a8178] mb-4">
               When you attract the wrong clients and lose the right ones, it&apos;s not your sales team.
             </p>
@@ -146,7 +146,7 @@ export default function Home() {
               href="/contact"
               className="group inline-flex items-center gap-3 px-10 py-5 text-lg bg-[#1a1a1a] text-white rounded-lg transition-all duration-300"
             >
-              Let&apos;s talk
+              Book a call
               <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
             </Link>
           </div>
