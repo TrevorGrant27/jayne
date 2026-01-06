@@ -25,19 +25,17 @@ export default function AboutUs() {
 
   return (
     <main className="font-[family-name:var(--font-playfair)]">
-      {/* Hero - The Tension */}
+      {/* Hero */}
       <section className="min-h-[80vh] flex items-center pt-32 px-6">
-        <div className="max-w-3xl mx-auto">
-          <p className="text-xl md:text-2xl text-[#8a8178] mb-6 opacity-0 animate-fade-in">
-            You&apos;ve hired consultants before.
-          </p>
-          <h1 className="text-4xl md:text-6xl leading-[1.1] text-[#1a1a1a] mb-8 opacity-0 animate-fade-in animation-delay-100">
-            They came in, asked questions, nodded thoughtfully, and left you with a deck full of words you already knew
-            <br />
-            <span className="text-[#f57214]">arranged in a slightly different order.</span>
+        <div className="max-w-4xl mx-auto">
+          <h1 className="text-4xl md:text-6xl leading-[1.1] text-[#1a1a1a] mb-8 opacity-0 animate-fade-in">
+            This is user-centered research applied to brand strategy.
           </h1>
-          <p className="text-2xl md:text-3xl text-[#1a1a1a] opacity-0 animate-fade-in animation-delay-200">
-            That&apos;s not this.
+          <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-6 opacity-0 animate-fade-in animation-delay-100">
+            Which means we&apos;re not going to ask you what you think your company does. We&apos;re going to find out what your customers actually buy from you.
+          </p>
+          <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed opacity-0 animate-fade-in animation-delay-200">
+            Those are rarely the same thing, and the gap between them is where most of your problems live.
           </p>
         </div>
       </section>
@@ -138,18 +136,9 @@ export default function AboutUs() {
       {/* The Methodology - Section Header */}
       <section className="py-32 lg:py-48 px-6">
         <div className="max-w-4xl mx-auto">
-          <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-12">
+          <h2 className="reveal text-5xl md:text-7xl text-[#1a1a1a] leading-[1.1]">
             The Methodology
-          </p>
-          <h2 className="reveal text-4xl md:text-6xl text-[#1a1a1a] leading-[1.1] mb-12">
-            This is user-centered research applied to brand strategy.
           </h2>
-          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-6">
-            Which means we&apos;re not going to ask you what you think your company does. We&apos;re going to find out what your customers actually buy from you.
-          </p>
-          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed">
-            Those are rarely the same thing, and the gap between them is where most of your problems live.
-          </p>
         </div>
       </section>
 
