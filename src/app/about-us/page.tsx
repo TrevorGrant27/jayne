@@ -67,6 +67,15 @@ export default function AboutUs() {
           <div className="reveal-stagger space-y-20">
             <div>
               <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug mb-8 italic">
+                &ldquo;Jayne Agency has become a true thought-partner to our organization and our public relations team. The team contributes regularly to much more than our brand and marketing objectives. They help us look ahead, think strategically about complex business challenges and map out authentic and integrated ways to elevate our brand and company as a whole. Their strategic approach is coupled with creative messaging that can build or refresh brand stories that are distinctive, memorable and meaningful. We have a high-performance, fast moving environment and they constantly look for ways to drive performance and make sure we never lose sight of the brand stewardship that will enable us to meet our goals.&rdquo;
+              </p>
+              <p className="text-lg text-[#8a8178]">
+                — Dache Davidson, Chief Marketing Officer, Pregis, LLC
+              </p>
+            </div>
+
+            <div>
+              <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug mb-8 italic">
                 &ldquo;We couldn&apos;t explain what we did. Not to investors, not to customers, not even to each other. Six weeks later, our sales team was closing deals in half the time.&rdquo;
               </p>
               <p className="text-lg text-[#8a8178]">
