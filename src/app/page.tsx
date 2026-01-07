@@ -124,21 +124,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Who We Serve */}
-      <section className="py-32 lg:py-48 px-6">
-        <div className="max-w-3xl mx-auto reveal">
-          <h2 className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-8">
-            We work with leaders who know they&apos;re on the brink of something.
-          </h2>
-          <p className="text-xl md:text-2xl text-[#f57214] italic mb-8">
-            A transaction. A transition. A transformation.
-          </p>
-          <p className="text-xl md:text-2xl text-[#8a8178]">
-            They can&apos;t quite name what&apos;s broken or how to move forward.
-          </p>
-        </div>
-      </section>
-
       {/* The Promise */}
       <section className="py-32 lg:py-48 px-6">
         <div className="max-w-3xl mx-auto">
@@ -153,6 +138,21 @@ export default function Home() {
               Then we build the path through it.
             </p>
           </div>
+        </div>
+      </section>
+
+      {/* Who We Serve */}
+      <section className="py-32 lg:py-48 px-6">
+        <div className="max-w-3xl mx-auto reveal">
+          <h2 className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-8">
+            We work with leaders who know they&apos;re on the brink of something.
+          </h2>
+          <p className="text-xl md:text-2xl text-[#f57214] italic mb-8">
+            A transaction. A transition. A transformation.
+          </p>
+          <p className="text-xl md:text-2xl text-[#8a8178]">
+            They can&apos;t quite name what&apos;s broken or how to move forward.
+          </p>
           <div className="reveal mt-16">
             <Link
               href="/contact"
