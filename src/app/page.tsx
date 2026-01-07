@@ -175,7 +175,7 @@ export default function Home() {
                 Partnership
               </h3>
               <p className="text-lg text-[#8a8178] mb-4">
-                For organizations navigating major transitions and transformations.
+                For established enterprises navigating complex markets and competing priorities.
               </p>
               <span className="text-[#f57214] inline-flex items-center gap-1">
                 Learn more <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
