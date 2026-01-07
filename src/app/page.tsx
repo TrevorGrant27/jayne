@@ -199,7 +199,7 @@ export default function Home() {
                 Clarity University
               </h3>
               <p className="text-lg text-[#8a8178] mb-4">
-                Enterprise-level brand strategy education with hands on guidance for solopreneurs and early stage startups.
+                MBA-level brand strategy education + hands on guidance for solopreneurs and early stage startups.
               </p>
               <span className="text-[#f57214] inline-flex items-center gap-1">
                 Explore <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
