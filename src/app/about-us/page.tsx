@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import { useEffect } from "react";
 
 export default function AboutUs() {
@@ -30,13 +29,10 @@ export default function AboutUs() {
       <section className="min-h-[80vh] flex items-center pt-32 px-6">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl leading-[1.1] text-[#1a1a1a] mb-8 opacity-0 animate-fade-in">
-            This is user-centered research applied to brand strategy.
+            We&apos;re a tight team of entrepreneurs, designers, UX researchers, strategists and storytellers.
           </h1>
-          <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-6 opacity-0 animate-fade-in animation-delay-100">
-            Which means we&apos;re not going to ask you what you think your company does. We&apos;re going to find out why your customers actually buy from you.
-          </p>
-          <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed opacity-0 animate-fade-in animation-delay-200">
-            Those are rarely the same thing, and the gap between them is where most of your problems live.
+          <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed opacity-0 animate-fade-in animation-delay-100">
+            We specialize in helping organizations of all sizes overcome their most pressing challenges while building sustainable long-term growth through a brand strategy methodology developed and refined over 17 years and hundreds of businesses.
           </p>
         </div>
       </section>
@@ -45,7 +41,7 @@ export default function AboutUs() {
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-5xl mx-auto">
           <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-16 text-center">
-            Companies we&apos;ve helped
+            Some companies we&apos;ve helped
           </p>
           <div className="reveal grid grid-cols-2 md:grid-cols-4 gap-12 lg:gap-16 items-center justify-items-center">
             <Image src="/pepsico.png" alt="PepsiCo" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 hover:grayscale-0 transition-all" />
@@ -142,157 +138,6 @@ export default function AboutUs() {
                 — Marketing Director, B2B Technology
               </p>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* The Methodology - Section Header */}
-      <section className="py-32 lg:py-48 px-6">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="reveal text-5xl md:text-7xl text-[#1a1a1a] leading-[1.1]">
-            The Methodology
-          </h2>
-        </div>
-      </section>
-
-      {/* The Methodology - Evidence-Based */}
-      <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-3xl mx-auto">
-          <div className="reveal">
-            <p className="text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-12">
-              Evidence-based
-            </p>
-            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-8">
-              We build a hypothesis, design a protocol to test it, and go gather data that would hold up in court.
-            </p>
-            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed">
-              Not focus groups. Not vibes. <span className="text-[#f57214]">Evidence.</span> The kind your CFO can&apos;t dismiss and your sales team can&apos;t argue with.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* The Methodology - Facilitation */}
-      <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-3xl mx-auto">
-          <div className="reveal">
-            <p className="text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-12">
-              Facilitation
-            </p>
-            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-8">
-              Then we facilitate sessions with your team. Our people are trained to be immovable.
-            </p>
-            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              If you want someone to validate your existing beliefs, we&apos;re expensive disappointment. If you want someone to push until you actually own your position in the market, we&apos;re useful.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Why It Matters */}
-      <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-3xl mx-auto">
-          <div className="reveal">
-            <p className="text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-12">
-              Why this matters
-            </p>
-            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-8">
-              Because most firms have never done the foundational work. They&apos;ve skipped straight to tactics—websites, campaigns, sales decks—without ever resolving the underlying positioning.
-            </p>
-            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              So every decision becomes a debate. Every hire is a gamble. Every marketing dollar is a guess.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* The Deliverables */}
-      <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-3xl mx-auto">
-          <div className="reveal">
-            <p className="text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-12">
-              What you get
-            </p>
-            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-8">
-              Ten concrete assets that define your brand platform.
-            </p>
-            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed">
-              Not aspirational fluff. Documented positions based on evidence. Your objectives, your barriers, your audience insights, your value articulation—all of it grounded in reality.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Who It's For */}
-      <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-3xl mx-auto">
-          <div className="reveal">
-            <p className="text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-12">
-              Who this works for
-            </p>
-            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-8">
-              Engineers. Founders who came up through operations. Manufacturers. Industrialists.
-            </p>
-            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed">
-              People who respect process and distrust hand-waving. People who&apos;ve been burned by agencies that promised transformation and delivered a logo.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Who It's Not For */}
-      <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-3xl mx-auto">
-          <div className="reveal">
-            <p className="text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-12">
-              Who this doesn&apos;t work for
-            </p>
-            <div className="space-y-6">
-              <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug">
-                Anyone looking for permission to keep doing what they&apos;re already doing.
-              </p>
-              <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug">
-                Anyone who wants the answer to be easy.
-              </p>
-              <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug">
-                Anyone who thinks brand strategy is a creative exercise instead of a business decision.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* The Right Clients */}
-      <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-3xl mx-auto">
-          <div className="reveal">
-            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-8">
-              The firms that come to us have usually tried everything else first. Coaches. Advisors. Offsites. Team-building.
-            </p>
-            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              They&apos;ve spent money on things that felt like progress but weren&apos;t. And now they&apos;re ready to do the actual work.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA */}
-      <section className="py-32 lg:py-48 px-6">
-        <div className="max-w-3xl mx-auto">
-          <div className="reveal">
-            <h2 className="text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-8">
-              If that&apos;s you, let&apos;s talk.
-            </h2>
-            <p className="text-xl md:text-2xl text-[#8a8178] mb-12">
-              If it&apos;s not, we&apos;re probably not a fit—and that&apos;s fine. There are plenty of agencies who&apos;ll tell you what you want to hear.
-            </p>
-            <Link
-              href="/contact"
-              className="group inline-flex items-center gap-3 px-10 py-5 text-lg bg-[#1a1a1a] text-white rounded-lg transition-all duration-300"
-            >
-              Book a call
-              <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
-            </Link>
           </div>
         </div>
       </section>
