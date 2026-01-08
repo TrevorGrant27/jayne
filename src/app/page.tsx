@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect } from "react";
 
@@ -34,6 +35,15 @@ export default function Home() {
           <h1 className="text-5xl md:text-7xl leading-[1] tracking-tight text-[#1a1a1a] opacity-0 animate-fade-in animation-delay-100">
             something changed
           </h1>
+          <div className="mt-12 opacity-0 animate-fade-in animation-delay-200">
+            <Image
+              src="/Illustration 26 from Trevor.png"
+              alt=""
+              width={400}
+              height={200}
+              className="mx-auto"
+            />
+          </div>
         </div>
       </section>
 
