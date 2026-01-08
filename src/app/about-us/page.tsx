@@ -29,10 +29,10 @@ export default function AboutUs() {
       <section className="min-h-[80vh] flex items-center pt-32 px-6">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl leading-[1.1] text-[#1a1a1a] mb-8 opacity-0 animate-fade-in">
-            We&apos;re a tight team comprised of entrepreneurs, designers, UX researchers, strategists, and (ex!!) big agency creative directors.
+            We&apos;re a tight team of entrepreneurs, designers, UX researchers, strategists, and (ex!!) big agency creative directors.
           </h1>
           <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed opacity-0 animate-fade-in animation-delay-100">
-            We specialize in helping organizations of all sizes overcome their most pressing challenges while building sustainable long-term growth through a brand strategy developed and refined over 17 years and hundreds of businesses.
+            We specialize in helping organizations of all sizes overcome their most pressing challenges while building sustainable long-term growth through a brand strategy methodology developed and refined over 17 years and hundreds of businesses.
           </p>
         </div>
       </section>
@@ -41,7 +41,7 @@ export default function AboutUs() {
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-5xl mx-auto">
           <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-16 text-center">
-            Companies we&apos;ve helped
+            Some companies we&apos;ve helped
           </p>
           <div className="reveal grid grid-cols-2 md:grid-cols-4 gap-12 lg:gap-16 items-center justify-items-center">
             <Image src="/pepsico.png" alt="PepsiCo" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 hover:grayscale-0 transition-all" />
