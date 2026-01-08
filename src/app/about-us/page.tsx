@@ -30,14 +30,8 @@ export default function AboutUs() {
       <section className="min-h-[80vh] flex items-center pt-32 px-6">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl leading-[1.1] text-[#1a1a1a] mb-8 opacity-0 animate-fade-in">
-            This is user-centered research applied to brand strategy.
+            About Us
           </h1>
-          <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-6 opacity-0 animate-fade-in animation-delay-100">
-            Which means we&apos;re not going to ask you what you think your company does. We&apos;re going to find out why your customers actually buy from you.
-          </p>
-          <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed opacity-0 animate-fade-in animation-delay-200">
-            Those are rarely the same thing, and the gap between them is where most of your problems live.
-          </p>
         </div>
       </section>
 
