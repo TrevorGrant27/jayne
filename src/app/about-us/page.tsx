@@ -140,49 +140,6 @@ export default function AboutUs() {
         </div>
       </section>
 
-      {/* The Methodology - Section Header */}
-      <section className="py-32 lg:py-48 px-6">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="reveal text-5xl md:text-7xl text-[#1a1a1a] leading-[1.1]">
-            The Methodology
-          </h2>
-        </div>
-      </section>
-
-      {/* The Methodology - Evidence-Based */}
-      <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-3xl mx-auto">
-          <div className="reveal">
-            <p className="text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-12">
-              Evidence-based
-            </p>
-            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-8">
-              We build a hypothesis, design a protocol to test it, and go gather data that would hold up in court.
-            </p>
-            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed">
-              Not focus groups. Not vibes. <span className="text-[#f57214]">Evidence.</span> The kind your CFO can&apos;t dismiss and your sales team can&apos;t argue with.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* The Methodology - Facilitation */}
-      <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-3xl mx-auto">
-          <div className="reveal">
-            <p className="text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-12">
-              Facilitation
-            </p>
-            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-8">
-              Then we facilitate sessions with your team. Our people are trained to be immovable.
-            </p>
-            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              If you want someone to validate your existing beliefs, we&apos;re expensive disappointment. If you want someone to push until you actually own your position in the market, we&apos;re useful.
-            </p>
-          </div>
-        </div>
-      </section>
-
       {/* Why It Matters */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
