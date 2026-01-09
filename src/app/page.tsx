@@ -71,8 +71,8 @@ export default function Home() {
 
       {/* The Failed Attempts */}
       <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-3xl mx-auto">
-          <div className="reveal-stagger flex flex-col space-y-12 md:space-y-16">
+        <div className="max-w-3xl mx-auto md:ml-auto md:mr-0">
+          <div className="reveal-stagger flex flex-col space-y-12 md:space-y-16 text-right">
             <div>
               <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug">
                 Maybe you&apos;ve already tried to fix it.
