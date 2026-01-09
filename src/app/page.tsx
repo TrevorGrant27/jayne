@@ -69,45 +69,26 @@ export default function Home() {
         </div>
       </section>
 
-      {/* The Failed Attempts - vertical illustration with aligned text */}
-      <section className="py-24 lg:py-32 px-6 overflow-hidden">
-        <div className="max-w-5xl mx-auto">
-          <div className="flex flex-row gap-8 md:gap-16 items-start">
-
-            {/* Vertical illustration */}
-            <div className="reveal flex-shrink-0">
-              <Image
-                src="/Untitled Artwork 25.png"
-                alt=""
-                width={600}
-                height={300}
-                className="w-40 md:w-56 lg:w-64 h-auto rotate-90 origin-center"
-              />
+      {/* The Failed Attempts */}
+      <section className="py-24 lg:py-32 px-6">
+        <div className="max-w-3xl mx-auto">
+          <div className="reveal-stagger flex flex-col space-y-12 md:space-y-16">
+            <div>
+              <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug">
+                Maybe you&apos;ve already tried to fix it.
+              </p>
             </div>
 
-            {/* Text aligned to illustration parts */}
-            <div className="reveal-stagger flex flex-col">
-              {/* Top tangle - with padding to align with first tangle */}
-              <div className="pt-4 md:pt-8">
-                <p className="text-xl md:text-3xl text-[#1a1a1a] leading-snug">
-                  Maybe you&apos;ve already tried to fix it.
-                </p>
-              </div>
-
-              {/* Middle - false hope (orange line area) */}
-              <div className="pt-16 md:pt-24">
-                <p className="text-lg md:text-2xl text-[#8a8178]">Hired the marketing people.</p>
-                <p className="text-lg md:text-2xl text-[#8a8178] mt-1">Refreshed the logo.</p>
-              </div>
-
-              {/* Bottom tangle */}
-              <div className="pt-16 md:pt-24">
-                <p className="text-xl md:text-3xl text-[#1a1a1a] leading-snug">
-                  Spent money on things that felt like progress but weren&apos;t.
-                </p>
-              </div>
+            <div>
+              <p className="text-xl md:text-2xl text-[#8a8178]">Hired the marketing people.</p>
+              <p className="text-xl md:text-2xl text-[#8a8178] mt-2">Refreshed the logo.</p>
             </div>
 
+            <div>
+              <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug">
+                Spent money on things that felt like progress but weren&apos;t.
+              </p>
+            </div>
           </div>
         </div>
       </section>
