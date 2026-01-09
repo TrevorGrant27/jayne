@@ -69,30 +69,56 @@ export default function Home() {
         </div>
       </section>
 
-      {/* The Failed Attempts */}
+      {/* The Failed Attempts - with integrated illustration */}
       <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-3xl mx-auto">
-          <h2 className="reveal text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-12">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="reveal text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-16 text-center">
             Maybe you&apos;ve already tried to fix it.
           </h2>
-          <div className="reveal-stagger text-xl md:text-2xl text-[#8a8178] space-y-2">
-            <p>Hired the marketing people.</p>
-            <p>Refreshed the logo.</p>
-            <p>Spent money on things that felt like progress but weren&apos;t.</p>
-          </div>
-        </div>
-      </section>
 
-      {/* Visual connector - tangled */}
-      <section className="relative -mt-8 -mb-8 md:-mt-12 md:-mb-16">
-        <div className="flex justify-center">
-          <Image
-            src="/Untitled Artwork 25.png"
-            alt=""
-            width={800}
-            height={400}
-            className="w-[85vw] md:w-[60vw] lg:w-[50vw] max-w-3xl h-auto"
-          />
+          {/* Desktop: side-by-side layout */}
+          <div className="hidden md:grid md:grid-cols-3 gap-8 items-center">
+            <div className="reveal text-right">
+              <p className="text-xl lg:text-2xl text-[#8a8178]">Hired the marketing people.</p>
+              <p className="text-xl lg:text-2xl text-[#8a8178] mt-2">Refreshed the logo.</p>
+            </div>
+
+            <div className="reveal flex justify-center">
+              <Image
+                src="/Untitled Artwork 25.png"
+                alt=""
+                width={800}
+                height={400}
+                className="w-full max-w-md h-auto"
+              />
+            </div>
+
+            <div className="reveal text-left">
+              <p className="text-xl lg:text-2xl text-[#1a1a1a]">Spent money on things that felt like progress but weren&apos;t.</p>
+            </div>
+          </div>
+
+          {/* Mobile: stacked layout */}
+          <div className="md:hidden space-y-8">
+            <div className="reveal text-center">
+              <p className="text-xl text-[#8a8178]">Hired the marketing people.</p>
+              <p className="text-xl text-[#8a8178] mt-2">Refreshed the logo.</p>
+            </div>
+
+            <div className="reveal flex justify-center">
+              <Image
+                src="/Untitled Artwork 25.png"
+                alt=""
+                width={800}
+                height={400}
+                className="w-[90vw] h-auto"
+              />
+            </div>
+
+            <div className="reveal text-center">
+              <p className="text-xl text-[#1a1a1a]">Spent money on things that felt like progress but weren&apos;t.</p>
+            </div>
+          </div>
         </div>
       </section>
 
