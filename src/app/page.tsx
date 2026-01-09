@@ -202,6 +202,15 @@ export default function Home() {
           <p className="text-xl md:text-2xl text-[#8a8178]">
             They often can&apos;t quite name what&apos;s happening or how to <span className="text-[#f57214]">untangle</span> it.
           </p>
+          <div className="mt-12 flex justify-center">
+            <Image
+              src="/untangle.png"
+              alt=""
+              width={600}
+              height={400}
+              className="w-full max-w-2xl h-auto"
+            />
+          </div>
         </div>
       </section>
 
