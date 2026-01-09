@@ -138,6 +138,15 @@ export default function Home() {
           <h2 className="reveal text-5xl md:text-7xl text-[#1a1a1a] leading-[1.1]">
             The problem isn&apos;t your marketing.
           </h2>
+          <div className="reveal mt-16 flex justify-center">
+            <Image
+              src="/Untitled Artwork 23.png"
+              alt=""
+              width={600}
+              height={400}
+              className="w-full max-w-2xl h-auto"
+            />
+          </div>
         </div>
       </section>
 
