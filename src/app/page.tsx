@@ -76,9 +76,8 @@ export default function Home() {
           {/* Part 1: Top tangle */}
           <div className="reveal flex items-center gap-6 md:gap-12 mb-8 md:mb-12">
             <div className="w-24 md:w-32 flex-shrink-0">
-              {/* Replace with: /illustrations/tangle-top.png */}
               <Image
-                src="/Untitled Artwork 25.png"
+                src="/top tangle.png"
                 alt=""
                 width={200}
                 height={200}
@@ -95,10 +94,13 @@ export default function Home() {
           {/* Part 2: Middle line (false hope) */}
           <div className="reveal flex items-center gap-6 md:gap-12 mb-8 md:mb-12">
             <div className="w-24 md:w-32 flex-shrink-0">
-              {/* Replace with: /illustrations/line-middle.png */}
-              <div className="h-24 md:h-32 flex items-center justify-center">
-                <div className="w-1 h-full bg-[#f57214]"></div>
-              </div>
+              <Image
+                src="/falsehope.png"
+                alt=""
+                width={200}
+                height={200}
+                className="w-full h-auto"
+              />
             </div>
             <div className="flex-1">
               <p className="text-lg md:text-2xl text-[#8a8178]">Hired the marketing people.</p>
@@ -109,9 +111,8 @@ export default function Home() {
           {/* Part 3: Bottom tangle */}
           <div className="reveal flex items-center gap-6 md:gap-12">
             <div className="w-24 md:w-32 flex-shrink-0">
-              {/* Replace with: /illustrations/tangle-bottom.png */}
               <Image
-                src="/Untitled Artwork 25.png"
+                src="/Bottomtangle.png"
                 alt=""
                 width={200}
                 height={200}
