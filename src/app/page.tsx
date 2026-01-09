@@ -69,55 +69,45 @@ export default function Home() {
         </div>
       </section>
 
-      {/* The Failed Attempts - with integrated illustration */}
+      {/* The Failed Attempts - vertical illustration with aligned text */}
       <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-5xl mx-auto">
-          <h2 className="reveal text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-16 text-center">
-            Maybe you&apos;ve already tried to fix it.
-          </h2>
+        <div className="max-w-4xl mx-auto">
+          <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-center">
 
-          {/* Desktop: side-by-side layout */}
-          <div className="hidden md:grid md:grid-cols-3 gap-8 items-center">
-            <div className="reveal text-right">
-              <p className="text-xl lg:text-2xl text-[#8a8178]">Hired the marketing people.</p>
-              <p className="text-xl lg:text-2xl text-[#8a8178] mt-2">Refreshed the logo.</p>
-            </div>
-
-            <div className="reveal flex justify-center">
+            {/* Vertical illustration */}
+            <div className="reveal flex-shrink-0">
               <Image
                 src="/Untitled Artwork 25.png"
                 alt=""
-                width={800}
-                height={400}
-                className="w-full max-w-md h-auto"
+                width={400}
+                height={800}
+                className="w-48 md:w-64 h-auto rotate-90"
               />
             </div>
 
-            <div className="reveal text-left">
-              <p className="text-xl lg:text-2xl text-[#1a1a1a]">Spent money on things that felt like progress but weren&apos;t.</p>
-            </div>
-          </div>
+            {/* Text aligned to illustration parts */}
+            <div className="reveal-stagger flex flex-col justify-between h-full space-y-16 md:space-y-24">
+              {/* Top tangle */}
+              <div>
+                <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug">
+                  Maybe you&apos;ve already tried to fix it.
+                </p>
+              </div>
 
-          {/* Mobile: stacked layout */}
-          <div className="md:hidden space-y-8">
-            <div className="reveal text-center">
-              <p className="text-xl text-[#8a8178]">Hired the marketing people.</p>
-              <p className="text-xl text-[#8a8178] mt-2">Refreshed the logo.</p>
+              {/* Middle - false hope */}
+              <div>
+                <p className="text-xl md:text-2xl text-[#8a8178]">Hired the marketing people.</p>
+                <p className="text-xl md:text-2xl text-[#8a8178] mt-2">Refreshed the logo.</p>
+              </div>
+
+              {/* Bottom tangle */}
+              <div>
+                <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug">
+                  Spent money on things that felt like progress but weren&apos;t.
+                </p>
+              </div>
             </div>
 
-            <div className="reveal flex justify-center">
-              <Image
-                src="/Untitled Artwork 25.png"
-                alt=""
-                width={800}
-                height={400}
-                className="w-[90vw] h-auto"
-              />
-            </div>
-
-            <div className="reveal text-center">
-              <p className="text-xl text-[#1a1a1a]">Spent money on things that felt like progress but weren&apos;t.</p>
-            </div>
           </div>
         </div>
       </section>
