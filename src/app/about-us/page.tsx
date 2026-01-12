@@ -82,60 +82,6 @@ export default function AboutUs() {
                 — Dick Taylor, President and CEO, Mercer Valve, Co.
               </p>
             </div>
-
-            <div>
-              <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug mb-8 italic">
-                &ldquo;We&apos;d spent $2M on agencies who gave us beautiful decks and zero clarity. Jayne gave us the strategy we actually use—every day, across every department.&rdquo;
-              </p>
-              <p className="text-lg text-[#8a8178]">
-                — CMO, Healthcare Technology
-              </p>
-            </div>
-
-            <div>
-              <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug mb-8 italic">
-                &ldquo;For the first time in 30 years, everyone in this company can tell the same story about who we are and why we matter.&rdquo;
-              </p>
-              <p className="text-lg text-[#8a8178]">
-                — Third-Generation Owner, Manufacturing
-              </p>
-            </div>
-
-            <div>
-              <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug mb-8 italic">
-                &ldquo;I&apos;ve worked with McKinsey, Bain, and the big creative agencies. This was the first time someone told me something I didn&apos;t already know—and could actually prove it.&rdquo;
-              </p>
-              <p className="text-lg text-[#8a8178]">
-                — VP of Strategy, Fortune 500 CPG
-              </p>
-            </div>
-
-            <div>
-              <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug mb-8 italic">
-                &ldquo;They didn&apos;t just hand us a strategy. They made sure we could defend it to the board, the investors, and ourselves.&rdquo;
-              </p>
-              <p className="text-lg text-[#8a8178]">
-                — Founder, Private Equity Portfolio Company
-              </p>
-            </div>
-
-            <div>
-              <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug mb-8 italic">
-                &ldquo;The process was uncomfortable. They pushed back on everything. And it was worth every minute.&rdquo;
-              </p>
-              <p className="text-lg text-[#8a8178]">
-                — CEO, Industrial Services
-              </p>
-            </div>
-
-            <div>
-              <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug mb-8 italic">
-                &ldquo;We thought we needed a rebrand. Turns out we needed to understand why our best customers chose us in the first place.&rdquo;
-              </p>
-              <p className="text-lg text-[#8a8178]">
-                — Marketing Director, B2B Technology
-              </p>
-            </div>
           </div>
         </div>
       </section>
