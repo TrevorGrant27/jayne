@@ -81,38 +81,47 @@ export function Navigation() {
                   workWithUsOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2'
                 }`}
               >
-                <div className="bg-[#faf6f0] rounded-2xl shadow-xl shadow-black/10 border border-[#e8e4dc] p-2 min-w-[280px]">
+                <div className="bg-[#faf9f7] rounded-2xl shadow-xl shadow-black/5 border border-[#e8e4dc]/50 p-3 min-w-[320px]">
                   <Link
                     href="/work-with-us/strategy-partnership"
-                    className="block px-4 py-3 rounded-xl hover:bg-[#f5f1ea] transition-colors group"
+                    className="block px-5 py-4 rounded-xl hover:bg-white transition-colors group"
                   >
-                    <div className="font-medium text-[#1a1a1a] group-hover:text-[#f57214] transition-colors">
-                      Partnership
+                    <div className="flex items-center justify-between">
+                      <span className="font-medium text-[#1a1a1a] group-hover:text-[#f57214] transition-colors">
+                        Partnership
+                      </span>
+                      <span className="text-[#f57214] opacity-0 group-hover:opacity-100 transition-opacity">→</span>
                     </div>
-                    <div className="text-sm text-[#9d968c] mt-0.5">
-                      For enterprise teams
+                    <div className="text-sm text-[#8a8178] mt-1">
+                      For established enterprises navigating complex markets
                     </div>
                   </Link>
                   <Link
                     href="/work-with-us/strategy-sprint"
-                    className="block px-4 py-3 rounded-xl hover:bg-[#f5f1ea] transition-colors group"
+                    className="block px-5 py-4 rounded-xl hover:bg-white transition-colors group"
                   >
-                    <div className="font-medium text-[#1a1a1a] group-hover:text-[#f57214] transition-colors">
-                      Sprint
+                    <div className="flex items-center justify-between">
+                      <span className="font-medium text-[#1a1a1a] group-hover:text-[#f57214] transition-colors">
+                        Sprint
+                      </span>
+                      <span className="text-[#f57214] opacity-0 group-hover:opacity-100 transition-opacity">→</span>
                     </div>
-                    <div className="text-sm text-[#9d968c] mt-0.5">
-                      For SMEs
+                    <div className="text-sm text-[#8a8178] mt-1">
+                      For businesses ready to unlock their next level of growth
                     </div>
                   </Link>
                   <Link
                     href="/work-with-us/clarity-university"
-                    className="block px-4 py-3 rounded-xl hover:bg-[#f5f1ea] transition-colors group"
+                    className="block px-5 py-4 rounded-xl hover:bg-white transition-colors group"
                   >
-                    <div className="font-medium text-[#1a1a1a] group-hover:text-[#f57214] transition-colors">
-                      Clarity University
+                    <div className="flex items-center justify-between">
+                      <span className="font-medium text-[#1a1a1a] group-hover:text-[#f57214] transition-colors">
+                        Clarity University
+                      </span>
+                      <span className="text-[#f57214] opacity-0 group-hover:opacity-100 transition-opacity">→</span>
                     </div>
-                    <div className="text-sm text-[#9d968c] mt-0.5">
-                      For entrepreneurs
+                    <div className="text-sm text-[#8a8178] mt-1">
+                      MBA-level brand strategy for solopreneurs and startups
                     </div>
                   </Link>
                 </div>
