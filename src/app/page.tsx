@@ -130,7 +130,7 @@ export default function Home() {
       </section>
 
       {/* The Reframe */}
-      <section className="py-24 lg:py-32 px-6">
+      <section className="pt-24 lg:pt-32 pb-8 lg:pb-12 px-6">
         <div className="max-w-4xl mx-auto">
           <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-12">
             After 17 years and hundreds of businesses
@@ -151,7 +151,7 @@ export default function Home() {
       </section>
 
       {/* The Three Problems */}
-      <section className="py-24 lg:py-32 px-6">
+      <section className="pt-16 lg:pt-20 pb-24 lg:pb-32 px-6">
         <div className="max-w-4xl mx-auto space-y-20 lg:space-y-24">
 
           <div className="reveal">
@@ -194,7 +194,7 @@ export default function Home() {
       </section>
 
       {/* Who We Serve */}
-      <section className="py-24 lg:py-32 px-6">
+      <section className="pt-24 lg:pt-32 pb-8 lg:pb-12 px-6">
         <div className="max-w-3xl mx-auto reveal">
           <h2 className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-8">
             We work with leaders who know they&apos;re on the brink of something.
@@ -215,7 +215,7 @@ export default function Home() {
       </section>
 
       {/* The Promise */}
-      <section className="py-24 lg:py-32 px-6">
+      <section className="pt-16 lg:pt-20 pb-24 lg:pb-32 px-6">
         <div className="max-w-3xl mx-auto">
           <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-12">
             What we do
