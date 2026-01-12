@@ -59,27 +59,35 @@ export default function AboutUs() {
 
       {/* Testimonials */}
       <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-6xl mx-auto">
           <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-16">
             In their words
           </p>
 
-          <div className="reveal-stagger space-y-20">
-            <div>
-              <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug mb-8 italic">
-                &ldquo;Jayne has become a true thought-partner to our organization and our public relations team. The team contributes regularly to much more than our brand and marketing objectives. They help us look ahead, think strategically about complex business challenges and map out authentic and integrated ways to elevate our brand and company as a whole. Their strategic approach is coupled with creative messaging that can build or refresh brand stories that are distinctive, memorable and meaningful. We have a high-performance, fast moving environment and they constantly look for ways to drive performance and make sure we never lose sight of the brand stewardship that will enable us to meet our goals.&rdquo;
+          <div className="reveal grid md:grid-cols-2 gap-8 lg:gap-12">
+            <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10">
+              <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
+              <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
+                Jayne has become a true thought-partner to our organization and our public relations team. The team contributes regularly to much more than our brand and marketing objectives. They help us look ahead, think strategically about complex business challenges and map out authentic and integrated ways to elevate our brand and company as a whole. Their strategic approach is coupled with creative messaging that can build or refresh brand stories that are distinctive, memorable and meaningful. We have a high-performance, fast moving environment and they constantly look for ways to drive performance and make sure we never lose sight of the brand stewardship that will enable us to meet our goals.
               </p>
-              <p className="text-lg text-[#8a8178]">
-                — Dache Davidson, Chief Marketing Officer, Pregis, LLC
+              <p className="text-base text-[#8a8178] font-medium">
+                Dache Davidson
+              </p>
+              <p className="text-sm text-[#9d968c]">
+                Chief Marketing Officer, Pregis, LLC
               </p>
             </div>
 
-            <div>
-              <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug mb-8 italic">
-                &ldquo;After 36 years of not investing in marketing or branding, Jayne Agency led us to a sustainable process acting as our outsourced marketing arm and working with internal highly technical subject matter experts. They continue to craft our messaging and creative in a way that inspires our internal employees, partners and clients. Because everything is based on a solid brand platform (which we are now all super users of) you see the results in our ISO i90 Controls tracking, our social, employee surveys, our customer satisfaction, and our highly defensible position in the marketplace. They have supported us in developing content, copywriting and creative across all our deliverables going on 4+ years now. They are an integral and integrated part of Mercer Valve, they are our team.&rdquo;
+            <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10">
+              <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
+              <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
+                After 36 years of not investing in marketing or branding, Jayne Agency led us to a sustainable process acting as our outsourced marketing arm and working with internal highly technical subject matter experts. They continue to craft our messaging and creative in a way that inspires our internal employees, partners and clients. Because everything is based on a solid brand platform (which we are now all super users of) you see the results in our ISO i90 Controls tracking, our social, employee surveys, our customer satisfaction, and our highly defensible position in the marketplace. They have supported us in developing content, copywriting and creative across all our deliverables going on 4+ years now. They are an integral and integrated part of Mercer Valve, they are our team.
               </p>
-              <p className="text-lg text-[#8a8178]">
-                — Dick Taylor, President and CEO, Mercer Valve, Co.
+              <p className="text-base text-[#8a8178] font-medium">
+                Dick Taylor
+              </p>
+              <p className="text-sm text-[#9d968c]">
+                President and CEO, Mercer Valve, Co.
               </p>
             </div>
           </div>
