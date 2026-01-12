@@ -76,10 +76,10 @@ export default function AboutUs() {
 
             <div>
               <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug mb-8 italic">
-                &ldquo;We couldn&apos;t explain what we did. Not to investors, not to customers, not even to each other. Six weeks later, our sales team was closing deals in half the time.&rdquo;
+                &ldquo;After 36 years of not investing in marketing or branding, Jayne Agency led us to a sustainable process acting as our outsourced marketing arm and working with internal highly technical subject matter experts. They continue to craft our messaging and creative in a way that inspires our internal employees, partners and clients. Because everything is based on a solid brand platform (which we are now all super users of) you see the results in our ISO i90 Controls tracking, our social, employee surveys, our customer satisfaction, and our highly defensible position in the marketplace. They have supported us in developing content, copywriting and creative across all our deliverables going on 4+ years now. They are an integral and integrated part of Mercer Valve, they are our team.&rdquo;
               </p>
               <p className="text-lg text-[#8a8178]">
-                — CEO, Series B SaaS Company
+                — Dick Taylor, President and CEO, Mercer Valve, Co.
               </p>
             </div>
 
