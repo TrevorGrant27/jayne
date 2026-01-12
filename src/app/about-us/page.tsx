@@ -27,9 +27,9 @@ export default function AboutUs() {
   return (
     <main className="font-[family-name:var(--font-playfair)]">
       {/* Hero */}
-      <section className="min-h-[60vh] flex items-center pt-32 px-6">
+      <section className="pt-32 pb-16 lg:pb-24 px-6">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl md:text-6xl leading-[1.1] text-[#1a1a1a] mb-8 opacity-0 animate-fade-in">
+          <h1 className="text-4xl md:text-6xl leading-[1.1] text-[#1a1a1a] opacity-0 animate-fade-in">
             We&apos;re a tight team of entrepreneurs, designers, UX researchers, strategists and storytellers.
           </h1>
         </div>
