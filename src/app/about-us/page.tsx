@@ -93,7 +93,7 @@ export default function AboutUs() {
             We help organizations of all sizes overcome their most pressing challenges while building sustainable long-term growth through a brand strategy methodology developed and refined over 17 years in service of hundreds of businesses.
           </h2>
           <p className="reveal text-xl md:text-2xl text-[#8a8178] mb-16">
-            Learn more about our methodology and how we can help you
+            Learn more about our methodology and how we can help you <span className="text-[#f57214]">→</span>
           </p>
 
           <div className="reveal grid md:grid-cols-3 gap-12 lg:gap-16">
