@@ -7,7 +7,6 @@ import { usePathname } from "next/navigation";
 
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
-  const [workWithUsOpen, setWorkWithUsOpen] = useState(false);
   const pathname = usePathname();
 
   const isActive = (path: string) => pathname === path;
@@ -48,85 +47,19 @@ export function Navigation() {
               }`} />
             </Link>
 
-            {/* Work With Us Dropdown */}
-            <div
-              className="relative"
-              onMouseEnter={() => setWorkWithUsOpen(true)}
-              onMouseLeave={() => setWorkWithUsOpen(false)}
+            <Link
+              href="/work-with-us"
+              className={`text-sm font-medium relative group transition-colors duration-300 ${
+                isWorkWithUsActive
+                  ? "text-black"
+                  : "text-[#1a1a1a] hover:text-[#f57214]"
+              }`}
             >
-              <span
-                className={`text-sm font-medium relative group transition-colors duration-300 inline-flex items-center gap-1 cursor-pointer ${
-                  isWorkWithUsActive
-                    ? "text-black"
-                    : "text-[#1a1a1a] hover:text-[#f57214]"
-                }`}
-              >
-                Work With Us
-                <svg
-                  className={`w-3 h-3 transition-transform duration-200 ${workWithUsOpen ? 'rotate-180' : ''}`}
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
-                <span className={`absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-[#f57214] to-[#f8923a] transition-all duration-300 ${
-                  isWorkWithUsActive ? "w-full" : "w-0 group-hover:w-full"
-                }`} />
-              </span>
-
-              {/* Dropdown Menu */}
-              <div
-                className={`absolute top-full left-1/2 -translate-x-1/2 pt-4 transition-all duration-200 ${
-                  workWithUsOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2'
-                }`}
-              >
-                <div className="bg-[#faf9f7] rounded-2xl shadow-xl shadow-black/5 border border-[#e8e4dc]/50 p-3 min-w-[320px]">
-                  <Link
-                    href="/work-with-us/strategy-partnership"
-                    className="block px-5 py-4 rounded-xl hover:bg-white transition-colors group"
-                  >
-                    <div className="flex items-center justify-between">
-                      <span className="font-medium text-[#1a1a1a] group-hover:text-[#f57214] transition-colors">
-                        Partnership
-                      </span>
-                      <span className="text-[#f57214] opacity-0 group-hover:opacity-100 transition-opacity">→</span>
-                    </div>
-                    <div className="text-sm text-[#8a8178] mt-1">
-                      For established enterprises navigating complex markets
-                    </div>
-                  </Link>
-                  <Link
-                    href="/work-with-us/strategy-sprint"
-                    className="block px-5 py-4 rounded-xl hover:bg-white transition-colors group"
-                  >
-                    <div className="flex items-center justify-between">
-                      <span className="font-medium text-[#1a1a1a] group-hover:text-[#f57214] transition-colors">
-                        Sprint
-                      </span>
-                      <span className="text-[#f57214] opacity-0 group-hover:opacity-100 transition-opacity">→</span>
-                    </div>
-                    <div className="text-sm text-[#8a8178] mt-1">
-                      For businesses ready to unlock their next level of growth
-                    </div>
-                  </Link>
-                  <Link
-                    href="/work-with-us/clarity-university"
-                    className="block px-5 py-4 rounded-xl hover:bg-white transition-colors group"
-                  >
-                    <div className="flex items-center justify-between">
-                      <span className="font-medium text-[#1a1a1a] group-hover:text-[#f57214] transition-colors">
-                        Clarity University
-                      </span>
-                      <span className="text-[#f57214] opacity-0 group-hover:opacity-100 transition-opacity">→</span>
-                    </div>
-                    <div className="text-sm text-[#8a8178] mt-1">
-                      MBA-level brand strategy for solopreneurs and startups
-                    </div>
-                  </Link>
-                </div>
-              </div>
-            </div>
+              Work With Us
+              <span className={`absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-[#f57214] to-[#f8923a] transition-all duration-300 ${
+                isWorkWithUsActive ? "w-full" : "w-0 group-hover:w-full"
+              }`} />
+            </Link>
 
             <Link
               href="/results"
@@ -218,47 +151,17 @@ export function Navigation() {
             About Us
           </Link>
 
-          {/* Work With Us Section in Mobile */}
-          <div className="space-y-1">
-            <div className="px-4 py-3 text-base font-medium text-[#8a8178]">
-              Work With Us
-            </div>
-            <div className="pl-4 space-y-1">
-              <Link
-                href="/work-with-us/strategy-partnership"
-                onClick={() => setIsOpen(false)}
-                className={`block px-4 py-2 text-sm rounded-lg transition-all duration-300 ${
-                  isActive("/work-with-us/strategy-partnership")
-                    ? "bg-[#f57214]/10 text-[#f57214]"
-                    : "text-[#9d968c] hover:text-black hover:bg-[#faf6f0]"
-                }`}
-              >
-                Partnership
-              </Link>
-              <Link
-                href="/work-with-us/strategy-sprint"
-                onClick={() => setIsOpen(false)}
-                className={`block px-4 py-2 text-sm rounded-lg transition-all duration-300 ${
-                  isActive("/work-with-us/strategy-sprint")
-                    ? "bg-[#f57214]/10 text-[#f57214]"
-                    : "text-[#9d968c] hover:text-black hover:bg-[#faf6f0]"
-                }`}
-              >
-                Sprint
-              </Link>
-              <Link
-                href="/work-with-us/clarity-university"
-                onClick={() => setIsOpen(false)}
-                className={`block px-4 py-2 text-sm rounded-lg transition-all duration-300 ${
-                  isActive("/work-with-us/clarity-university")
-                    ? "bg-[#f57214]/10 text-[#f57214]"
-                    : "text-[#9d968c] hover:text-black hover:bg-[#faf6f0]"
-                }`}
-              >
-                Clarity University
-              </Link>
-            </div>
-          </div>
+          <Link
+            href="/work-with-us"
+            onClick={() => setIsOpen(false)}
+            className={`block px-4 py-3 text-base font-medium rounded-lg transition-all duration-300 ${
+              isWorkWithUsActive
+                ? "bg-[#f57214]/10 text-black border-l-2 border-[#f57214]"
+                : "text-[#8a8178] hover:text-black hover:bg-[#faf6f0]"
+            }`}
+          >
+            Work With Us
+          </Link>
 
           <Link
             href="/results"
