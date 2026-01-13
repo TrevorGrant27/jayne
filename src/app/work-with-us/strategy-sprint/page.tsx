@@ -48,6 +48,90 @@ export default function StrategySprint() {
         </div>
       </section>
 
+      {/* The 10 Brand Assets */}
+      <section className="py-24 lg:py-32 px-6">
+        <div className="max-w-4xl mx-auto">
+          <div className="reveal-stagger space-y-12">
+            <div className="border-t border-[#e5e0d8] pt-8">
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-4">1. Goals</h3>
+              <p className="text-xl text-[#8a8178] leading-relaxed">
+                Your north star is financial. Goals define the business outcomes your brand must deliver—they&apos;re the measurable targets that keep your organization solvent and growing. Every brand decision flows from here.
+              </p>
+            </div>
+
+            <div className="border-t border-[#e5e0d8] pt-8">
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-4">2. Objectives</h3>
+              <p className="text-xl text-[#8a8178] leading-relaxed">
+                S.M.A.R.T. objectives translate goals into action. They sharpen focus, track progress, and align your teams across finance, marketing, and operations. Objectives answer one question: what exactly are we trying to accomplish, and how will we know when we&apos;ve done it?
+              </p>
+            </div>
+
+            <div className="border-t border-[#e5e0d8] pt-8">
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-4">3. Barriers</h3>
+              <p className="text-xl text-[#8a8178] leading-relaxed">
+                What&apos;s standing in your way? Barriers expose the obstacles—internal and external—that could derail success. Identifying them early helps you prioritize investments, build smarter plans, and create alignment across teams, departments, and leadership.
+              </p>
+            </div>
+
+            <div className="border-t border-[#e5e0d8] pt-8">
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-4">4. Strategies</h3>
+              <p className="text-xl text-[#8a8178] leading-relaxed">
+                Strategies are where you place your bets. They&apos;re the deliberate investments of time, talent, energy, and budget designed to overcome barriers and deliver on your objectives. Good strategies are focused, resourced, and directly tied to measurable outcomes.
+              </p>
+            </div>
+
+            <div className="border-t border-[#e5e0d8] pt-8">
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-4">5. Audience</h3>
+              <p className="text-xl text-[#8a8178] leading-relaxed">
+                One primary. Two secondary. Tertiary as needed. But here&apos;s the key: get the primary audience right, and it radiates outward—reaching all the audiences that matter. Precision here unlocks everything downstream.
+              </p>
+            </div>
+
+            <div className="border-t border-[#e5e0d8] pt-8">
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-4">6. Insight</h3>
+              <p className="text-xl text-[#8a8178] leading-relaxed mb-4">
+                Insight is truth distilled into four layers:
+              </p>
+              <ul className="text-xl text-[#8a8178] leading-relaxed space-y-2 ml-6">
+                <li><span className="text-[#1a1a1a]">Overarching Insight:</span> The undeniable human truth</li>
+                <li><span className="text-[#1a1a1a]">Behavioral Truth:</span> A consistent pattern your audience demonstrates</li>
+                <li><span className="text-[#1a1a1a]">Unmet Need:</span> What they&apos;re not getting from your category</li>
+                <li><span className="text-[#1a1a1a]">Brand Offering:</span> How your brand uniquely solves that gap</li>
+              </ul>
+            </div>
+
+            <div className="border-t border-[#e5e0d8] pt-8">
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-4">7. Position</h3>
+              <p className="text-xl text-[#8a8178] leading-relaxed">
+                Your position is your filter. It attracts the right clients, talent, and opportunities—and deflects what doesn&apos;t belong. It determines which shortlists you land on, who wants to work for you, and whether what you promise aligns with who you hire.
+              </p>
+            </div>
+
+            <div className="border-t border-[#e5e0d8] pt-8">
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-4">8. Promise</h3>
+              <p className="text-xl text-[#8a8178] leading-relaxed">
+                This is what you deliver—day in, day out. It&apos;s not a tagline or a clever turn of phrase. Your promise is real, valuable, and provable. It&apos;s what you&apos;d stake your reputation on in a court of law.
+              </p>
+            </div>
+
+            <div className="border-t border-[#e5e0d8] pt-8">
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-4">9. Support</h3>
+              <p className="text-xl text-[#8a8178] leading-relaxed">
+                Proof points. Evidence. Demonstrations that your promise isn&apos;t just words. Support is how you show—not tell—that your brand delivers on what it claims.
+              </p>
+            </div>
+
+            <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-4">10. Tone &amp; Personality</h3>
+              <ul className="text-xl text-[#8a8178] leading-relaxed space-y-2">
+                <li><span className="text-[#1a1a1a]">Tone:</span> How your brand speaks—the words, cadence, and voice it uses</li>
+                <li><span className="text-[#1a1a1a]">Personality:</span> How your brand behaves—the actions, beliefs, and character it embodies</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Week 1: The Strategy Session */}
       <section className="py-32 lg:py-48 px-6">
         <div className="max-w-4xl mx-auto">
