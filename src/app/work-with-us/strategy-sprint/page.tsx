@@ -36,6 +36,15 @@ export default function StrategySprint() {
         </div>
       </section>
 
+      {/* The Path We Build Together */}
+      <section className="py-32 lg:py-48 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="reveal text-5xl md:text-7xl text-[#1a1a1a] leading-[1.1]">
+            The path we build together
+          </h2>
+        </div>
+      </section>
+
       {/* Week 1: The Strategy Session */}
       <section className="py-32 lg:py-48 px-6">
         <div className="max-w-4xl mx-auto">
