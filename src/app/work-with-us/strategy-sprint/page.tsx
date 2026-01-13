@@ -98,6 +98,24 @@ export default function StrategySprint() {
           </p>
         </div>
       </section>
+
+      {/* Week 5 & 6: Final Delivery */}
+      <section className="py-32 lg:py-48 px-6">
+        <div className="max-w-4xl mx-auto">
+          <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-6">
+            Weeks 5 &amp; 6
+          </p>
+          <h2 className="reveal text-4xl md:text-6xl text-[#1a1a1a] leading-[1.1] mb-12">
+            Final Delivery
+          </h2>
+          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-8">
+            We incorporate your feedback and deliver your completed Brand Platform—a comprehensive document containing all 10 assets, fully refined and ready to use.
+          </p>
+          <p className="reveal text-xl md:text-2xl text-[#1a1a1a] leading-relaxed">
+            Plus: An action plan for your top three marketing priorities so you can start executing immediately.
+          </p>
+        </div>
+      </section>
     </main>
   );
 }
