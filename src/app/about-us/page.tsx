@@ -105,41 +105,13 @@ export default function AboutUs() {
             Learn more about our methodology and how we can help you <span className="text-[#f57214]">↓</span>
           </p>
 
-          <div className="reveal grid md:grid-cols-3 gap-12 lg:gap-16">
-            <Link href="/work-with-us/strategy-partnership" className="group">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] group-hover:text-[#f57214] transition-colors mb-4">
-                Partnership
-              </h3>
-              <p className="text-lg text-[#8a8178] mb-4">
-                For established enterprises navigating complex markets and competing priorities.
-              </p>
-              <span className="text-[#f57214] inline-flex items-center gap-1">
-                Learn more <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
-              </span>
-            </Link>
-
-            <Link href="/work-with-us/strategy-sprint" className="group">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] group-hover:text-[#f57214] transition-colors mb-4">
-                Sprint
-              </h3>
-              <p className="text-lg text-[#8a8178] mb-4">
-                For businesses ready to solve their most critical blockers and unlock their next level of growth.
-              </p>
-              <span className="text-[#f57214] inline-flex items-center gap-1">
-                See how it works <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
-              </span>
-            </Link>
-
-            <Link href="/work-with-us/clarity-university" className="group">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] group-hover:text-[#f57214] transition-colors mb-4">
-                Clarity University
-              </h3>
-              <p className="text-lg text-[#8a8178] mb-4">
-                MBA-level brand strategy education + hands on guidance for solopreneurs and early stage startups.
-              </p>
-              <span className="text-[#f57214] inline-flex items-center gap-1">
-                Explore <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
-              </span>
+          <div className="reveal">
+            <Link
+              href="/work-with-us"
+              className="group inline-flex items-center gap-3 px-10 py-5 text-lg bg-[#1a1a1a] text-white rounded-lg transition-all duration-300"
+            >
+              Work with Us
+              <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
             </Link>
           </div>
         </div>
