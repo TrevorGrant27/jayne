@@ -217,9 +217,6 @@ export default function Home() {
       {/* The Promise */}
       <section className="pt-16 lg:pt-20 pb-24 lg:pb-32 px-6">
         <div className="max-w-3xl mx-auto">
-          <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-12">
-            What we do
-          </p>
           <div className="reveal">
             <h2 className="text-5xl md:text-7xl text-[#1a1a1a] leading-[1.15]">
               We help you name the problem.
