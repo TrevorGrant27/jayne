@@ -75,6 +75,20 @@ export function Navigation() {
               }`} />
             </Link>
 
+            <Link
+              href="/clarity-university"
+              className={`text-sm font-medium relative group transition-colors duration-300 ${
+                isActive("/clarity-university")
+                  ? "text-black"
+                  : "text-[#1a1a1a] hover:text-[#f57214]"
+              }`}
+            >
+              Clarity University
+              <span className={`absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-[#f57214] to-[#f8923a] transition-all duration-300 ${
+                isActive("/clarity-university") ? "w-full" : "w-0 group-hover:w-full"
+              }`} />
+            </Link>
+
             <a
               href="https://devilsadvocatebyjayneagency.substack.com/"
               target="_blank"
@@ -173,6 +187,18 @@ export function Navigation() {
             }`}
           >
             Results
+          </Link>
+
+          <Link
+            href="/clarity-university"
+            onClick={() => setIsOpen(false)}
+            className={`block px-4 py-3 text-base font-medium rounded-lg transition-all duration-300 ${
+              isActive("/clarity-university")
+                ? "bg-[#f57214]/10 text-black border-l-2 border-[#f57214]"
+                : "text-[#8a8178] hover:text-black hover:bg-[#faf6f0]"
+            }`}
+          >
+            Clarity University
           </Link>
 
           <a
