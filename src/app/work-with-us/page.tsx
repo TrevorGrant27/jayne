@@ -215,12 +215,18 @@ export default function WorkWithUs() {
           <h2 className="reveal text-3xl md:text-5xl text-[#1a1a1a] leading-[1.1] mb-6">
             Final Delivery
           </h2>
-          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4">
+          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed">
             We incorporate your feedback and deliver your completed Brand Platform—a comprehensive document containing all 10 assets, fully refined and ready to use.
           </p>
-          <p className="reveal text-xl md:text-2xl text-[#1a1a1a] leading-relaxed">
-            Plus: An action plan for your top three marketing priorities so you can start executing immediately.
-          </p>
+        </div>
+      </section>
+
+      {/* What Happens Next */}
+      <section className="py-12 lg:py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="reveal text-3xl md:text-5xl text-[#1a1a1a] leading-[1.1] mb-6">
+            What happens next?
+          </h2>
         </div>
       </section>
     </main>
