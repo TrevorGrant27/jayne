@@ -39,9 +39,12 @@ export default function StrategySprint() {
       {/* The Path We Build Together */}
       <section className="py-32 lg:py-48 px-6">
         <div className="max-w-4xl mx-auto">
-          <h2 className="reveal text-5xl md:text-7xl text-[#1a1a1a] leading-[1.1]">
+          <h2 className="reveal text-5xl md:text-7xl text-[#1a1a1a] leading-[1.1] mb-12">
             The path we build together
           </h2>
+          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed">
+            Every successful company has these well defined 10 brand assets. They hold the levers, controls, opportunity, creativity, boundaries, and blue sky on your finances, marketing, culture, market share and innovation.
+          </p>
         </div>
       </section>
 
