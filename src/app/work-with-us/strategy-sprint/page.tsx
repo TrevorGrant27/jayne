@@ -51,8 +51,14 @@ export default function StrategySprint() {
           <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-8">
             This isn&apos;t a workshop where everyone shares feelings and leaves with vague inspiration. This is a rigorous, structured process that extracts the provable reality of your business.
           </p>
-          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed">
+          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-8">
             The session includes your key stakeholders. The debates happen in the room, facilitated by professionals trained to push through discomfort to clarity. Everyone leaves on the same page.
+          </p>
+          <p className="reveal text-xl md:text-2xl text-[#1a1a1a] leading-relaxed mb-4">
+            By the end of the day, we&apos;ve captured everything we need. You&apos;ve done the hard work. Now we take over.
+          </p>
+          <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest">
+            Your time investment: One full day
           </p>
         </div>
       </section>
