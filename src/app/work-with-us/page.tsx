@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect } from "react";
 
 export default function WorkWithUs() {
@@ -248,9 +249,21 @@ export default function WorkWithUs() {
           <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4">
             And we have a team ready to execute them for you.
           </p>
-          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed">
+          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-12">
             Strategists. Designers. Writers. Implementers. Whatever the work requires, we can take you from platform to market.
           </p>
+          <p className="reveal text-xl md:text-2xl text-[#1a1a1a] leading-relaxed mb-6">
+            Interested? Or just need help clarifying a few things?
+          </p>
+          <div className="reveal">
+            <Link
+              href="/contact"
+              className="group inline-flex items-center gap-3 px-10 py-5 text-lg bg-[#1a1a1a] text-white rounded-lg transition-all duration-300"
+            >
+              Book a call
+              <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
+            </Link>
+          </div>
         </div>
       </section>
     </main>
