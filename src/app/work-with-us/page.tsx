@@ -29,7 +29,7 @@ export default function WorkWithUs() {
       <section className="min-h-[60vh] flex items-center pt-32 px-6">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl leading-[1.1] text-[#1a1a1a] mb-6 opacity-0 animate-fade-in">
-            A complete path to dependable, repeatable, and scalable revenue, in six weeks.
+            A proven path to dependable, repeatable, and scalable revenue.
           </h1>
           <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed opacity-0 animate-fade-in animation-delay-100">
             Our approach to brand strategy has been proven globally over 17 years with hundreds of businesses ranging from $20K to $2B in revenue.
