@@ -42,18 +42,18 @@ export default function AboutUs() {
             Some companies we&apos;ve helped
           </p>
           <div className="reveal grid grid-cols-2 md:grid-cols-4 gap-12 lg:gap-16 items-center justify-items-center">
-            <Image src="/pepsico.png" alt="PepsiCo" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 hover:grayscale-0 transition-all" />
-            <Image src="/mondelez.png" alt="Mondelēz" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 hover:grayscale-0 transition-all" />
-            <Image src="/abbott.png" alt="Abbott" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 hover:grayscale-0 transition-all" />
-            <Image src="/allstate.png" alt="Allstate" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 hover:grayscale-0 transition-all" />
-            <Image src="/redcross.png" alt="Red Cross" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 hover:grayscale-0 transition-all" />
-            <Image src="/pregis.png" alt="Pregis" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 hover:grayscale-0 transition-all" />
-            <Image src="/mercer.png" alt="Mercer" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 hover:grayscale-0 transition-all" />
-            <Image src="/ff.png" alt="FF" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 hover:grayscale-0 transition-all" />
-            <Image src="/wbenc.png" alt="WBENC" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 hover:grayscale-0 transition-all" />
-            <Image src="/nmsdc.png" alt="NMSDC" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 hover:grayscale-0 transition-all" />
-            <Image src="/nevermined.png" alt="Nevermined" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 hover:grayscale-0 transition-all" />
-            <Image src="/2818aef9ee6485cb446a0ed0f545c340.png" alt="Nationwide Insurance" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 hover:grayscale-0 transition-all" />
+            <Image src="/pepsico.png" alt="PepsiCo" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 transition-opacity" />
+            <Image src="/mondelez.png" alt="Mondelēz" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 transition-opacity" />
+            <Image src="/abbott.png" alt="Abbott" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 transition-opacity" />
+            <Image src="/allstate.png" alt="Allstate" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 transition-opacity" />
+            <Image src="/redcross.png" alt="Red Cross" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 transition-opacity" />
+            <Image src="/pregis.png" alt="Pregis" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 transition-opacity" />
+            <Image src="/mercer.png" alt="Mercer" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 transition-opacity" />
+            <Image src="/ff.png" alt="FF" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 transition-opacity" />
+            <Image src="/wbenc.png" alt="WBENC" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 transition-opacity" />
+            <Image src="/nmsdc.png" alt="NMSDC" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 transition-opacity" />
+            <Image src="/nevermined.png" alt="Nevermined" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 transition-opacity" />
+            <Image src="/2818aef9ee6485cb446a0ed0f545c340.png" alt="Nationwide Insurance" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 transition-opacity" />
           </div>
         </div>
       </section>
