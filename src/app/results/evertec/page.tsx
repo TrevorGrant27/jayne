@@ -40,27 +40,34 @@ export default function EverTecCaseStudy() {
           </h1>
 
           {/* Client Info Bar */}
-          <div className="opacity-0 animate-fade-in animation-delay-100">
-            <div className="grid grid-cols-2 md:grid-cols-5 gap-6 md:gap-4 border-t border-b border-[#e5e0d8] py-8">
-              <div>
-                <p className="text-xs uppercase tracking-widest text-[#f57214] mb-2 font-[family-name:var(--font-open-sans)]">Client</p>
-                <p className="text-sm text-[#1a1a1a] font-[family-name:var(--font-open-sans)]">Pregis EverTec</p>
+          <div className="opacity-0 animate-fade-in animation-delay-100 border-t border-[#e5e0d8] pt-10">
+            {/* Top row - Key facts */}
+            <div className="flex flex-wrap items-center gap-x-8 gap-y-4 mb-10 font-[family-name:var(--font-open-sans)]">
+              <div className="flex items-center gap-3">
+                <span className="text-xs uppercase tracking-widest text-[#8a8178]">Client</span>
+                <span className="text-sm text-[#1a1a1a] font-medium">Pregis EverTec</span>
               </div>
-              <div>
-                <p className="text-xs uppercase tracking-widest text-[#f57214] mb-2 font-[family-name:var(--font-open-sans)]">Industry</p>
-                <p className="text-sm text-[#1a1a1a] font-[family-name:var(--font-open-sans)]">Packaging Manufacturing</p>
+              <span className="hidden md:block text-[#e5e0d8]">|</span>
+              <div className="flex items-center gap-3">
+                <span className="text-xs uppercase tracking-widest text-[#8a8178]">Industry</span>
+                <span className="text-sm text-[#1a1a1a] font-medium">Packaging Manufacturing</span>
               </div>
-              <div>
-                <p className="text-xs uppercase tracking-widest text-[#f57214] mb-2 font-[family-name:var(--font-open-sans)]">Size</p>
-                <p className="text-sm text-[#1a1a1a] font-[family-name:var(--font-open-sans)]">3k - 5k Employees</p>
+              <span className="hidden md:block text-[#e5e0d8]">|</span>
+              <div className="flex items-center gap-3">
+                <span className="text-xs uppercase tracking-widest text-[#8a8178]">Size</span>
+                <span className="text-sm text-[#1a1a1a] font-medium">3k - 5k Employees</span>
               </div>
-              <div className="col-span-2 md:col-span-1">
-                <p className="text-xs uppercase tracking-widest text-[#f57214] mb-2 font-[family-name:var(--font-open-sans)]">Strategic Deliverables</p>
-                <p className="text-sm text-[#8a8178] font-[family-name:var(--font-open-sans)]">User Research (Customer, prospective, non-buyers, Private Equity, Distributor), Brand Platform, Strategic Consulting, Brand Change Management, Content Strategy, Sales Consulting</p>
+            </div>
+
+            {/* Bottom row - Deliverables */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 font-[family-name:var(--font-open-sans)]">
+              <div className="border-l-2 border-[#f57214] pl-5">
+                <p className="text-xs uppercase tracking-widest text-[#8a8178] mb-3">Strategic Deliverables</p>
+                <p className="text-sm text-[#1a1a1a] leading-relaxed">User Research (Customer, prospective, non-buyers, Private Equity, Distributor), Brand Platform, Strategic Consulting, Brand Change Management, Content Strategy, Sales Consulting</p>
               </div>
-              <div className="col-span-2 md:col-span-1">
-                <p className="text-xs uppercase tracking-widest text-[#f57214] mb-2 font-[family-name:var(--font-open-sans)]">Creative Deliverables</p>
-                <p className="text-sm text-[#8a8178] font-[family-name:var(--font-open-sans)]">Brand Naming, Brand Identity, Collateral Development, User Experience Design, Web Development, Content Management</p>
+              <div className="border-l-2 border-[#f57214] pl-5">
+                <p className="text-xs uppercase tracking-widest text-[#8a8178] mb-3">Creative Deliverables</p>
+                <p className="text-sm text-[#1a1a1a] leading-relaxed">Brand Naming, Brand Identity, Collateral Development, User Experience Design, Web Development, Content Management</p>
               </div>
             </div>
           </div>
