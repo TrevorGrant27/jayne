@@ -42,25 +42,8 @@ export default function PepsiCoCaseStudy() {
             What if your supply chain could change the world?
           </h1>
           <p className="text-xl md:text-2xl text-[#8a8178] max-w-2xl leading-relaxed opacity-0 animate-fade-in animation-delay-200">
-            From compliance checkbox to competitive advantage.
+            PepsiCo&apos;s supplier diversity program had spending power behind it. Only, $250 million isn&apos;t a checkbox.
           </p>
-        </div>
-      </section>
-
-      {/* The Story */}
-      <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-3xl mx-auto">
-          <div className="reveal-stagger space-y-8">
-            <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug">
-              PepsiCo had a supplier diversity program.
-            </p>
-            <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug">
-              A checkbox. A report filed once a year.
-            </p>
-            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              But <span className="text-[#f57214]">$250 million</span> in spending power isn&apos;t a checkbox—it&apos;s a lever.
-            </p>
-          </div>
         </div>
       </section>
 
@@ -84,20 +67,6 @@ export default function PepsiCoCaseStudy() {
         </div>
       </section>
 
-      {/* The Insight */}
-      <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-3xl mx-auto">
-          <div className="reveal">
-            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-8">
-              We stopped thinking about supplier diversity as <span className="text-[#f57214]">compliance</span> and started treating it like what it actually is:
-            </p>
-            <p className="text-3xl md:text-4xl text-[#f57214] leading-snug">
-              a competitive advantage hiding in plain sight.
-            </p>
-          </div>
-        </div>
-      </section>
-
       {/* The Approach */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
@@ -108,7 +77,7 @@ export default function PepsiCoCaseStudy() {
             <div className="border-t border-[#e5e0d8] pt-8">
               <p className="text-5xl md:text-6xl text-[#f57214] mb-4">01</p>
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">The Problem</h3>
-              <p className="text-xl text-[#8a8178]">Moving from a Supplier Diversity program to an enterprise platform. The old way was transactional. Check the box. File the report. Move on.</p>
+              <p className="text-xl text-[#8a8178]">Moving from a Supplier Diversity program to an enterprise platform.</p>
             </div>
 
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
@@ -195,10 +164,10 @@ export default function PepsiCoCaseStudy() {
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
           <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-6">
-            Ready to find your lever?
+            So, what if your supply chain could change the world?
           </h2>
           <p className="reveal text-xl text-[#8a8178] mb-10">
-            Let&apos;s talk about what&apos;s hiding in plain sight in your business.
+            Let&apos;s talk about how we can make that happen.
           </p>
           <div className="reveal">
             <Link
