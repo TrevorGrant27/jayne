@@ -38,22 +38,22 @@ export default function AboutUs() {
       {/* Client Logos */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-5xl mx-auto">
-          <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-16 text-center">
+          <p className="reveal text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-16 text-center">
             Some companies we&apos;ve helped
           </p>
           <div className="reveal grid grid-cols-2 md:grid-cols-4 gap-12 lg:gap-16 items-center justify-items-center">
-            <Image src="/pepsico.png" alt="PepsiCo" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 hover:[filter:grayscale(0)_brightness(0)_sepia(100%)_saturate(10000%)_hue-rotate(-15deg)] transition-all" />
-            <Image src="/mondelez.png" alt="Mondelēz" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 hover:[filter:grayscale(0)_brightness(0)_sepia(100%)_saturate(10000%)_hue-rotate(-15deg)] transition-all" />
-            <Image src="/abbott.png" alt="Abbott" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 hover:[filter:grayscale(0)_brightness(0)_sepia(100%)_saturate(10000%)_hue-rotate(-15deg)] transition-all" />
-            <Image src="/allstate.png" alt="Allstate" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 hover:[filter:grayscale(0)_brightness(0)_sepia(100%)_saturate(10000%)_hue-rotate(-15deg)] transition-all" />
-            <Image src="/redcross.png" alt="Red Cross" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 hover:[filter:grayscale(0)_brightness(0)_sepia(100%)_saturate(10000%)_hue-rotate(-15deg)] transition-all" />
-            <Image src="/pregis.png" alt="Pregis" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 hover:[filter:grayscale(0)_brightness(0)_sepia(100%)_saturate(10000%)_hue-rotate(-15deg)] transition-all" />
-            <Image src="/mercer.png" alt="Mercer" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 hover:[filter:grayscale(0)_brightness(0)_sepia(100%)_saturate(10000%)_hue-rotate(-15deg)] transition-all" />
-            <Image src="/ff.png" alt="FF" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 hover:[filter:grayscale(0)_brightness(0)_sepia(100%)_saturate(10000%)_hue-rotate(-15deg)] transition-all" />
-            <Image src="/wbenc.png" alt="WBENC" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 hover:[filter:grayscale(0)_brightness(0)_sepia(100%)_saturate(10000%)_hue-rotate(-15deg)] transition-all" />
-            <Image src="/nmsdc.png" alt="NMSDC" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 hover:[filter:grayscale(0)_brightness(0)_sepia(100%)_saturate(10000%)_hue-rotate(-15deg)] transition-all" />
-            <Image src="/nevermined.png" alt="Nevermined" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 hover:[filter:grayscale(0)_brightness(0)_sepia(100%)_saturate(10000%)_hue-rotate(-15deg)] transition-all" />
-            <Image src="/2818aef9ee6485cb446a0ed0f545c340.png" alt="Nationwide Insurance" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 hover:[filter:grayscale(0)_brightness(0)_sepia(100%)_saturate(10000%)_hue-rotate(-15deg)] transition-all" />
+            <Image src="/pepsico.png" alt="PepsiCo" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 transition-opacity" />
+            <Image src="/mondelez.png" alt="Mondelēz" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 transition-opacity" />
+            <Image src="/abbott.png" alt="Abbott" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 transition-opacity" />
+            <Image src="/allstate.png" alt="Allstate" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 transition-opacity" />
+            <Image src="/redcross.png" alt="Red Cross" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 transition-opacity" />
+            <Image src="/pregis.png" alt="Pregis" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 transition-opacity" />
+            <Image src="/mercer.png" alt="Mercer" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 transition-opacity" />
+            <Image src="/ff.png" alt="FF" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 transition-opacity" />
+            <Image src="/wbenc.png" alt="WBENC" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 transition-opacity" />
+            <Image src="/nmsdc.png" alt="NMSDC" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 transition-opacity" />
+            <Image src="/nevermined.png" alt="Nevermined" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 transition-opacity" />
+            <Image src="/2818aef9ee6485cb446a0ed0f545c340.png" alt="Nationwide Insurance" width={150} height={60} className="opacity-70 grayscale hover:opacity-100 transition-opacity" />
           </div>
         </div>
       </section>
@@ -61,7 +61,7 @@ export default function AboutUs() {
       {/* Testimonials */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-6xl mx-auto">
-          <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-16">
+          <p className="reveal text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-16">
             In their words
           </p>
 
@@ -101,7 +101,7 @@ export default function AboutUs() {
           <h2 className="reveal text-3xl md:text-4xl leading-[1.2] text-[#1a1a1a] mb-8">
             We help organizations of all sizes overcome their most pressing challenges while building sustainable long-term growth through a brand strategy methodology developed and refined over 17 years in service of hundreds of businesses.
           </h2>
-          <p className="reveal text-xl md:text-2xl text-[#8a8178] mb-16">
+          <p className="reveal text-xl md:text-2xl text-[#8a8178] mb-16 font-[family-name:var(--font-open-sans)]">
             Learn more about our methodology and how we can help you <span className="text-[#f57214]">↓</span>
           </p>
 

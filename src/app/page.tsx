@@ -29,7 +29,7 @@ export default function Home() {
       {/* Hero */}
       <section className="min-h-[60vh] flex flex-col items-center justify-center px-6 pt-24">
         <div className="max-w-3xl mx-auto text-center">
-          <p className="text-xl md:text-2xl text-[#8a8178] mb-6 opacity-0 animate-fade-in">
+          <p className="text-xl md:text-2xl text-[#8a8178] mb-6 opacity-0 animate-fade-in font-[family-name:var(--font-open-sans)]">
             If you&apos;re here...
           </p>
           <h1 className="text-5xl md:text-7xl leading-[1] tracking-tight text-[#1a1a1a] opacity-0 animate-fade-in animation-delay-100">
@@ -63,7 +63,7 @@ export default function Home() {
           <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-12">
             Maybe you already know but it&apos;s not here yet.
           </p>
-          <p className="text-xl md:text-2xl text-[#8a8178]">
+          <p className="text-xl md:text-2xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">
             Either way, yesterday&apos;s story won&apos;t work anymore.
           </p>
         </div>
@@ -103,8 +103,8 @@ export default function Home() {
               />
             </div>
             <div className="flex-1">
-              <p className="text-lg md:text-2xl text-[#8a8178]">Hired the marketing people.</p>
-              <p className="text-lg md:text-2xl text-[#8a8178] mt-1">Refreshed the logo.</p>
+              <p className="text-lg md:text-2xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Hired the marketing people.</p>
+              <p className="text-lg md:text-2xl text-[#8a8178] mt-1 font-[family-name:var(--font-open-sans)]">Refreshed the logo.</p>
             </div>
           </div>
 
@@ -132,7 +132,7 @@ export default function Home() {
       {/* The Reframe */}
       <section className="pt-24 lg:pt-32 pb-8 lg:pb-12 px-6">
         <div className="max-w-4xl mx-auto">
-          <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-12">
+          <p className="reveal text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-12">
             After 17 years and hundreds of businesses
           </p>
           <h2 className="reveal text-5xl md:text-7xl text-[#1a1a1a] leading-[1.1]">
@@ -155,7 +155,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto space-y-20 lg:space-y-24">
 
           <div className="reveal">
-            <p className="text-xl md:text-2xl text-[#8a8178] mb-4">
+            <p className="text-xl md:text-2xl text-[#8a8178] mb-4 font-[family-name:var(--font-open-sans)]">
               When your team can&apos;t explain what you do the same way twice, it&apos;s not your messaging.
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a]">
@@ -164,7 +164,7 @@ export default function Home() {
           </div>
 
           <div className="reveal">
-            <p className="text-xl md:text-2xl text-[#8a8178] mb-4">
+            <p className="text-xl md:text-2xl text-[#8a8178] mb-4 font-[family-name:var(--font-open-sans)]">
               When you attract the wrong clients and lose the right ones, it&apos;s not your sales team.
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a]">
@@ -173,7 +173,7 @@ export default function Home() {
           </div>
 
           <div className="reveal">
-            <p className="text-xl md:text-2xl text-[#8a8178] mb-4">
+            <p className="text-xl md:text-2xl text-[#8a8178] mb-4 font-[family-name:var(--font-open-sans)]">
               When your customers seek to lower your pricing, or it seems like you can&apos;t give your work away for free, it&apos;s not a pricing issue.
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a]">
@@ -182,7 +182,7 @@ export default function Home() {
           </div>
 
           <div className="reveal">
-            <p className="text-xl md:text-2xl text-[#8a8178] mb-4">
+            <p className="text-xl md:text-2xl text-[#8a8178] mb-4 font-[family-name:var(--font-open-sans)]">
               When growth stalls and you don&apos;t know where to focus, it&apos;s not your tactics.
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a]">
@@ -199,12 +199,12 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-8">
             We work with leaders who know they&apos;re on the brink of something.
           </h2>
-          <p className="text-xl md:text-2xl text-[#8a8178]">
+          <p className="text-xl md:text-2xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">
             They often can&apos;t quite name what&apos;s happening or how to <span className="text-[#f57214]">untangle</span> it.
           </p>
           <div className="mt-12 flex justify-center">
             <Image
-              src="/untangletransparent.png"
+              src="/Arrow from Trevor.png"
               alt=""
               width={600}
               height={400}

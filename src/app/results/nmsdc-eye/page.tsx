@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useEffect } from "react";
 
-export default function HornitosCaseStudy() {
+export default function NMSDCEYECaseStudy() {
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -36,13 +36,13 @@ export default function HornitosCaseStudy() {
             All Results
           </Link>
           <p className="text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-6 opacity-0 animate-fade-in">
-            Hornitos
+            NMSDC EYE
           </p>
           <h1 className="text-4xl md:text-6xl lg:text-7xl leading-[1.05] text-[#1a1a1a] mb-8 opacity-0 animate-fade-in animation-delay-100">
-            How do you make bartenders fall in love with a tequila?
+            How do you fast-track entrepreneurs who don&apos;t know their own value yet?
           </h1>
           <p className="text-xl md:text-2xl text-[#8a8178] max-w-2xl leading-relaxed opacity-0 animate-fade-in animation-delay-200">
-            From overlooked import to must-have mixology essential.
+            From stragglers to standing room only.
           </p>
         </div>
       </section>
@@ -52,30 +52,13 @@ export default function HornitosCaseStudy() {
         <div className="max-w-3xl mx-auto">
           <div className="reveal-stagger space-y-8">
             <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug">
-              Hornitos was a globally renowned mixing tequila.
+              NMSDC&apos;s Emerging Young Entrepreneurs program was built to help entrepreneurs elevate on a fast track.
             </p>
             <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug">
-              But in the U.S., bartenders overlooked it, preferring familiar brands.
+              But recruiting the right participants and keeping them engaged became more competitive each year.
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              The question wasn&apos;t <span className="text-[#f57214]">&ldquo;how do we advertise?&rdquo;</span>
-            </p>
-            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              It was &ldquo;how do we create an experience they&apos;ll never forget?&rdquo;
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* The Insight */}
-      <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-3xl mx-auto">
-          <div className="reveal">
-            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-8">
-              We stopped trying to <span className="text-[#f57214]">tell</span> bartenders about the tequila.
-            </p>
-            <p className="text-3xl md:text-4xl text-[#f57214] leading-snug">
-              We let them discover its flexible nature for themselves.
+              The curriculum needed to reflect <span className="text-[#f57214]">real-world complications</span>—not theoretical exercises.
             </p>
           </div>
         </div>
@@ -90,34 +73,26 @@ export default function HornitosCaseStudy() {
           <div className="reveal-stagger space-y-12">
             <div className="border-t border-[#e5e0d8] pt-8">
               <p className="text-5xl md:text-6xl text-[#f57214] mb-4">01</p>
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">The Problem</h3>
-              <p className="text-xl text-[#8a8178]">Hornitos was globally renowned, but U.S. bartenders overlooked it. They preferred familiar brands. Traditional advertising wasn&apos;t breaking through.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Early brand strategy access</h3>
+              <p className="text-xl text-[#8a8178]">Ensure entrepreneurs had access to high-quality brand strategy sooner rather than later in their journey.</p>
             </div>
 
-            <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
-              <p className="text-5xl md:text-6xl text-[#f57214] mb-4">02</p>
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">The Solution</h3>
-              <p className="text-xl text-[#8a8178]">Create a consumer (and bartender) event around mixology. Make the tequila and its flexible nature unforgettable through hands-on experience.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* The Execution */}
-      <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-3xl mx-auto">
-          <p className="reveal text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-12">
-            The execution
-          </p>
-          <div className="reveal-stagger space-y-8">
             <div className="border-t border-[#e5e0d8] pt-8">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Nimble process</h3>
-              <p className="text-xl text-[#8a8178]">Training NYC bartenders live as a means to force education and mixology usage.</p>
+              <p className="text-5xl md:text-6xl text-[#f57214] mb-4">02</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Pitch-driven curriculum</h3>
+              <p className="text-xl text-[#8a8178]">Design learning that drove directly into a final deliverable—being valuable for the competitive national pitch stage the program culminated in.</p>
+            </div>
+
+            <div className="border-t border-[#e5e0d8] pt-8">
+              <p className="text-5xl md:text-6xl text-[#f57214] mb-4">03</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Measurable impact</h3>
+              <p className="text-xl text-[#8a8178]">Create distinguishably measurable program impacts with judge training, scoring criteria development, and year-over-year tracking.</p>
             </div>
 
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Innovative solutions</h3>
-              <p className="text-xl text-[#8a8178]">Branded mixology handbook developed to further engage bartenders and consumers post event.</p>
+              <p className="text-5xl md:text-6xl text-[#f57214] mb-4">04</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Long-term partnership</h3>
+              <p className="text-xl text-[#8a8178]">Build a year-over-year relationship serving the NMSDC EYE brand, leadership, judges, and cohorts.</p>
             </div>
           </div>
         </div>
@@ -129,14 +104,23 @@ export default function HornitosCaseStudy() {
           <p className="reveal text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-12">
             The result
           </p>
-          <div className="reveal-stagger grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div className="reveal">
+            <div className="text-7xl md:text-8xl lg:text-9xl text-[#f57214] leading-none mb-4">
+              #1
+            </div>
+            <p className="text-xl md:text-2xl text-[#8a8178] mb-16">
+              highlight of the NMSDC national conference
+            </p>
+          </div>
+
+          <div className="reveal-stagger grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
-              <div className="text-7xl md:text-8xl text-[#f57214] leading-none mb-2">83%</div>
-              <p className="text-xl text-[#8a8178]">open rate</p>
+              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">YoY</div>
+              <p className="text-lg text-[#8a8178]">increasing scores and engagement</p>
             </div>
             <div>
-              <div className="text-7xl md:text-8xl text-[#f57214] leading-none mb-2">79%</div>
-              <p className="text-xl text-[#8a8178]">attendance</p>
+              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">Full</div>
+              <p className="text-lg text-[#8a8178]">house requiring venue changes</p>
             </div>
           </div>
         </div>
@@ -150,18 +134,18 @@ export default function HornitosCaseStudy() {
           </p>
           <div className="reveal-stagger space-y-8">
             <div className="border-t border-[#e5e0d8] pt-8">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Bartender advocacy</h3>
-              <p className="text-xl text-[#8a8178]">NYC&apos;s top bartenders became brand ambassadors, recommending Hornitos to customers and peers.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Education quality</h3>
+              <p className="text-xl text-[#8a8178]">High scores increasing year-over-year as curriculum was refined and participants arrived better prepared.</p>
             </div>
 
             <div className="border-t border-[#e5e0d8] pt-8">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Cultural moment</h3>
-              <p className="text-xl text-[#8a8178]">Partnership with Bon Jovi&apos;s 25th anniversary and Showtime created massive cultural relevance.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Judge engagement</h3>
+              <p className="text-xl text-[#8a8178]">Training and criteria development created more meaningful evaluation and feedback for participants.</p>
             </div>
 
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
-              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Lasting engagement</h3>
-              <p className="text-xl text-[#8a8178]">The &ldquo;Mischievous Cocktails&rdquo; handbook extended the experience beyond the event.</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Attendance transformation</h3>
+              <p className="text-xl text-[#8a8178]">From stragglers in the beginning to full houses requiring venue moves—attracting high-profile corporations, partners, family, and investors.</p>
             </div>
           </div>
         </div>
@@ -172,10 +156,10 @@ export default function HornitosCaseStudy() {
         <div className="max-w-3xl mx-auto">
           <div className="reveal">
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              Experience beats advertising.
+              When emerging entrepreneurs know their value,
             </p>
-            <p className="text-3xl md:text-4xl text-[#8a8178] leading-snug mt-2">
-              Every time.
+            <p className="text-3xl md:text-4xl text-[#f57214] leading-snug mt-2">
+              everyone wants to see what they&apos;ll do next.
             </p>
           </div>
         </div>
@@ -185,10 +169,10 @@ export default function HornitosCaseStudy() {
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
           <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-6">
-            Ready to create experiences that stick?
+            Ready to elevate your program?
           </h2>
           <p className="reveal text-xl text-[#8a8178] mb-10">
-            Let&apos;s talk about turning your audience into advocates.
+            Let&apos;s talk about building curriculum that creates real impact.
           </p>
           <div className="reveal">
             <Link
