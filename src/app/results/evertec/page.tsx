@@ -60,13 +60,9 @@ export default function EverTecCaseStudy() {
             </div>
 
             {/* Bottom row - Deliverables */}
-            <div className="font-[family-name:var(--font-open-sans)]">
-              <div className="flex items-center gap-6 mb-6">
-                <span className="text-xs uppercase tracking-widest text-[#8a8178]">Strategic Deliverables</span>
-                <span className="text-[#e5e0d8]">|</span>
-                <span className="text-xs uppercase tracking-widest text-[#8a8178]">Creative Deliverables</span>
-              </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8 font-[family-name:var(--font-open-sans)]">
+              <div>
+                <p className="text-xs uppercase tracking-widest text-[#8a8178] mb-4">Strategic Deliverables</p>
                 <ul className="space-y-2 text-sm text-[#1a1a1a]">
                   <li>User Research (Customer, prospective, non-buyers, Private Equity, Distributor)</li>
                   <li>Brand Platform</li>
@@ -75,6 +71,9 @@ export default function EverTecCaseStudy() {
                   <li>Content Strategy</li>
                   <li>Sales Consulting</li>
                 </ul>
+              </div>
+              <div>
+                <p className="text-xs uppercase tracking-widest text-[#8a8178] mb-4">Creative Deliverables</p>
                 <ul className="space-y-2 text-sm text-[#1a1a1a]">
                   <li>Brand Naming</li>
                   <li>Brand Identity</li>
