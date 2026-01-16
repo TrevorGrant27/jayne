@@ -60,14 +60,29 @@ export default function EverTecCaseStudy() {
             </div>
 
             {/* Bottom row - Deliverables */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 font-[family-name:var(--font-open-sans)]">
-              <div className="border-l-2 border-[#f57214] pl-5">
-                <p className="text-xs uppercase tracking-widest text-[#8a8178] mb-3">Strategic Deliverables</p>
-                <p className="text-sm text-[#1a1a1a] leading-relaxed">User Research (Customer, prospective, non-buyers, Private Equity, Distributor), Brand Platform, Strategic Consulting, Brand Change Management, Content Strategy, Sales Consulting</p>
+            <div className="font-[family-name:var(--font-open-sans)]">
+              <div className="flex items-center gap-6 mb-6">
+                <span className="text-xs uppercase tracking-widest text-[#8a8178]">Strategic Deliverables</span>
+                <span className="text-[#e5e0d8]">|</span>
+                <span className="text-xs uppercase tracking-widest text-[#8a8178]">Creative Deliverables</span>
               </div>
-              <div className="border-l-2 border-[#f57214] pl-5">
-                <p className="text-xs uppercase tracking-widest text-[#8a8178] mb-3">Creative Deliverables</p>
-                <p className="text-sm text-[#1a1a1a] leading-relaxed">Brand Naming, Brand Identity, Collateral Development, User Experience Design, Web Development, Content Management</p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6">
+                <ul className="space-y-2 text-sm text-[#1a1a1a]">
+                  <li>User Research (Customer, prospective, non-buyers, Private Equity, Distributor)</li>
+                  <li>Brand Platform</li>
+                  <li>Strategic Consulting</li>
+                  <li>Brand Change Management</li>
+                  <li>Content Strategy</li>
+                  <li>Sales Consulting</li>
+                </ul>
+                <ul className="space-y-2 text-sm text-[#1a1a1a]">
+                  <li>Brand Naming</li>
+                  <li>Brand Identity</li>
+                  <li>Collateral Development</li>
+                  <li>User Experience Design</li>
+                  <li>Web Development</li>
+                  <li>Content Management</li>
+                </ul>
               </div>
             </div>
           </div>
