@@ -125,8 +125,8 @@ export default function Results() {
   return (
     <main className="font-[family-name:var(--font-playfair)]">
       {/* Hero */}
-      <section className="min-h-[80vh] flex items-center pt-32 px-6">
-        <div className="max-w-3xl mx-auto">
+      <section className="pt-32 pb-16 lg:pb-20 px-6">
+        <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl leading-[1.05] text-[#1a1a1a] opacity-0 animate-fade-in">
             Paths to growth and stability we&apos;ve built for our clients.
           </h1>
@@ -134,7 +134,7 @@ export default function Results() {
       </section>
 
       {/* Case Studies */}
-      <section className="py-24 lg:py-32 px-6">
+      <section className="pb-24 lg:pb-32 px-6">
         <div className="max-w-4xl mx-auto">
           <div className="reveal-stagger">
             {caseStudies.map((study, index) => (
