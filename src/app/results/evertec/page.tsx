@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { useEffect } from "react";
 
@@ -23,29 +22,6 @@ export default function EverTecCaseStudy() {
 
     return () => observer.disconnect();
   }, []);
-
-  const approachData = [
-    {
-      whatWeDid: "Counseled founders and leadership on research clarity",
-      whatItCreated: "Alignment across ownership, marketing, and sales",
-    },
-    {
-      whatWeDid: "Embedded as an extension of the Pregis marketing team",
-      whatItCreated: "Strategic partnership with CMO, SVP, and product innovator",
-    },
-    {
-      whatWeDid: "Pivoted the Amazon pitch from eco to durability",
-      whatItCreated: "Harder-hitting narrative for all stakeholders",
-    },
-    {
-      whatWeDid: "Created focus and alignment before acquisition",
-      whatItCreated: "Transaction value increased by industry-watershed multiples",
-    },
-    {
-      whatWeDid: "Secured evidence-based brand positioning",
-      whatItCreated: "Largest single-source packaging volume in Amazon history",
-    },
-  ];
 
   return (
     <main className="font-[family-name:var(--font-playfair)]">
@@ -88,36 +64,22 @@ export default function EverTecCaseStudy() {
         </div>
       </section>
 
-      {/* Complication */}
+      {/* The Question */}
       <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-5xl mx-auto">
-          <div className="reveal flex flex-col lg:flex-row items-start gap-8 lg:gap-16">
-            <div className="flex-1 bg-white border border-[#e5e0d8] rounded-2xl p-8 md:p-12">
-              <p className="text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-6">
-                The complication
-              </p>
-              <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4">
-                Everyone assumed the value was
-              </p>
-              <p className="text-2xl md:text-3xl text-[#8a8178] leading-relaxed line-through decoration-[#f57214]/50 mb-8">
-                &ldquo;eco-friendly packaging.&rdquo;
-              </p>
-              <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4">
-                The research revealed something different:
-              </p>
-              <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-                &ldquo;Customers would pay more for <span className="text-[#f57214]">durability</span>.&rdquo;
-              </p>
-            </div>
-            <div className="hidden lg:block shrink-0 w-32">
-              <Image
-                src="/top tangle.png"
-                alt="Tangled complexity"
-                width={128}
-                height={180}
-                className="w-full h-auto"
-              />
-            </div>
+        <div className="max-w-3xl mx-auto">
+          <div className="reveal">
+            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4">
+              Everyone assumed the value was
+            </p>
+            <p className="text-2xl md:text-3xl text-[#8a8178] leading-relaxed line-through decoration-[#f57214]/50 mb-8">
+              &ldquo;eco-friendly packaging.&rdquo;
+            </p>
+            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4">
+              The research revealed something different:
+            </p>
+            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
+              &ldquo;Customers would pay more for <span className="text-[#f57214]">durability</span>.&rdquo;
+            </p>
           </div>
         </div>
       </section>
@@ -125,7 +87,7 @@ export default function EverTecCaseStudy() {
       {/* The Insight */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
-          <div className="reveal bg-white border border-[#e5e0d8] rounded-2xl p-8 md:p-12">
+          <div className="reveal">
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug mb-8">
               The eco-friendly promise was <span className="text-[#f57214]">tolerated</span> by distributors and retailers—but not at a higher price point.
             </p>
@@ -136,84 +98,61 @@ export default function EverTecCaseStudy() {
         </div>
       </section>
 
-      {/* The Approach - Two Column Table */}
+      {/* The Approach */}
       <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-3xl mx-auto">
           <p className="reveal text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-12">
             The approach
           </p>
-          <div className="reveal bg-[#f8f6f3] rounded-2xl overflow-hidden">
-            {/* Table Header */}
-            <div className="grid grid-cols-1 md:grid-cols-2 border-b border-[#e5e0d8]">
-              <div className="px-8 py-6">
-                <h3 className="text-xl md:text-2xl text-[#1a1a1a] font-semibold">What We Did</h3>
-              </div>
-              <div className="px-8 py-6 md:border-l border-[#e5e0d8]">
-                <h3 className="text-xl md:text-2xl text-[#1a1a1a] font-semibold">What It Created</h3>
-              </div>
+          <div className="reveal-stagger space-y-12">
+            <div className="border-t border-[#e5e0d8] pt-8">
+              <p className="text-5xl md:text-6xl text-[#f57214] mb-4">01</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Research-driven clarity</h3>
+              <p className="text-xl text-[#8a8178]">User research with customers, prospects, non-buyers, Private Equity, and distributors revealed the true value proposition hiding in the product.</p>
             </div>
-            {/* Table Rows */}
-            {approachData.map((row, index) => (
-              <div
-                key={index}
-                className={`grid grid-cols-1 md:grid-cols-2 ${
-                  index !== approachData.length - 1 ? "border-b border-[#e5e0d8]" : ""
-                }`}
-              >
-                <div className="px-8 py-6">
-                  <p className="text-lg md:text-xl text-[#1a1a1a] leading-relaxed">{row.whatWeDid}</p>
-                </div>
-                <div className="px-8 py-6 md:border-l border-[#e5e0d8]">
-                  <p className="text-lg md:text-xl text-[#8a8178] leading-relaxed">{row.whatItCreated}</p>
-                </div>
-              </div>
-            ))}
+
+            <div className="border-t border-[#e5e0d8] pt-8">
+              <p className="text-5xl md:text-6xl text-[#f57214] mb-4">02</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Strategic alignment</h3>
+              <p className="text-xl text-[#8a8178]">Counseled founders, new ownership, and marketing teams to embrace the clarity—deliverable by deliverable, day by day—through an urgent acquisition process.</p>
+            </div>
+
+            <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
+              <p className="text-5xl md:text-6xl text-[#f57214] mb-4">03</p>
+              <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Brand transformation</h3>
+              <p className="text-xl text-[#8a8178]">Complete rebrand from EcoMailer to EverTec, with new identity, messaging, and positioning built on durability rather than eco-friendliness.</p>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Impact */}
+      {/* The Result */}
       <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-5xl mx-auto">
-          <div className="reveal flex flex-col lg:flex-row items-start gap-8">
-            <div className="flex-1">
-              <div className="flex items-start justify-between mb-12">
-                <p className="text-base md:text-lg text-[#f57214] uppercase tracking-widest">
-                  Impact
-                </p>
-                <div className="hidden lg:block w-64">
-                  <Image
-                    src="/Arrow from Trevor.png"
-                    alt="Untangled clarity"
-                    width={256}
-                    height={80}
-                    className="w-full h-auto"
-                  />
-                </div>
-              </div>
-              <div className="bg-white border border-[#e5e0d8] rounded-2xl p-8 md:p-12">
-                <div className="text-7xl md:text-8xl lg:text-9xl text-[#f57214] leading-none mb-4">
-                  80%
-                </div>
-                <p className="text-xl md:text-2xl text-[#8a8178] mb-16">
-                  of small corrugated boxes displaced
-                </p>
+        <div className="max-w-3xl mx-auto">
+          <p className="reveal text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-12">
+            The result
+          </p>
+          <div className="reveal">
+            <div className="text-7xl md:text-8xl lg:text-9xl text-[#f57214] leading-none mb-4">
+              80%
+            </div>
+            <p className="text-xl md:text-2xl text-[#8a8178] mb-16">
+              of small corrugated boxes displaced
+            </p>
+          </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                  <div>
-                    <div className="text-4xl md:text-5xl text-[#f57214] mb-2">100%</div>
-                    <p className="text-lg text-[#8a8178]">rebrand engagement</p>
-                  </div>
-                  <div>
-                    <div className="text-4xl md:text-5xl text-[#f57214] mb-2">14+</div>
-                    <p className="text-lg text-[#8a8178]">product line expansion</p>
-                  </div>
-                  <div>
-                    <div className="text-4xl md:text-5xl text-[#f57214] mb-2">#1</div>
-                    <p className="text-lg text-[#8a8178]">Amazon protective packaging supplier</p>
-                  </div>
-                </div>
-              </div>
+          <div className="reveal-stagger grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">100%</div>
+              <p className="text-lg text-[#8a8178]">rebrand engagement</p>
+            </div>
+            <div>
+              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">14+</div>
+              <p className="text-lg text-[#8a8178]">product line expansion</p>
+            </div>
+            <div>
+              <div className="text-4xl md:text-5xl text-[#f57214] mb-2">#1</div>
+              <p className="text-lg text-[#8a8178]">Amazon protective packaging supplier</p>
             </div>
           </div>
         </div>
@@ -226,17 +165,17 @@ export default function EverTecCaseStudy() {
             What changed
           </p>
           <div className="reveal-stagger space-y-8">
-            <div className="bg-white border border-[#e5e0d8] rounded-2xl p-8">
+            <div className="border-t border-[#e5e0d8] pt-8">
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Transaction value multiplied</h3>
               <p className="text-xl text-[#8a8178]">Clear alignment and focus prior to acquisition increased the transaction value for Warburg Pinkus in industry-watershed multiples.</p>
             </div>
 
-            <div className="bg-white border border-[#e5e0d8] rounded-2xl p-8">
+            <div className="border-t border-[#e5e0d8] pt-8">
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Amazon relationship transformed</h3>
               <p className="text-xl text-[#8a8178]">Became the largest volume of protective packaging purchased by Amazon from a single source provider in history.</p>
             </div>
 
-            <div className="bg-white border border-[#e5e0d8] rounded-2xl p-8">
+            <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Commodity to solution</h3>
               <p className="text-xl text-[#8a8178]">Created billions of dollars of displacement and redirection from what was once a commodity to a 14+ product packaging solution line.</p>
             </div>
