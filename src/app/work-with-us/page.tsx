@@ -42,7 +42,7 @@ export default function WorkWithUs() {
       <section className="py-8 lg:py-12 px-2 md:px-6">
         <div className="max-w-5xl mx-auto">
           <Image
-            src="/10assets.png"
+            src="/10assetsvertical.png"
             alt="The 10 brand assets"
             width={1024}
             height={700}
