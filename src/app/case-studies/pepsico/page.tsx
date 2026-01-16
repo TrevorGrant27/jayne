@@ -25,153 +25,178 @@ export default function PepsiCoCaseStudy() {
 
   return (
     <main className="font-[family-name:var(--font-playfair)]">
-      {/* Hero */}
-      <section className="pt-32 pb-16 lg:pb-24 px-6">
-        <div className="max-w-4xl mx-auto">
+      {/* Navigation */}
+      <section className="pt-32 pb-8 px-6">
+        <div className="max-w-3xl mx-auto">
           <Link
             href="/case-studies"
-            className="inline-flex items-center gap-2 text-[#8a8178] hover:text-[#f57214] transition-colors mb-12"
+            className="inline-flex items-center gap-2 text-[#8a8178] hover:text-[#f57214] transition-colors"
           >
             <span className="transition-transform duration-300 hover:-translate-x-1">←</span>
             All Case Studies
           </Link>
-          <p className="text-base text-[#f57214] uppercase tracking-widest mb-8 opacity-0 animate-fade-in">
-            PepsiCo
-          </p>
-          <h1 className="text-5xl md:text-7xl lg:text-8xl leading-[1] text-[#1a1a1a] mb-10 opacity-0 animate-fade-in animation-delay-100">
-            What if your supply chain could change the world?
-          </h1>
-          <p className="text-2xl md:text-3xl text-[#8a8178] leading-relaxed opacity-0 animate-fade-in animation-delay-200">
-            $250 million in spending power. Not a checkbox.
-          </p>
         </div>
       </section>
 
-      {/* Challenge */}
-      <section className="py-32 lg:py-40 px-6">
-        <div className="max-w-4xl mx-auto">
-          <div className="reveal space-y-12">
-            <div>
-              <p className="text-lg text-[#8a8178] mb-4">The question wasn&apos;t</p>
-              <p className="text-2xl md:text-3xl text-[#8a8178] line-through decoration-[#f57214]/50">
-                &ldquo;How do we track diverse suppliers?&rdquo;
-              </p>
-            </div>
-            <div>
-              <p className="text-lg text-[#8a8178] mb-4">It was</p>
-              <p className="text-3xl md:text-5xl text-[#1a1a1a] leading-tight">
-                &ldquo;How do we build an engine that creates opportunity at scale?&rdquo;
-              </p>
-            </div>
+      {/* Hero */}
+      <section className="pt-8 pb-24 lg:pb-32 px-6">
+        <div className="max-w-3xl mx-auto">
+          <p className="text-base text-[#f57214] uppercase tracking-widest mb-6 opacity-0 animate-fade-in">
+            PepsiCo
+          </p>
+          <h1 className="text-4xl md:text-6xl leading-[1.1] text-[#1a1a1a] opacity-0 animate-fade-in animation-delay-100">
+            $250 million was going somewhere. The question was where—and to whom.
+          </h1>
+        </div>
+      </section>
+
+      {/* The Tension */}
+      <section className="py-24 lg:py-32 px-6">
+        <div className="max-w-3xl mx-auto">
+          <div className="reveal space-y-8">
+            <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-relaxed">
+              PepsiCo had committed to supplier diversity. Real money. Real intention.
+            </p>
+            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed">
+              But intention doesn&apos;t build pipelines. And a spreadsheet isn&apos;t a strategy.
+            </p>
           </div>
         </div>
       </section>
 
-      {/* Approach */}
-      <section className="py-32 lg:py-40 px-6">
-        <div className="max-w-4xl mx-auto">
-          <p className="reveal text-base text-[#f57214] uppercase tracking-widest mb-16">
-            The approach
+      {/* The Reframe */}
+      <section className="py-24 lg:py-32 px-6">
+        <div className="max-w-3xl mx-auto">
+          <div className="reveal space-y-12">
+            <p className="text-xl text-[#8a8178]">
+              The brief asked us to improve tracking. We asked a different question:
+            </p>
+            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
+              How might we turn supplier diversity from something PepsiCo reports on into something PepsiCo is known for?
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* What We Learned */}
+      <section className="py-24 lg:py-32 px-6">
+        <div className="max-w-3xl mx-auto">
+          <p className="reveal text-base text-[#f57214] uppercase tracking-widest mb-12">
+            What we learned
           </p>
-          <div className="reveal-stagger space-y-20">
-            <div>
-              <p className="text-lg text-[#8a8178] mb-4">Challenge</p>
-              <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug">
-                Transform a compliance program into an enterprise platform.
-              </p>
+          <div className="reveal-stagger space-y-10">
+            <p className="text-xl md:text-2xl text-[#1a1a1a] leading-relaxed">
+              The advocates were already inside. Procurement leaders, category managers, people who believed in the mission but didn&apos;t have the language to champion it.
+            </p>
+            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed">
+              They didn&apos;t need permission. They needed a story they could tell.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* What We Did */}
+      <section className="py-24 lg:py-32 px-6">
+        <div className="max-w-3xl mx-auto">
+          <p className="reveal text-base text-[#f57214] uppercase tracking-widest mb-12">
+            What we did
+          </p>
+          <div className="reveal-stagger space-y-10">
+            <p className="text-xl md:text-2xl text-[#1a1a1a] leading-relaxed">
+              We built that story. Not as a campaign—as a platform. Tools, talking points, and a narrative that connected supplier diversity to what PepsiCo already cared about: performance.
+            </p>
+            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed">
+              Then we equipped the believers to spread it.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* The Shift */}
+      <section className="py-24 lg:py-32 px-6 bg-[#f5f1ea]">
+        <div className="max-w-3xl mx-auto">
+          <p className="reveal text-base text-[#f57214] uppercase tracking-widest mb-12">
+            The shift
+          </p>
+          <div className="reveal-stagger space-y-6">
+            <div className="flex items-start gap-6">
+              <p className="text-xl text-[#8a8178] line-through">Compliance obligation</p>
+              <span className="text-[#f57214]">→</span>
+              <p className="text-xl text-[#1a1a1a]">Competitive advantage</p>
             </div>
-            <div>
-              <p className="text-lg text-[#8a8178] mb-4">Response</p>
-              <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug">
-                Rally internal advocates. Leverage existing style guides. Speak to PepsiCo&apos;s performance culture.
-              </p>
+            <div className="flex items-start gap-6">
+              <p className="text-xl text-[#8a8178] line-through">Annual report</p>
+              <span className="text-[#f57214]">→</span>
+              <p className="text-xl text-[#1a1a1a]">Operating system</p>
+            </div>
+            <div className="flex items-start gap-6">
+              <p className="text-xl text-[#8a8178] line-through">HR initiative</p>
+              <span className="text-[#f57214]">→</span>
+              <p className="text-xl text-[#1a1a1a]">Enterprise platform</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* Impact */}
-      <section className="py-32 lg:py-40 px-6">
-        <div className="max-w-4xl mx-auto">
+      <section className="py-24 lg:py-32 px-6">
+        <div className="max-w-3xl mx-auto">
           <p className="reveal text-base text-[#f57214] uppercase tracking-widest mb-16">
-            The impact
+            Where it went
           </p>
-          <div className="reveal mb-24">
-            <p className="text-[8rem] md:text-[12rem] lg:text-[16rem] text-[#f57214] leading-none font-light tracking-tight">
+          <div className="reveal mb-20">
+            <p className="text-6xl md:text-8xl text-[#f57214] leading-none mb-4">
               $800MM
             </p>
-            <p className="text-xl md:text-2xl text-[#8a8178] mt-4">
-              forecasted diverse supplier spend
+            <p className="text-xl text-[#8a8178]">
+              in forecasted diverse supplier spend
             </p>
           </div>
 
-          <div className="reveal-stagger grid grid-cols-3 gap-8 md:gap-16">
-            <div>
-              <p className="text-4xl md:text-6xl text-[#1a1a1a] leading-none mb-2">335</p>
-              <p className="text-base text-[#8a8178]">suppliers activated</p>
+          <div className="reveal-stagger space-y-8">
+            <div className="flex items-baseline gap-4">
+              <p className="text-4xl md:text-5xl text-[#1a1a1a]">335</p>
+              <p className="text-lg text-[#8a8178]">diverse suppliers activated</p>
             </div>
-            <div>
-              <p className="text-4xl md:text-6xl text-[#1a1a1a] leading-none mb-2">23</p>
-              <p className="text-base text-[#8a8178]">categories transformed</p>
+            <div className="flex items-baseline gap-4">
+              <p className="text-4xl md:text-5xl text-[#1a1a1a]">23</p>
+              <p className="text-lg text-[#8a8178]">categories transformed</p>
             </div>
-            <div>
-              <p className="text-4xl md:text-6xl text-[#1a1a1a] leading-none mb-2">35+</p>
-              <p className="text-base text-[#8a8178]">years deepened</p>
+            <div className="flex items-baseline gap-4">
+              <p className="text-4xl md:text-5xl text-[#1a1a1a]">35+</p>
+              <p className="text-lg text-[#8a8178]">years of relationships deepened</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Outcomes */}
-      <section className="py-32 lg:py-40 px-6">
-        <div className="max-w-4xl mx-auto">
-          <p className="reveal text-base text-[#f57214] uppercase tracking-widest mb-16">
-            What changed
-          </p>
-          <div className="reveal-stagger space-y-16">
-            <h3 className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              A pipeline of qualified suppliers. Ready.
-            </h3>
-            <h3 className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              Fresh perspectives driving new ideas.
-            </h3>
-            <h3 className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              Streamlined processes. Ecosystem-wide.
-            </h3>
-          </div>
-        </div>
-      </section>
-
-      {/* Kicker */}
-      <section className="py-32 lg:py-40 px-6">
-        <div className="max-w-4xl mx-auto">
+      {/* Reflection */}
+      <section className="py-24 lg:py-32 px-6">
+        <div className="max-w-3xl mx-auto">
           <div className="reveal">
-            <p className="text-4xl md:text-6xl text-[#1a1a1a] leading-tight">
-              Impact beyond the supply chain.
+            <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-relaxed mb-6">
+              The money was always there. What changed was the story around it.
             </p>
-            <p className="text-4xl md:text-6xl text-[#8a8178] leading-tight mt-2">
-              That&apos;s the part that matters.
+            <p className="text-2xl md:text-3xl text-[#8a8178] leading-relaxed">
+              Impact beyond the supply chain. That&apos;s the part that matters.
             </p>
           </div>
         </div>
       </section>
 
       {/* CTA */}
-      <section className="py-32 lg:py-40 px-6">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="reveal text-3xl md:text-5xl text-[#1a1a1a] leading-tight mb-8">
-            So, what if your supply chain could change the world?
-          </h2>
-          <p className="reveal text-xl text-[#8a8178] mb-12">
-            Let&apos;s talk about how we can make that happen.
+      <section className="py-24 lg:py-32 px-6">
+        <div className="max-w-3xl mx-auto">
+          <p className="reveal text-2xl md:text-3xl text-[#1a1a1a] leading-relaxed mb-10">
+            What story is your organization waiting to tell?
           </p>
           <div className="reveal">
             <Link
               href="/contact"
-              className="group inline-flex items-center gap-3 px-10 py-5 text-lg bg-[#1a1a1a] text-white rounded-lg transition-all duration-300"
+              className="group inline-flex items-center gap-3 text-lg text-[#f57214] hover:text-[#1a1a1a] transition-colors"
             >
-              Book a call
-              <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
+              Let&apos;s find out
+              <span className="inline-block transition-transform duration-300 group-hover:translate-x-2">→</span>
             </Link>
           </div>
         </div>
