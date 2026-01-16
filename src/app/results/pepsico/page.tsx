@@ -33,7 +33,7 @@ export default function PepsiCoCaseStudy() {
             className="inline-flex items-center gap-2 text-[#8a8178] hover:text-[#f57214] transition-colors mb-8"
           >
             <span className="transition-transform duration-300 hover:-translate-x-1">←</span>
-            All Results
+            All Case Studies
           </Link>
           <p className="text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-6 opacity-0 animate-fade-in">
             PepsiCo
@@ -182,7 +182,7 @@ export default function PepsiCoCaseStudy() {
         <div className="max-w-3xl mx-auto">
           <div className="reveal">
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              Impact beyond the supply chain.
+              How we built a path to growth and stability for our clients.
             </p>
             <p className="text-3xl md:text-4xl text-[#8a8178] leading-snug mt-2">
               That&apos;s the part that matters.

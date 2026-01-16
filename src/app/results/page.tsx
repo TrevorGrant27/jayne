@@ -128,7 +128,7 @@ export default function Results() {
       <section className="pt-32 pb-16 lg:pb-20 px-6">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl leading-[1.05] text-[#1a1a1a] opacity-0 animate-fade-in">
-            Impact beyond the supply chain.
+            How we built a path to growth and stability for our clients.
           </h1>
         </div>
       </section>
