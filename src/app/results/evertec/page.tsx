@@ -33,7 +33,7 @@ export default function EverTecCaseStudy() {
             className="inline-flex items-center gap-2 text-[#8a8178] hover:text-[#f57214] transition-colors mb-8"
           >
             <span className="transition-transform duration-300 hover:-translate-x-1">←</span>
-            All Results
+            All Case Studies
           </Link>
           <h1 className="text-4xl md:text-6xl lg:text-7xl leading-[1.05] text-[#1a1a1a] font-bold mb-12 opacity-0 animate-fade-in">
             Value was hiding in product features. When we isolated it, a new narrative multiplied everything.
