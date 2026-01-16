@@ -40,7 +40,7 @@ export default function WorkWithUs() {
 
       {/* 10 Assets Graphic */}
       <section className="py-8 lg:py-16 px-6">
-        <div className="max-w-sm sm:max-w-md md:max-w-xl lg:max-w-2xl mx-auto">
+        <div className="max-w-2xl sm:max-w-3xl md:max-w-4xl lg:max-w-5xl mx-auto">
           <Image
             src="/10assetsvertical.png"
             alt="The 10 brand assets"
