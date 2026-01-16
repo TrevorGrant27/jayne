@@ -48,6 +48,20 @@ export function Navigation() {
             </Link>
 
             <Link
+              href="/results"
+              className={`text-sm font-medium relative group transition-colors duration-300 ${
+                isActive("/results")
+                  ? "text-black"
+                  : "text-[#1a1a1a] hover:text-[#f57214]"
+              }`}
+            >
+              Case Studies
+              <span className={`absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-[#f57214] to-[#f8923a] transition-all duration-300 ${
+                isActive("/results") ? "w-full" : "w-0 group-hover:w-full"
+              }`} />
+            </Link>
+
+            <Link
               href="/work-with-us"
               className={`text-sm font-medium relative group transition-colors duration-300 ${
                 isWorkWithUsActive
@@ -75,27 +89,13 @@ export function Navigation() {
               }`} />
             </Link>
 
-            <Link
-              href="/results"
-              className={`text-sm font-medium relative group transition-colors duration-300 ${
-                isActive("/results")
-                  ? "text-black"
-                  : "text-[#1a1a1a] hover:text-[#f57214]"
-              }`}
-            >
-              Results
-              <span className={`absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-[#f57214] to-[#f8923a] transition-all duration-300 ${
-                isActive("/results") ? "w-full" : "w-0 group-hover:w-full"
-              }`} />
-            </Link>
-
             <a
               href="https://devilsadvocatebyjayneagency.substack.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm font-medium relative group transition-colors duration-300 text-[#1a1a1a] hover:text-[#f57214]"
             >
-              Writing
+              Devil&apos;s Advocate
               <span className="absolute -bottom-1 left-0 h-0.5 bg-gradient-to-r from-[#f57214] to-[#f8923a] transition-all duration-300 w-0 group-hover:w-full" />
             </a>
           </div>
@@ -166,6 +166,18 @@ export function Navigation() {
           </Link>
 
           <Link
+            href="/results"
+            onClick={() => setIsOpen(false)}
+            className={`block px-4 py-3 text-base font-medium rounded-lg transition-all duration-300 ${
+              isActive("/results")
+                ? "bg-[#f57214]/10 text-black border-l-2 border-[#f57214]"
+                : "text-[#8a8178] hover:text-black hover:bg-[#faf6f0]"
+            }`}
+          >
+            Case Studies
+          </Link>
+
+          <Link
             href="/work-with-us"
             onClick={() => setIsOpen(false)}
             className={`block px-4 py-3 text-base font-medium rounded-lg transition-all duration-300 ${
@@ -187,18 +199,6 @@ export function Navigation() {
             }`}
           >
             Clarity University
-          </Link>
-
-          <Link
-            href="/results"
-            onClick={() => setIsOpen(false)}
-            className={`block px-4 py-3 text-base font-medium rounded-lg transition-all duration-300 ${
-              isActive("/results")
-                ? "bg-[#f57214]/10 text-black border-l-2 border-[#f57214]"
-                : "text-[#8a8178] hover:text-black hover:bg-[#faf6f0]"
-            }`}
-          >
-            Results
           </Link>
 
           <a

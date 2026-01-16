@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect } from "react";
 
 export default function WorkWithUs() {
@@ -29,7 +30,7 @@ export default function WorkWithUs() {
       <section className="min-h-[60vh] flex items-center pt-32 px-6">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl leading-[1.1] text-[#1a1a1a] mb-6 opacity-0 animate-fade-in">
-            A complete path to dependable, repeatable, and scalable revenue, in six weeks.
+            A proven path to dependable, repeatable, and scalable revenue.
           </h1>
           <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed opacity-0 animate-fade-in animation-delay-100 font-[family-name:var(--font-open-sans)]">
             Our approach to brand strategy has been proven globally over 17 years with hundreds of businesses ranging from $20K to $2B in revenue.
@@ -236,6 +237,33 @@ export default function WorkWithUs() {
           <h2 className="reveal text-3xl md:text-5xl text-[#1a1a1a] leading-[1.1] mb-6">
             What happens next?
           </h2>
+          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4">
+            Your Brand Platform is built to stand on its own. Every asset, every insight, every strategic decision is documented so your team can execute without us. Many clients do exactly that.
+          </p>
+          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4">
+            But you don&apos;t have to go it alone.
+          </p>
+          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4">
+            As part of your delivery, we identify your three highest-leverage priorities. These are the moves that will create the most impact, fastest.
+          </p>
+          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4">
+            And we have a team ready to execute them for you.
+          </p>
+          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-12">
+            Strategists. Designers. Writers. Implementers. Whatever the work requires, we can take you from platform to market.
+          </p>
+          <p className="reveal text-xl md:text-2xl text-[#1a1a1a] leading-relaxed mb-6">
+            Interested? Or just need help clarifying a few things?
+          </p>
+          <div className="reveal">
+            <Link
+              href="/contact"
+              className="group inline-flex items-center gap-3 px-10 py-5 text-lg bg-[#1a1a1a] text-white rounded-lg transition-all duration-300"
+            >
+              Book a call
+              <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
+            </Link>
+          </div>
         </div>
       </section>
     </main>
