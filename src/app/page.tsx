@@ -132,7 +132,7 @@ export default function Home() {
       {/* The Reframe */}
       <section className="pt-24 lg:pt-32 pb-8 lg:pb-12 px-6">
         <div className="max-w-4xl mx-auto">
-          <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-12">
+          <p className="reveal text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-12">
             After 17 years and hundreds of businesses
           </p>
           <h2 className="reveal text-5xl md:text-7xl text-[#1a1a1a] leading-[1.1]">

@@ -38,7 +38,7 @@ export default function AboutUs() {
       {/* Client Logos */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-5xl mx-auto">
-          <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-16 text-center">
+          <p className="reveal text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-16 text-center">
             Some companies we&apos;ve helped
           </p>
           <div className="reveal grid grid-cols-2 md:grid-cols-4 gap-12 lg:gap-16 items-center justify-items-center">
@@ -61,7 +61,7 @@ export default function AboutUs() {
       {/* Testimonials */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-6xl mx-auto">
-          <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-16">
+          <p className="reveal text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-16">
             In their words
           </p>
 

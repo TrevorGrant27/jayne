@@ -47,7 +47,7 @@ export default function Results() {
       {/* Hero */}
       <section className="min-h-[80vh] flex items-center pt-32 px-6">
         <div className="max-w-3xl mx-auto">
-          <p className="text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-6 opacity-0 animate-fade-in">
+          <p className="text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-6 opacity-0 animate-fade-in">
             Results
           </p>
           <h1 className="text-5xl md:text-7xl leading-[1.05] text-[#1a1a1a] mb-8 opacity-0 animate-fade-in animation-delay-100">
@@ -77,7 +77,7 @@ export default function Results() {
                 <p className="text-base text-[#8a8178] mb-6">
                   {study.resultLabel}
                 </p>
-                <p className="text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-3">
+                <p className="text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-3">
                   {study.client}
                 </p>
                 <h2 className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug mb-4 group-hover:text-[#f57214] transition-colors">
@@ -98,7 +98,7 @@ export default function Results() {
       {/* More Coming */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
-          <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-6">
+          <p className="reveal text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-6">
             More stories loading
           </p>
           <p className="reveal text-2xl md:text-3xl text-[#8a8178]">

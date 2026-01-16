@@ -35,7 +35,7 @@ export default function PepsiCoCaseStudy() {
             <span className="transition-transform duration-300 hover:-translate-x-1">←</span>
             All Results
           </Link>
-          <p className="text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-6 opacity-0 animate-fade-in">
+          <p className="text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-6 opacity-0 animate-fade-in">
             PepsiCo
           </p>
           <h1 className="text-4xl md:text-6xl lg:text-7xl leading-[1.05] text-[#1a1a1a] mb-8 opacity-0 animate-fade-in animation-delay-100">
@@ -101,7 +101,7 @@ export default function PepsiCoCaseStudy() {
       {/* The Approach */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
-          <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-12">
+          <p className="reveal text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-12">
             The approach
           </p>
           <div className="reveal-stagger space-y-12">
@@ -123,7 +123,7 @@ export default function PepsiCoCaseStudy() {
       {/* The Result */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
-          <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-12">
+          <p className="reveal text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-12">
             The result
           </p>
           <div className="reveal">
@@ -155,7 +155,7 @@ export default function PepsiCoCaseStudy() {
       {/* What Changed */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
-          <p className="reveal text-base md:text-lg text-[#9d968c] uppercase tracking-widest mb-12">
+          <p className="reveal text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-12">
             What changed
           </p>
           <div className="reveal-stagger space-y-8">
