@@ -48,7 +48,7 @@ export default function Results() {
       <section className="min-h-[80vh] flex items-center pt-32 px-6">
         <div className="max-w-3xl mx-auto">
           <h1 className="text-5xl md:text-7xl leading-[1.05] text-[#1a1a1a] opacity-0 animate-fade-in">
-            Problems we&apos;ve solved.
+            Paths to growth and stability we&apos;ve built for our clients.
           </h1>
         </div>
       </section>
