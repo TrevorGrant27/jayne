@@ -204,7 +204,7 @@ export default function Home() {
           </p>
           <div className="mt-12 flex justify-center">
             <Image
-              src="/untangletransparent.png"
+              src="/Arrow from Trevor.png"
               alt=""
               width={600}
               height={400}
