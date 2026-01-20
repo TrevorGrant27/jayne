@@ -30,13 +30,10 @@ export default function Speaking() {
       {/* Hero */}
       <section className="pt-32 pb-16 lg:pb-24 px-6">
         <div className="max-w-4xl mx-auto">
-          <p className="text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-6 opacity-0 animate-fade-in">
-            Speaking Engagements
-          </p>
-          <h1 className="text-4xl md:text-6xl leading-[1.1] text-[#1a1a1a] mb-6 opacity-0 animate-fade-in animation-delay-100">
+          <h1 className="text-4xl md:text-6xl leading-[1.1] text-[#1a1a1a] mb-6 opacity-0 animate-fade-in">
             Bring brand clarity to your audience.
           </h1>
-          <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed opacity-0 animate-fade-in animation-delay-200 font-[family-name:var(--font-open-sans)]">
+          <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed opacity-0 animate-fade-in animation-delay-100 font-[family-name:var(--font-open-sans)]">
             Leverage Jayne Agency&apos;s brand strategy thought leadership for your business, community, or members—in-person or virtual.
           </p>
         </div>
