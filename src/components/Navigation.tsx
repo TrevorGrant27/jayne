@@ -132,80 +132,74 @@ export function Navigation() {
         </div>
       </div>
 
-      {/* Mobile Menu Backdrop */}
-      {isOpen && (
-        <div
-          className="md:hidden fixed inset-0 bg-black/20 backdrop-blur-sm z-[-1]"
-          onClick={() => setIsOpen(false)}
-        />
-      )}
-
       {/* Mobile Menu */}
       <div
-        className={`md:hidden absolute top-full left-0 right-0 bg-[#faf6f0]/98 backdrop-blur-xl shadow-xl transition-all duration-300 ${
-          isOpen ? "opacity-100 visible translate-y-0" : "opacity-0 invisible -translate-y-4"
+        className={`md:hidden fixed inset-0 top-20 bg-[#faf6f0] transition-all duration-500 ease-out ${
+          isOpen ? "opacity-100 visible" : "opacity-0 invisible pointer-events-none"
         }`}
       >
-        <div className="px-6 py-8 space-y-1">
-          <Link
-            href="/about-us"
-            onClick={() => setIsOpen(false)}
-            className={`block px-4 py-3 text-base font-medium rounded-lg transition-all duration-300 ${
-              isActive("/about-us")
-                ? "bg-[#f57214]/10 text-black border-l-2 border-[#f57214]"
-                : "text-[#8a8178] hover:text-black hover:bg-[#faf6f0]"
-            }`}
-          >
-            About Us
-          </Link>
+        <div className="flex flex-col h-full px-8 py-12">
+          <nav className="flex-1 flex flex-col justify-center space-y-2">
+            <Link
+              href="/about-us"
+              onClick={() => setIsOpen(false)}
+              className={`text-3xl font-medium transition-colors duration-300 py-3 ${
+                isActive("/about-us")
+                  ? "text-[#f57214]"
+                  : "text-[#1a1a1a] hover:text-[#f57214]"
+              }`}
+            >
+              About Us
+            </Link>
 
-          <Link
-            href="/results"
-            onClick={() => setIsOpen(false)}
-            className={`block px-4 py-3 text-base font-medium rounded-lg transition-all duration-300 ${
-              isActive("/results")
-                ? "bg-[#f57214]/10 text-black border-l-2 border-[#f57214]"
-                : "text-[#8a8178] hover:text-black hover:bg-[#faf6f0]"
-            }`}
-          >
-            Case Studies
-          </Link>
+            <Link
+              href="/results"
+              onClick={() => setIsOpen(false)}
+              className={`text-3xl font-medium transition-colors duration-300 py-3 ${
+                isActive("/results")
+                  ? "text-[#f57214]"
+                  : "text-[#1a1a1a] hover:text-[#f57214]"
+              }`}
+            >
+              Case Studies
+            </Link>
 
-          <Link
-            href="/work-with-us"
-            onClick={() => setIsOpen(false)}
-            className={`block px-4 py-3 text-base font-medium rounded-lg transition-all duration-300 ${
-              isWorkWithUsActive
-                ? "bg-[#f57214]/10 text-black border-l-2 border-[#f57214]"
-                : "text-[#8a8178] hover:text-black hover:bg-[#faf6f0]"
-            }`}
-          >
-            Work With Us
-          </Link>
+            <Link
+              href="/work-with-us"
+              onClick={() => setIsOpen(false)}
+              className={`text-3xl font-medium transition-colors duration-300 py-3 ${
+                isWorkWithUsActive
+                  ? "text-[#f57214]"
+                  : "text-[#1a1a1a] hover:text-[#f57214]"
+              }`}
+            >
+              Work With Us
+            </Link>
 
-          <Link
-            href="#"
-            onClick={() => setIsOpen(false)}
-            className="block px-4 py-3 text-base font-medium rounded-lg transition-all duration-300 text-[#8a8178] hover:text-black hover:bg-[#faf6f0]"
-          >
-            Clarity University
-          </Link>
-
-          <a
-            href="https://devilsadvocatebyjayneagency.substack.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            onClick={() => setIsOpen(false)}
-            className="block px-4 py-3 text-base font-medium rounded-lg transition-all duration-300 text-[#8a8178] hover:text-black hover:bg-[#faf6f0]"
-          >
-            Devil&apos;s Advocate
-          </a>
-
-          <div className="pt-4">
             <Link
               href="#"
               onClick={() => setIsOpen(false)}
-              className="group flex items-center justify-center gap-2 w-full px-6 py-3 text-sm font-semibold bg-[#1a1a1a] text-white rounded-lg transition-all duration-300"
+              className="text-3xl font-medium transition-colors duration-300 py-3 text-[#1a1a1a] hover:text-[#f57214]"
+            >
+              Clarity University
+            </Link>
+
+            <a
+              href="https://devilsadvocatebyjayneagency.substack.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setIsOpen(false)}
+              className="text-3xl font-medium transition-colors duration-300 py-3 text-[#1a1a1a] hover:text-[#f57214]"
+            >
+              Devil&apos;s Advocate
+            </a>
+          </nav>
+
+          <div className="pt-8 pb-8">
+            <Link
+              href="#"
+              onClick={() => setIsOpen(false)}
+              className="group flex items-center justify-center gap-3 w-full px-8 py-4 text-base font-semibold bg-[#1a1a1a] text-white rounded-lg transition-all duration-300"
             >
               Book a call
               <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>

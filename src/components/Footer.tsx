@@ -55,9 +55,14 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/writing" className="text-[#1a1a1a] hover:text-[#f57214] transition-colors">
+                <a
+                  href="https://devilsadvocatebyjayneagency.substack.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#1a1a1a] hover:text-[#f57214] transition-colors"
+                >
                   Devil&apos;s Advocate
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
