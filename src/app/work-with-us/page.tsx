@@ -180,6 +180,52 @@ export default function WorkWithUs() {
         </div>
       </section>
 
+      {/* Workshop Testimonials */}
+      <section className="py-12 lg:py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <p className="reveal text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-12">
+            What they say
+          </p>
+          <div className="reveal grid md:grid-cols-2 gap-6 lg:gap-8">
+            <div className="bg-[#faf9f7] rounded-2xl p-6 lg:p-8">
+              <span className="text-5xl lg:text-6xl text-[#f57214] leading-none font-serif">&ldquo;</span>
+              <p className="text-base lg:text-lg text-[#1a1a1a] leading-relaxed mt-3 mb-6">
+                The sessions really brought clarity to our brand positioning relative to the competition.
+              </p>
+              <p className="text-sm text-[#8a8178] font-medium">Meg Cook</p>
+              <p className="text-xs text-[#9d968c]">President, Painters USA, Inc.</p>
+            </div>
+
+            <div className="bg-[#faf9f7] rounded-2xl p-6 lg:p-8">
+              <span className="text-5xl lg:text-6xl text-[#f57214] leading-none font-serif">&ldquo;</span>
+              <p className="text-base lg:text-lg text-[#1a1a1a] leading-relaxed mt-3 mb-6">
+                Jayne&apos;s brand strategy workshops are relevant to any business owner looking to crystallize and differentiate their offerings to drive topline and bottom line growth.
+              </p>
+              <p className="text-sm text-[#8a8178] font-medium">Emilia DiMenco</p>
+              <p className="text-xs text-[#9d968c]">President & CEO, WBDC</p>
+            </div>
+
+            <div className="bg-[#faf9f7] rounded-2xl p-6 lg:p-8">
+              <span className="text-5xl lg:text-6xl text-[#f57214] leading-none font-serif">&ldquo;</span>
+              <p className="text-base lg:text-lg text-[#1a1a1a] leading-relaxed mt-3 mb-6">
+                Gaining an outside perspective on our mission, position and purpose was invaluable. What we do is very complex, but Jayne helped us clarify and articulate our message, honing in on the &ldquo;where&rdquo; and &ldquo;how&rdquo; of how we drive growth for clients.
+              </p>
+              <p className="text-sm text-[#8a8178] font-medium">Margo Posey</p>
+              <p className="text-xs text-[#9d968c]">President & CEO, Dallas/Fort Worth MSDC</p>
+            </div>
+
+            <div className="bg-[#faf9f7] rounded-2xl p-6 lg:p-8">
+              <span className="text-5xl lg:text-6xl text-[#f57214] leading-none font-serif">&ldquo;</span>
+              <p className="text-base lg:text-lg text-[#1a1a1a] leading-relaxed mt-3 mb-6">
+                No matter where you are in the business cycle, Jayne Agency&apos;s brand strategy workshop helps attendees ground themselves in their true, real sweet spot with tangible, actionable take-aways on how to strategically go to market.
+              </p>
+              <p className="text-sm text-[#8a8178] font-medium">Brittany Kunkel</p>
+              <p className="text-xs text-[#9d968c]">Opportunity Strategist, NewEdge</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Weeks 2 & 3 */}
       <section className="py-6 lg:py-8 px-6">
         <div className="max-w-4xl mx-auto">
