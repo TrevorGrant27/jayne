@@ -159,20 +159,6 @@ export default function EverTecCaseStudy() {
         </div>
       </section>
 
-      {/* The Kicker */}
-      <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-3xl mx-auto">
-          <div className="reveal">
-            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              Value was hiding in product features.
-            </p>
-            <p className="text-3xl md:text-4xl text-[#f57214] leading-snug mt-2">
-              When we isolated it, a new narrative multiplied everything.
-            </p>
-          </div>
-        </div>
-      </section>
-
       {/* CTA */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
