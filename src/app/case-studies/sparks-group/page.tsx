@@ -24,9 +24,6 @@ export default function SparksGroupCaseStudy() {
           <h1 className="text-4xl md:text-6xl lg:text-7xl leading-[1.05] text-[#1a1a1a] mb-8 opacity-0 animate-fade-in animation-delay-100">
             How does a company with no marketing materials scale nationally?
           </h1>
-          <p className="text-xl md:text-2xl text-[#8a8178] max-w-2xl leading-relaxed opacity-0 animate-fade-in animation-delay-200 font-[family-name:var(--font-open-sans)]">
-            From zero brand presence to scalable growth.
-          </p>
         </div>
       </section>
 

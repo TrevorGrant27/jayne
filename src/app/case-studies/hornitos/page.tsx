@@ -24,9 +24,6 @@ export default function HornitosCaseStudy() {
           <h1 className="text-4xl md:text-6xl lg:text-7xl leading-[1.05] text-[#1a1a1a] mb-8 opacity-0 animate-fade-in animation-delay-100">
             How do you make bartenders fall in love with a tequila?
           </h1>
-          <p className="text-xl md:text-2xl text-[#8a8178] max-w-2xl leading-relaxed opacity-0 animate-fade-in animation-delay-200 font-[family-name:var(--font-open-sans)]">
-            From overlooked import to must-have mixology essential.
-          </p>
         </div>
       </section>
 
