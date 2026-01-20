@@ -91,6 +91,45 @@ export default function AboutUs() {
                 President and CEO, Mercer Valve, Co.
               </p>
             </div>
+
+            <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10">
+              <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
+              <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
+                The investment delivered real business value and a framework for the future.
+              </p>
+              <p className="text-base text-[#8a8178] font-medium">
+                Frank Thompson
+              </p>
+              <p className="text-sm text-[#9d968c]">
+                Associate Director, Supplier Diversity, Mondēlez
+              </p>
+            </div>
+
+            <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10">
+              <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
+              <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
+                The research confirmed insights around position, promise and support, helping Be Red Cross Ready make critical adjustments in brand strategy, tagline, content for best practices in marketing communication to help increase engagement. Within the first week of delivering the insights and strategic imperatives, Red Cross saw a dramatic increase in impact at a major event where the solutions and recommendations were tested.
+              </p>
+              <p className="text-base text-[#8a8178] font-medium">
+                Tom Heneghan
+              </p>
+              <p className="text-sm text-[#9d968c]">
+                Program Manager, Community Preparedness Education and Youth Preparedness, Disaster Cycle Services, National Headquarters, American Red Cross
+              </p>
+            </div>
+
+            <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10 md:col-span-2 md:max-w-xl md:mx-auto">
+              <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
+              <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
+                Brooke is clearly a subject matter expert with a depth of experience working with big brands. She knows what she&apos;s talking about and provides exceptional strategic counsel while encouraging robust collaboration in the process.
+              </p>
+              <p className="text-base text-[#8a8178] font-medium">
+                Meg Cook
+              </p>
+              <p className="text-sm text-[#9d968c]">
+                President, Painters USA, Inc.
+              </p>
+            </div>
           </div>
         </div>
       </section>
