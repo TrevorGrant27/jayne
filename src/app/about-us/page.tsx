@@ -82,7 +82,7 @@ export default function AboutUs() {
             <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10">
               <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
               <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
-                After 36 years of not investing in marketing or branding, Jayne Agency led us to a sustainable process acting as our outsourced marketing arm and working with internal highly technical subject matter experts. They continue to craft our messaging and creative in a way that inspires our internal employees, partners and clients. Because everything is based on a solid brand platform (which we are now all super users of) you see the results in our ISO i90 Controls tracking, our social, employee surveys, our customer satisfaction, and our highly defensible position in the marketplace. They have supported us in developing content, copywriting and creative across all our deliverables going on 4+ years now. They are an integral and integrated part of Mercer Valve, they are our team.
+                They continue to craft our messaging and creative in a way that inspires our internal employees, partners and clients. They are an integral and integrated part of Mercer Valve, they are our team.
               </p>
               <p className="text-base text-[#8a8178] font-medium">
                 Dick Taylor
