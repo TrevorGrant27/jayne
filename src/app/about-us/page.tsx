@@ -65,30 +65,70 @@ export default function AboutUs() {
             In their words
           </p>
 
+          {/* Featured Testimonial */}
+          <div className="reveal bg-[#faf9f7] rounded-2xl p-8 lg:p-12 mb-8 lg:mb-12 border-l-4 border-[#f57214]">
+            <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
+            <p className="text-xl lg:text-2xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
+              Jayne has become a true thought-partner to our organization and our public relations team. The team contributes regularly to much more than our brand and marketing objectives. They help us look ahead, think strategically about complex business challenges and map out authentic and integrated ways to elevate our brand and company as a whole. Their strategic approach is coupled with creative messaging that can build or refresh brand stories that are distinctive, memorable and meaningful. We have a high-performance, fast moving environment and they constantly look for ways to drive performance and make sure we never lose sight of the brand stewardship that will enable us to meet our goals.
+            </p>
+            <p className="text-base text-[#8a8178] font-medium">
+              Dache Davidson
+            </p>
+            <p className="text-sm text-[#9d968c]">
+              Chief Marketing Officer, Pregis, LLC
+            </p>
+          </div>
+
           <div className="reveal grid md:grid-cols-2 gap-8 lg:gap-12">
             <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10">
               <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
               <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
-                Jayne has become a true thought-partner to our organization and our public relations team. The team contributes regularly to much more than our brand and marketing objectives. They help us look ahead, think strategically about complex business challenges and map out authentic and integrated ways to elevate our brand and company as a whole. Their strategic approach is coupled with creative messaging that can build or refresh brand stories that are distinctive, memorable and meaningful. We have a high-performance, fast moving environment and they constantly look for ways to drive performance and make sure we never lose sight of the brand stewardship that will enable us to meet our goals.
-              </p>
-              <p className="text-base text-[#8a8178] font-medium">
-                Dache Davidson
-              </p>
-              <p className="text-sm text-[#9d968c]">
-                Chief Marketing Officer, Pregis, LLC
-              </p>
-            </div>
-
-            <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10">
-              <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
-              <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
-                After 36 years of not investing in marketing or branding, Jayne Agency led us to a sustainable process acting as our outsourced marketing arm and working with internal highly technical subject matter experts. They continue to craft our messaging and creative in a way that inspires our internal employees, partners and clients. Because everything is based on a solid brand platform (which we are now all super users of) you see the results in our ISO i90 Controls tracking, our social, employee surveys, our customer satisfaction, and our highly defensible position in the marketplace. They have supported us in developing content, copywriting and creative across all our deliverables going on 4+ years now. They are an integral and integrated part of Mercer Valve, they are our team.
+                They continue to craft our messaging and creative in a way that inspires our internal employees, partners and clients. They are an integral and integrated part of Mercer Valve, they are our team.
               </p>
               <p className="text-base text-[#8a8178] font-medium">
                 Dick Taylor
               </p>
               <p className="text-sm text-[#9d968c]">
                 President and CEO, Mercer Valve, Co.
+              </p>
+            </div>
+
+            <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10">
+              <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
+              <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
+                The investment delivered real business value and a framework for the future.
+              </p>
+              <p className="text-base text-[#8a8178] font-medium">
+                Frank Thompson
+              </p>
+              <p className="text-sm text-[#9d968c]">
+                Associate Director, Supplier Diversity, Mondēlez
+              </p>
+            </div>
+
+            <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10">
+              <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
+              <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
+                The research confirmed insights around position, promise and support, helping Be Red Cross Ready make critical adjustments in brand strategy, tagline, content for best practices in marketing communication to help increase engagement. Within the first week of delivering the insights and strategic imperatives, Red Cross saw a dramatic increase in impact at a major event where the solutions and recommendations were tested.
+              </p>
+              <p className="text-base text-[#8a8178] font-medium">
+                Tom Heneghan
+              </p>
+              <p className="text-sm text-[#9d968c]">
+                Program Manager, Community Preparedness Education and Youth Preparedness, Disaster Cycle Services, National Headquarters, American Red Cross
+              </p>
+            </div>
+
+            <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10">
+              <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
+              <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
+                Brooke is clearly a subject matter expert with a depth of experience working with big brands. She knows what she&apos;s talking about and provides exceptional strategic counsel while encouraging robust collaboration in the process.
+              </p>
+              <p className="text-base text-[#8a8178] font-medium">
+                Meg Cook
+              </p>
+              <p className="text-sm text-[#9d968c]">
+                President, Painters USA, Inc.
               </p>
             </div>
           </div>
