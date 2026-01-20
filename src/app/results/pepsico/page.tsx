@@ -177,20 +177,6 @@ export default function PepsiCoCaseStudy() {
         </div>
       </section>
 
-      {/* The Kicker */}
-      <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-3xl mx-auto">
-          <div className="reveal">
-            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              How we built a path to growth and stability for our clients.
-            </p>
-            <p className="text-3xl md:text-4xl text-[#8a8178] leading-snug mt-2">
-              That&apos;s the part that matters.
-            </p>
-          </div>
-        </div>
-      </section>
-
       {/* CTA */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">

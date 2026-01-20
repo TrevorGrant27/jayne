@@ -151,20 +151,6 @@ export default function NMSDCEYECaseStudy() {
         </div>
       </section>
 
-      {/* The Kicker */}
-      <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-3xl mx-auto">
-          <div className="reveal">
-            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              When emerging entrepreneurs know their value,
-            </p>
-            <p className="text-3xl md:text-4xl text-[#f57214] leading-snug mt-2">
-              everyone wants to see what they&apos;ll do next.
-            </p>
-          </div>
-        </div>
-      </section>
-
       {/* CTA */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">

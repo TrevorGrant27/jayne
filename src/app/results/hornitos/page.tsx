@@ -167,20 +167,6 @@ export default function HornitosCaseStudy() {
         </div>
       </section>
 
-      {/* The Kicker */}
-      <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-3xl mx-auto">
-          <div className="reveal">
-            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              Experience beats advertising.
-            </p>
-            <p className="text-3xl md:text-4xl text-[#8a8178] leading-snug mt-2">
-              Every time.
-            </p>
-          </div>
-        </div>
-      </section>
-
       {/* CTA */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">

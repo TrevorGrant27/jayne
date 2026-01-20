@@ -190,20 +190,6 @@ export default function MercerValveCaseStudy() {
         </div>
       </section>
 
-      {/* The Kicker */}
-      <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-3xl mx-auto">
-          <div className="reveal">
-            <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
-              After 36 years of not investing in marketing,
-            </p>
-            <p className="text-3xl md:text-4xl text-[#f57214] leading-snug mt-2">
-              they finally own what was always theirs.
-            </p>
-          </div>
-        </div>
-      </section>
-
       {/* CTA */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
