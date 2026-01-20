@@ -198,7 +198,7 @@ export function Navigation() {
             onClick={() => setIsOpen(false)}
             className="block px-4 py-3 text-base font-medium rounded-lg transition-all duration-300 text-[#8a8178] hover:text-black hover:bg-[#faf6f0]"
           >
-            Writing
+            Devil&apos;s Advocate
           </a>
 
           <div className="pt-4">
