@@ -13,20 +13,17 @@ export default function MercerValveCaseStudy() {
         <div className="max-w-3xl mx-auto">
           <Link
             href="/case-studies"
-            className="inline-flex items-center gap-2 text-[#8a8178] hover:text-[#f57214] transition-colors mb-8"
+            className="inline-flex items-center gap-2 text-[#8a8178] hover:text-[#f57214] transition-colors mb-8 font-[family-name:var(--font-open-sans)]"
           >
             <span className="transition-transform duration-300 hover:-translate-x-1">←</span>
             All Case Studies
           </Link>
-          <p className="text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-6 opacity-0 animate-fade-in">
+          <p className="text-lg md:text-xl text-[#f57214] uppercase tracking-widest font-semibold font-[family-name:var(--font-open-sans)] mb-6 opacity-0 animate-fade-in">
             Mercer Valve Company
           </p>
           <h1 className="text-4xl md:text-6xl lg:text-7xl leading-[1.05] text-[#1a1a1a] mb-8 opacity-0 animate-fade-in animation-delay-100">
             How do you protect a 36-year legacy from competitors stealing your story?
           </h1>
-          <p className="text-xl md:text-2xl text-[#8a8178] max-w-2xl leading-relaxed opacity-0 animate-fade-in animation-delay-200">
-            From borrowed equity to reclaimed brand authority.
-          </p>
         </div>
       </section>
 
@@ -34,10 +31,10 @@ export default function MercerValveCaseStudy() {
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
           <div className="reveal-stagger space-y-8">
-            <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug">
+            <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug font-[family-name:var(--font-open-sans)]">
               For 36 years, Mercer Valve had been the premier provider of safety pressure relief valves.
             </p>
-            <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug">
+            <p className="text-2xl md:text-3xl text-[#8a8178] leading-snug font-[family-name:var(--font-open-sans)]">
               They&apos;d built it on the strength of their patented solution alone. No marketing. No brand investment.
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
@@ -51,10 +48,10 @@ export default function MercerValveCaseStudy() {
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
           <div className="reveal">
-            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4">
+            <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4 font-[family-name:var(--font-open-sans)]">
               The problem wasn&apos;t product quality.
             </p>
-            <p className="text-2xl md:text-3xl text-[#8a8178] leading-relaxed mb-8">
+            <p className="text-2xl md:text-3xl text-[#8a8178] leading-relaxed mb-8 font-[family-name:var(--font-open-sans)]">
               The problem was that Mercer had become the <span className="text-[#f57214]">Kleenex of valves</span>—a benchmark everyone borrowed from.
             </p>
             <p className="text-3xl md:text-4xl text-[#1a1a1a] leading-snug">
@@ -81,26 +78,26 @@ export default function MercerValveCaseStudy() {
       {/* The Approach */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
-          <p className="reveal text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-12">
+          <p className="reveal text-lg md:text-xl text-[#f57214] uppercase tracking-widest font-semibold font-[family-name:var(--font-open-sans)] mb-12">
             The approach
           </p>
           <div className="reveal-stagger space-y-12">
             <div className="border-t border-[#e5e0d8] pt-8">
               <p className="text-5xl md:text-6xl text-[#f57214] mb-4">01</p>
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Define the brand</h3>
-              <p className="text-xl text-[#8a8178]">Develop a brand identity that spoke to the power of safety as only Mercer could define it—backed by 36 years of protecting people, equipment, and communities.</p>
+              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Develop a brand identity that spoke to the power of safety as only Mercer could define it—backed by 36 years of protecting people, equipment, and communities.</p>
             </div>
 
             <div className="border-t border-[#e5e0d8] pt-8">
               <p className="text-5xl md:text-6xl text-[#f57214] mb-4">02</p>
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Reclaim the position</h3>
-              <p className="text-xl text-[#8a8178]">Work to reclaim Mercer&apos;s rightful place atop the life-saving category of safety relief valves through new messaging, position, and promise.</p>
+              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Work to reclaim Mercer&apos;s rightful place atop the life-saving category of safety relief valves through new messaging, position, and promise.</p>
             </div>
 
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
               <p className="text-5xl md:text-6xl text-[#f57214] mb-4">03</p>
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Combat the perception</h3>
-              <p className="text-xl text-[#8a8178]">Create a campaign addressing the misconception that Mercer lead times were compromised—when in fact they performed three times more testing than any competitor.</p>
+              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Create a campaign addressing the misconception that Mercer lead times were compromised—when in fact they performed three times more testing than any competitor.</p>
             </div>
           </div>
         </div>
@@ -123,14 +120,14 @@ export default function MercerValveCaseStudy() {
       {/* The Result */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
-          <p className="reveal text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-12">
+          <p className="reveal text-lg md:text-xl text-[#f57214] uppercase tracking-widest font-semibold font-[family-name:var(--font-open-sans)] mb-12">
             The result
           </p>
           <div className="reveal">
             <div className="text-5xl md:text-7xl lg:text-9xl text-[#f57214] leading-none mb-4">
               100%
             </div>
-            <p className="text-xl md:text-2xl text-[#8a8178] mb-16">
+            <p className="text-xl md:text-2xl text-[#8a8178] mb-16 font-[family-name:var(--font-open-sans)]">
               employee engagement on brand rollout
             </p>
           </div>
@@ -138,11 +135,11 @@ export default function MercerValveCaseStudy() {
           <div className="reveal-stagger grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
               <div className="text-4xl md:text-5xl text-[#f57214] mb-2">36</div>
-              <p className="text-lg text-[#8a8178]">years of legacy protected</p>
+              <p className="text-lg text-[#8a8178] font-[family-name:var(--font-open-sans)]">years of legacy protected</p>
             </div>
             <div>
               <div className="text-4xl md:text-5xl text-[#f57214] mb-2">9+</div>
-              <p className="text-lg text-[#8a8178]">years of ongoing partnership</p>
+              <p className="text-lg text-[#8a8178] font-[family-name:var(--font-open-sans)]">years of ongoing partnership</p>
             </div>
           </div>
         </div>
@@ -151,23 +148,23 @@ export default function MercerValveCaseStudy() {
       {/* What Changed */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto">
-          <p className="reveal text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-12">
+          <p className="reveal text-lg md:text-xl text-[#f57214] uppercase tracking-widest font-semibold font-[family-name:var(--font-open-sans)] mb-12">
             What changed
           </p>
           <div className="reveal-stagger space-y-8">
             <div className="border-t border-[#e5e0d8] pt-8">
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Defensible position</h3>
-              <p className="text-xl text-[#8a8178]">Mercer now has a highly defensible position in the marketplace—competitors can no longer borrow their equity unchallenged.</p>
+              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Mercer now has a highly defensible position in the marketplace—competitors can no longer borrow their equity unchallenged.</p>
             </div>
 
             <div className="border-t border-[#e5e0d8] pt-8">
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Sustained sales</h3>
-              <p className="text-xl text-[#8a8178]">While the oil industry saw an overall dip in production demand in late 2019, Mercer sustained its level of sales and continued serving existing clients.</p>
+              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">While the oil industry saw an overall dip in production demand in late 2019, Mercer sustained its level of sales and continued serving existing clients.</p>
             </div>
 
             <div className="border-t border-b border-[#e5e0d8] pt-8 pb-8">
               <h3 className="text-2xl md:text-3xl text-[#1a1a1a] mb-3">Integrated partnership</h3>
-              <p className="text-xl text-[#8a8178]">Jayne Agency continues as Mercer&apos;s outsourced marketing arm, crafting messaging and creative that inspires employees, partners, and clients.</p>
+              <p className="text-xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Jayne Agency continues as Mercer&apos;s outsourced marketing arm, crafting messaging and creative that inspires employees, partners, and clients.</p>
             </div>
           </div>
         </div>
@@ -179,7 +176,7 @@ export default function MercerValveCaseStudy() {
           <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-6">
             Ready to protect what you&apos;ve built?
           </h2>
-          <p className="reveal text-xl text-[#8a8178] mb-10">
+          <p className="reveal text-xl text-[#8a8178] mb-10 font-[family-name:var(--font-open-sans)]">
             Let&apos;s talk about reclaiming your rightful position.
           </p>
           <div className="reveal">

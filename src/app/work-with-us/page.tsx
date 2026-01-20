@@ -51,42 +51,42 @@ export default function WorkWithUs() {
         <div className="max-w-4xl mx-auto">
           <div className="space-y-6">
             <div className="reveal border-t border-[#e5e0d8] pt-4">
-              <h3 className="text-xl md:text-2xl text-[#1a1a1a] mb-2">1. Goals</h3>
+              <h3 className="text-xl md:text-2xl text-[#f57214] mb-2">1. Goals</h3>
               <p className="text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
                 Your north star is financial. Goals define the business outcomes your brand must deliver—they&apos;re the measurable targets that keep your organization solvent and growing. Every brand decision flows from here.
               </p>
             </div>
 
             <div className="reveal border-t border-[#e5e0d8] pt-4">
-              <h3 className="text-xl md:text-2xl text-[#1a1a1a] mb-2">2. Objectives</h3>
+              <h3 className="text-xl md:text-2xl text-[#f57214] mb-2">2. Objectives</h3>
               <p className="text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
                 S.M.A.R.T. objectives translate goals into action. They sharpen focus, track progress, and align your teams across finance, marketing, and operations. Objectives answer one question: what exactly are we trying to accomplish, and how will we know when we&apos;ve done it?
               </p>
             </div>
 
             <div className="reveal border-t border-[#e5e0d8] pt-4">
-              <h3 className="text-xl md:text-2xl text-[#1a1a1a] mb-2">3. Barriers</h3>
+              <h3 className="text-xl md:text-2xl text-[#f57214] mb-2">3. Barriers</h3>
               <p className="text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
                 What&apos;s standing in your way? Barriers expose the obstacles—internal and external—that could derail success. Identifying them early helps you prioritize investments, build smarter plans, and create alignment across teams, departments, and leadership.
               </p>
             </div>
 
             <div className="reveal border-t border-[#e5e0d8] pt-4">
-              <h3 className="text-xl md:text-2xl text-[#1a1a1a] mb-2">4. Strategies</h3>
+              <h3 className="text-xl md:text-2xl text-[#f57214] mb-2">4. Strategies</h3>
               <p className="text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
                 Strategies are where you place your bets. They&apos;re the deliberate investments of time, talent, energy, and budget designed to overcome barriers and deliver on your objectives. Good strategies are focused, resourced, and directly tied to measurable outcomes.
               </p>
             </div>
 
             <div className="reveal border-t border-[#e5e0d8] pt-4">
-              <h3 className="text-xl md:text-2xl text-[#1a1a1a] mb-2">5. Audience</h3>
+              <h3 className="text-xl md:text-2xl text-[#f57214] mb-2">5. Audience</h3>
               <p className="text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
                 One primary. Two secondary. Tertiary as needed. But here&apos;s the key: get the primary audience right, and it radiates outward—reaching all the audiences that matter. Precision here unlocks everything downstream.
               </p>
             </div>
 
             <div className="reveal border-t border-[#e5e0d8] pt-4">
-              <h3 className="text-xl md:text-2xl text-[#1a1a1a] mb-2">6. Insight</h3>
+              <h3 className="text-xl md:text-2xl text-[#f57214] mb-2">6. Insight</h3>
               <p className="text-lg text-[#8a8178] leading-relaxed mb-2 font-[family-name:var(--font-open-sans)]">
                 Insight is truth distilled into four layers:
               </p>
@@ -99,28 +99,28 @@ export default function WorkWithUs() {
             </div>
 
             <div className="reveal border-t border-[#e5e0d8] pt-4">
-              <h3 className="text-xl md:text-2xl text-[#1a1a1a] mb-2">7. Position</h3>
+              <h3 className="text-xl md:text-2xl text-[#f57214] mb-2">7. Position</h3>
               <p className="text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
                 Your position is your filter. It attracts the right clients, talent, and opportunities—and deflects what doesn&apos;t belong. It determines which shortlists you land on, who wants to work for you, and whether what you promise aligns with who you hire.
               </p>
             </div>
 
             <div className="reveal border-t border-[#e5e0d8] pt-4">
-              <h3 className="text-xl md:text-2xl text-[#1a1a1a] mb-2">8. Promise</h3>
+              <h3 className="text-xl md:text-2xl text-[#f57214] mb-2">8. Promise</h3>
               <p className="text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
                 This is what you deliver—day in, day out. It&apos;s not a tagline or a clever turn of phrase. Your promise is real, valuable, and provable. It&apos;s what you&apos;d stake your reputation on in a court of law.
               </p>
             </div>
 
             <div className="reveal border-t border-[#e5e0d8] pt-4">
-              <h3 className="text-xl md:text-2xl text-[#1a1a1a] mb-2">9. Support</h3>
+              <h3 className="text-xl md:text-2xl text-[#f57214] mb-2">9. Support</h3>
               <p className="text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
                 Proof points. Evidence. Demonstrations that your promise isn&apos;t just words. Support is how you show—not tell—that your brand delivers on what it claims.
               </p>
             </div>
 
             <div className="reveal border-t border-b border-[#e5e0d8] pt-4 pb-4">
-              <h3 className="text-xl md:text-2xl text-[#1a1a1a] mb-2">10. Tone &amp; Personality</h3>
+              <h3 className="text-xl md:text-2xl text-[#f57214] mb-2">10. Tone &amp; Personality</h3>
               <ul className="text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)] space-y-1">
                 <li><span className="text-[#1a1a1a]">Tone:</span> How your brand speaks—the words, cadence, and voice it uses</li>
                 <li><span className="text-[#1a1a1a]">Personality:</span> How your brand behaves—the actions, beliefs, and character it embodies</li>
@@ -142,7 +142,7 @@ export default function WorkWithUs() {
       {/* Week 1: The Strategy Sprint */}
       <section className="py-6 lg:py-8 px-6">
         <div className="max-w-4xl mx-auto">
-          <p className="reveal text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-3">
+          <p className="reveal text-lg md:text-xl text-[#f57214] uppercase tracking-widest font-semibold font-[family-name:var(--font-open-sans)] mb-3">
             Week 1
           </p>
           <h3 className="reveal text-2xl md:text-3xl text-[#1a1a1a] leading-[1.1] mb-6">
@@ -166,7 +166,7 @@ export default function WorkWithUs() {
       {/* Weeks 2 & 3 */}
       <section className="py-6 lg:py-8 px-6">
         <div className="max-w-4xl mx-auto">
-          <p className="reveal text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-3">
+          <p className="reveal text-lg md:text-xl text-[#f57214] uppercase tracking-widest font-semibold font-[family-name:var(--font-open-sans)] mb-3">
             Weeks 2 &amp; 3
           </p>
           <h3 className="reveal text-2xl md:text-3xl text-[#1a1a1a] leading-[1.1] mb-6">
@@ -184,7 +184,7 @@ export default function WorkWithUs() {
       {/* Week 4: Alignment Review */}
       <section className="py-6 lg:py-8 px-6">
         <div className="max-w-4xl mx-auto">
-          <p className="reveal text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-3">
+          <p className="reveal text-lg md:text-xl text-[#f57214] uppercase tracking-widest font-semibold font-[family-name:var(--font-open-sans)] mb-3">
             Week 4
           </p>
           <h3 className="reveal text-2xl md:text-3xl text-[#1a1a1a] leading-[1.1] mb-6">
@@ -202,7 +202,7 @@ export default function WorkWithUs() {
       {/* Week 5 & 6: Final Delivery */}
       <section className="py-6 lg:py-8 px-6">
         <div className="max-w-4xl mx-auto">
-          <p className="reveal text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-3">
+          <p className="reveal text-lg md:text-xl text-[#f57214] uppercase tracking-widest font-semibold font-[family-name:var(--font-open-sans)] mb-3">
             Weeks 5 &amp; 6
           </p>
           <h3 className="reveal text-2xl md:text-3xl text-[#1a1a1a] leading-[1.1] mb-6">
@@ -217,7 +217,7 @@ export default function WorkWithUs() {
       {/* Workshop Testimonials */}
       <section className="py-12 lg:py-16 px-6">
         <div className="max-w-4xl mx-auto">
-          <p className="reveal text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-12">
+          <p className="reveal text-lg md:text-xl text-[#f57214] uppercase tracking-widest font-semibold font-[family-name:var(--font-open-sans)] mb-12">
             What they say
           </p>
           <div className="reveal grid md:grid-cols-2 gap-6 lg:gap-8">
@@ -270,7 +270,7 @@ export default function WorkWithUs() {
             Your Brand Platform is built to stand on its own. Every asset, every insight, every strategic decision is documented so your team can execute without us. Many clients do exactly that.
           </p>
           <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4 font-[family-name:var(--font-open-sans)]">
-            But you don&apos;t have to go it alone.
+            But you don&apos;t have to do it alone.
           </p>
           <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4 font-[family-name:var(--font-open-sans)]">
             As part of your delivery, we identify your three highest-leverage priorities. These are the moves that will create the most impact, fastest.
@@ -281,9 +281,9 @@ export default function WorkWithUs() {
           <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-12 font-[family-name:var(--font-open-sans)]">
             Strategists. Designers. Writers. Implementers. Whatever the work requires, we can take you from platform to market.
           </p>
-          <p className="reveal text-xl md:text-2xl text-[#1a1a1a] leading-relaxed mb-6 font-[family-name:var(--font-open-sans)]">
+          <h2 className="reveal text-3xl md:text-5xl text-[#1a1a1a] leading-[1.1] mb-6">
             Interested? Or just need help clarifying a few things?
-          </p>
+          </h2>
           <div className="reveal">
             <Link
               href="#"

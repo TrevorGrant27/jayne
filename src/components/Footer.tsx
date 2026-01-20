@@ -1,7 +1,18 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
+import { useState } from "react";
 
 export function Footer() {
+  const [copied, setCopied] = useState(false);
+
+  const copyEmail = () => {
+    navigator.clipboard.writeText("admin@jayneagency.com");
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
+
   return (
     <footer className="bg-[#f5f1ea] border-t border-[#e8e4dc]">
       <div className="max-w-7xl mx-auto px-6 lg:px-8 py-16">
@@ -79,12 +90,12 @@ export function Footer() {
             </h4>
             <ul className="space-y-3">
               <li>
-                <a
-                  href="mailto:admin@jayneagency.com"
-                  className="text-[#1a1a1a] hover:text-[#f57214] transition-colors"
+                <button
+                  onClick={copyEmail}
+                  className="text-[#1a1a1a] hover:text-[#f57214] transition-colors cursor-pointer"
                 >
-                  admin@jayneagency.com
-                </a>
+                  {copied ? "Copied!" : "admin@jayneagency.com"}
+                </button>
               </li>
             </ul>
           </div>

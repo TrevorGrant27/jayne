@@ -57,7 +57,7 @@ export default function Speaking() {
 
             {/* Content */}
             <div>
-              <p className="text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-4">
+              <p className="text-lg md:text-xl text-[#f57214] uppercase tracking-widest font-semibold font-[family-name:var(--font-open-sans)] mb-4">
                 About the Speaker
               </p>
               <h2 className="text-3xl md:text-4xl text-[#1a1a1a] leading-[1.1] mb-4">
@@ -86,7 +86,7 @@ export default function Speaking() {
       {/* Topics */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-4xl mx-auto">
-          <p className="reveal text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-6">
+          <p className="reveal text-lg md:text-xl text-[#f57214] uppercase tracking-widest font-semibold font-[family-name:var(--font-open-sans)] mb-6">
             Topics that inform & empower
           </p>
           <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-12 font-[family-name:var(--font-open-sans)]">
@@ -112,7 +112,7 @@ export default function Speaking() {
       {/* Engagement Types */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-4xl mx-auto">
-          <p className="reveal text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-12">
+          <p className="reveal text-lg md:text-xl text-[#f57214] uppercase tracking-widest font-semibold font-[family-name:var(--font-open-sans)] mb-12">
             Types of engagements
           </p>
 

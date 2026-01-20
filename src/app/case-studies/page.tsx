@@ -131,7 +131,7 @@ export default function Results() {
                     <span className="text-2xl md:text-3xl text-[#f57214] leading-none block">
                       {study.result}
                     </span>
-                    <span className="text-sm text-[#8a8178] font-[family-name:var(--font-open-sans)] block mt-1">
+                    <span className="text-sm text-[#8a8178] font-[family-name:var(--font-open-sans)] block mt-1 font-[family-name:var(--font-open-sans)]">
                       {study.resultLabel}
                     </span>
                   </div>
@@ -143,7 +143,7 @@ export default function Results() {
                       {study.hook}
                     </h2>
                   </div>
-                  <span className="hidden md:block text-[#8a8178] group-hover:text-[#f57214] transition-colors shrink-0">
+                  <span className="hidden md:block text-[#8a8178] group-hover:text-[#f57214] transition-colors shrink-0 font-[family-name:var(--font-open-sans)]">
                     <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
                   </span>
                 </div>
@@ -159,7 +159,7 @@ export default function Results() {
           <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-6">
             Your story next?
           </h2>
-          <p className="reveal text-xl text-[#8a8178] mb-10">
+          <p className="reveal text-xl text-[#8a8178] mb-10 font-[family-name:var(--font-open-sans)]">
             Let&apos;s talk about what&apos;s possible.
           </p>
           <div className="reveal">
