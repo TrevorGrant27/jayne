@@ -90,7 +90,7 @@ export function Footer() {
             © {new Date().getFullYear()} Jayne Agency. All rights reserved.
           </p>
           <p className="text-sm text-[#8a8178]">
-            Making the world more gooder™
+            Making the world more gooder❤️
           </p>
         </div>
       </div>
