@@ -134,7 +134,7 @@ export function Navigation() {
 
       {/* Mobile Menu */}
       <div
-        className={`md:hidden fixed inset-0 top-20 bg-[#faf6f0] transition-all duration-500 ease-out ${
+        className={`md:hidden fixed inset-0 top-20 z-40 bg-[#faf6f0] transition-all duration-500 ease-out ${
           isOpen ? "opacity-100 visible" : "opacity-0 invisible pointer-events-none"
         }`}
       >
