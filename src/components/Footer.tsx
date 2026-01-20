@@ -50,6 +50,11 @@ export function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/speaking" className="text-[#1a1a1a] hover:text-[#f57214] transition-colors">
+                  Speaking
+                </Link>
+              </li>
+              <li>
                 <Link href="/clarity-university" className="text-[#1a1a1a] hover:text-[#f57214] transition-colors">
                   Clarity University
                 </Link>
