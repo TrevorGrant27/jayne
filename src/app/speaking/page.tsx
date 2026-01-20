@@ -1,7 +1,12 @@
-import Link from "next/link";
+"use client";
+
 import Image from "next/image";
+import Link from "next/link";
+import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 export default function Speaking() {
+  useScrollReveal();
+
   const topics = [
     "The fundamental 10 assets of a brand platform",
     "Women and leadership / authentic leadership",
@@ -21,77 +26,29 @@ export default function Speaking() {
   ];
 
   return (
-    <>
-      {/* Hero Section */}
-      <section className="min-h-[70vh] flex items-center bg-[#f5f3ef] font-[family-name:var(--font-open-sans)] relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-[#f57214]/5 via-transparent to-transparent pointer-events-none"></div>
-        <div className="absolute top-20 right-0 w-[300px] h-[300px] md:w-[800px] md:h-[800px] bg-[#f57214] rounded-full blur-[200px] opacity-10 pointer-events-none"></div>
-
-        <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10 pt-32">
-          <div className="max-w-4xl">
-            <p className="text-sm md:text-base uppercase tracking-[0.3em] text-[#f57214] font-bold mb-6">
-              Speaking Engagements
-            </p>
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-[family-name:var(--font-playfair)] leading-[0.95] text-[#1a1a1a] mb-8">
-              Bring brand clarity to your audience.
-            </h1>
-            <p className="text-xl md:text-2xl text-[#666666] max-w-2xl leading-relaxed mb-10">
-              Leverage Jayne Agency&apos;s brand strategy thought leadership for your business, community, or members—in-person or virtual.
-            </p>
-            <Link
-              href="/work-with-us"
-              className="inline-flex items-center justify-center px-12 py-6 text-lg font-bold bg-[#f57214] text-white rounded-full hover:bg-[#1a1a1a] transition-all duration-300 group"
-            >
-              Book a Call
-              <svg className="w-5 h-5 ml-3 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Topics Section - Dark */}
-      <section className="py-24 lg:py-32 bg-[#1a1a1a] font-[family-name:var(--font-open-sans)]">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
-            {/* Left side - heading */}
-            <div className="lg:col-span-4">
-              <div className="lg:sticky lg:top-32">
-                <h2 className="text-4xl md:text-5xl font-[family-name:var(--font-playfair)] text-white leading-[1.1] mb-6">
-                  Topics that inform & empower.
-                </h2>
-                <p className="text-xl text-white/50">
-                  Choose from the list, or work with us to create a custom solution for your audience.
-                </p>
-              </div>
-            </div>
-
-            {/* Right side - topics list */}
-            <div className="lg:col-span-8">
-              {topics.map((topic, i) => (
-                <div key={i} className="border-t border-white/10 py-6 group flex items-start gap-6">
-                  <span className="text-[#f57214] font-[family-name:var(--font-playfair)] text-2xl mt-1">
-                    {String(i + 1).padStart(2, '0')}
-                  </span>
-                  <p className="text-xl md:text-2xl text-white group-hover:text-[#f57214] transition-colors">
-                    {topic}
-                  </p>
-                </div>
-              ))}
-              <div className="border-t border-white/10"></div>
-            </div>
-          </div>
+    <main className="font-[family-name:var(--font-playfair)]">
+      {/* Hero */}
+      <section className="pt-32 pb-16 lg:pb-24 px-6">
+        <div className="max-w-4xl mx-auto">
+          <p className="text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-6 opacity-0 animate-fade-in">
+            Speaking Engagements
+          </p>
+          <h1 className="text-4xl md:text-6xl leading-[1.1] text-[#1a1a1a] mb-6 opacity-0 animate-fade-in animation-delay-100">
+            Bring brand clarity to your audience.
+          </h1>
+          <p className="text-xl md:text-2xl text-[#8a8178] leading-relaxed opacity-0 animate-fade-in animation-delay-200 font-[family-name:var(--font-open-sans)]">
+            Leverage Jayne Agency&apos;s brand strategy thought leadership for your business, community, or members—in-person or virtual.
+          </p>
         </div>
       </section>
 
       {/* About the Speaker */}
-      <section className="py-24 lg:py-32 bg-white font-[family-name:var(--font-open-sans)]">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-24 items-center">
+      <section className="py-24 lg:py-32 px-6">
+        <div className="max-w-4xl mx-auto">
+          <div className="reveal grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16 items-start">
             {/* Image */}
             <div className="relative">
-              <div className="aspect-[4/5] bg-[#f5f3ef] rounded-2xl overflow-hidden relative">
+              <div className="aspect-[4/5] bg-[#f5f1ea] rounded-2xl overflow-hidden relative">
                 <Image
                   src="/brooke.png"
                   alt="Brooke Foley"
@@ -99,23 +56,21 @@ export default function Speaking() {
                   className="object-cover"
                 />
               </div>
-              {/* Decorative element */}
-              <div className="absolute -bottom-4 -right-4 md:-bottom-6 md:-right-6 w-24 h-24 md:w-32 md:h-32 bg-[#f57214] rounded-2xl -z-10"></div>
             </div>
 
             {/* Content */}
             <div>
-              <p className="text-sm md:text-base uppercase tracking-[0.3em] text-[#f57214] font-bold mb-6">
+              <p className="text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-4">
                 About the Speaker
               </p>
-              <h2 className="text-4xl md:text-5xl lg:text-6xl font-[family-name:var(--font-playfair)] text-[#1a1a1a] leading-[1.1] mb-6">
+              <h2 className="text-3xl md:text-4xl text-[#1a1a1a] leading-[1.1] mb-4">
                 Brooke Foley
               </h2>
-              <p className="text-xl md:text-2xl text-[#f57214] font-[family-name:var(--font-playfair)] italic mb-8">
+              <p className="text-xl md:text-2xl text-[#f57214] italic mb-6">
                 Agent of Intrigue
               </p>
 
-              <div className="space-y-6 text-lg text-[#666666] leading-relaxed">
+              <div className="space-y-4 text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
                 <p>
                   Co-founder and CEO of Jayne Agency and Clarity University.
                 </p>
@@ -126,12 +81,75 @@ export default function Speaking() {
                   Led creative and strategy work at Kraft, Microsoft, TD Ameritrade, Pepsico, Abbott and many other organizations from SMEs to Fortune 50.
                 </p>
               </div>
-
             </div>
           </div>
         </div>
       </section>
 
-    </>
+      {/* Topics */}
+      <section className="py-24 lg:py-32 px-6">
+        <div className="max-w-4xl mx-auto">
+          <p className="reveal text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-6">
+            Topics that inform & empower
+          </p>
+          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-12 font-[family-name:var(--font-open-sans)]">
+            Choose from the list, or work with us to create a custom solution for your audience.
+          </p>
+
+          <div className="reveal-stagger">
+            {topics.map((topic, i) => (
+              <div key={i} className="border-t border-[#e5e0d8] py-6 flex items-start gap-6">
+                <span className="text-[#f57214] text-2xl md:text-3xl leading-none">
+                  {String(i + 1).padStart(2, '0')}
+                </span>
+                <p className="text-xl md:text-2xl text-[#1a1a1a] leading-snug">
+                  {topic}
+                </p>
+              </div>
+            ))}
+            <div className="border-t border-[#e5e0d8]"></div>
+          </div>
+        </div>
+      </section>
+
+      {/* Engagement Types */}
+      <section className="py-24 lg:py-32 px-6">
+        <div className="max-w-4xl mx-auto">
+          <p className="reveal text-base md:text-lg text-[#f57214] uppercase tracking-widest mb-12">
+            Types of engagements
+          </p>
+
+          <div className="reveal grid grid-cols-1 md:grid-cols-2 gap-8">
+            {engagementTypes.map((type, i) => (
+              <div key={i} className="border-t border-[#e5e0d8] pt-6">
+                <h3 className="text-xl md:text-2xl text-[#1a1a1a] mb-2">{type.title}</h3>
+                <p className="text-lg text-[#8a8178] font-[family-name:var(--font-open-sans)]">{type.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="py-24 lg:py-32 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="reveal text-3xl md:text-5xl text-[#1a1a1a] leading-tight mb-6">
+            Ready to bring brand clarity to your audience?
+          </h2>
+          <p className="reveal text-xl text-[#8a8178] mb-10 font-[family-name:var(--font-open-sans)]">
+            Let&apos;s talk about your next event.
+          </p>
+          <div className="reveal">
+            <Link
+              href="#"
+              className="group inline-flex items-center gap-3 px-10 py-5 text-lg bg-[#1a1a1a] text-white rounded-lg transition-all duration-300"
+            >
+              Book a call
+              <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
+            </Link>
+          </div>
+        </div>
+      </section>
+    </main>
   );
 }
