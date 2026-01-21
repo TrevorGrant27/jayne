@@ -171,13 +171,15 @@ export default function NationwideCaseStudy() {
             Let&apos;s talk about connecting proof with perception.
           </p>
           <div className="reveal">
-            <Link
-              href="#"
+            <a
+              href="https://form.typeform.com/to/Bsx0IpzP"
+              target="_blank"
+              rel="noopener noreferrer"
               className="group inline-flex items-center gap-3 px-10 py-5 text-lg bg-[#1a1a1a] text-white rounded-lg transition-all duration-300"
             >
               Book a call
               <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
-            </Link>
+            </a>
           </div>
         </div>
       </section>
