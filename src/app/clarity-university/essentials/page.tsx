@@ -16,6 +16,17 @@ const cohorts = [
     aiAddon: "Monday, March 24, 2025 | 11:00am – 12:00pm CT",
   },
   {
+    month: "April",
+    status: "FULL",
+    weeks: [
+      { week: 1, date: "Monday, April 7, 2025", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer" },
+      { week: 2, date: "N/A", time: "", title: "Independent Workbook Completion" },
+      { week: 3, date: "Monday, April 21, 2025", time: "11:00am – 12:00pm CT", title: "Live Q&A Webinar" },
+      { week: 4, date: "N/A", time: "", title: "N/A" },
+    ],
+    aiAddon: "Monday, April 28, 2025 | 11:00am – 12:00pm CT",
+  },
+  {
     month: "May",
     status: "OPEN",
     weeks: [
@@ -111,7 +122,9 @@ export default function EssentialsRegistration() {
                 {/* Header */}
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-8 pb-6 border-b border-[#e5e0d8]">
                   <h3 className="text-2xl md:text-3xl text-[#1a1a1a]">{cohort.month}</h3>
-                  <span className="text-sm font-semibold text-[#f57214] uppercase tracking-widest font-[family-name:var(--font-open-sans)]">
+                  <span className={`text-sm font-semibold uppercase tracking-widest font-[family-name:var(--font-open-sans)] ${
+                    cohort.status === "FULL" ? "text-[#8a8178]" : "text-[#f57214]"
+                  }`}>
                     ESSENTIALS – {cohort.status}
                   </span>
                 </div>
@@ -148,13 +161,19 @@ export default function EssentialsRegistration() {
                 </div>
 
                 {/* CTA Button */}
-                <a
-                  href="#"
-                  className="group inline-flex items-center justify-center gap-3 px-8 py-4 text-lg bg-[#1a1a1a] text-white rounded-lg transition-all duration-300 w-full md:w-auto"
-                >
-                  Secure Your Spot
-                  <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
-                </a>
+                {cohort.status === "FULL" ? (
+                  <span className="inline-flex items-center justify-center gap-3 px-8 py-4 text-lg bg-[#ccc] text-white rounded-lg w-full md:w-auto cursor-not-allowed">
+                    Cohort Full
+                  </span>
+                ) : (
+                  <a
+                    href="#"
+                    className="group inline-flex items-center justify-center gap-3 px-8 py-4 text-lg bg-[#1a1a1a] text-white rounded-lg transition-all duration-300 w-full md:w-auto"
+                  >
+                    Secure Your Spot
+                    <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
+                  </a>
+                )}
               </div>
             ))}
           </div>
