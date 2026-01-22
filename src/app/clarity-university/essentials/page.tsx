@@ -250,12 +250,15 @@ export default function EssentialsRegistration() {
       </section>
 
       {/* Back CTA */}
-      <section className="py-16 lg:py-24 px-6">
-        <div className="max-w-4xl mx-auto text-center">
-          <p className="reveal text-xl text-[#8a8178] mb-8 font-[family-name:var(--font-open-sans)]">
+      <section className="py-24 lg:py-32 px-6">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-6">
             Not sure if Essentials is right for you?
+          </h2>
+          <p className="reveal text-xl text-[#8a8178] mb-10 font-[family-name:var(--font-open-sans)]">
+            Compare all packages or talk it through with us.
           </p>
-          <div className="reveal flex flex-wrap justify-center gap-4">
+          <div className="reveal flex flex-wrap gap-4">
             <Link
               href="/clarity-university"
               className="group inline-flex items-center gap-3 px-10 py-5 text-lg bg-[#1a1a1a] text-white rounded-lg transition-all duration-300"
@@ -267,7 +270,7 @@ export default function EssentialsRegistration() {
               href="https://form.typeform.com/to/Bsx0IpzP"
               target="_blank"
               rel="noopener noreferrer"
-              className="group inline-flex items-center gap-3 px-10 py-5 text-lg border-2 border-[#1a1a1a] text-[#1a1a1a] rounded-lg transition-all duration-300 hover:bg-[#1a1a1a] hover:text-white"
+              className="group inline-flex items-center gap-3 px-10 py-5 text-lg bg-[#1a1a1a] text-white rounded-lg transition-all duration-300"
             >
               Book a call
               <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
