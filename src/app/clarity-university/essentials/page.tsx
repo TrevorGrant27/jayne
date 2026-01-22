@@ -7,6 +7,7 @@ const cohorts = [
   {
     month: "March",
     status: "OPEN",
+    stripeUrl: "https://buy.stripe.com/5kAdRCdJPbzkfv23cK",
     weeks: [
       { week: 1, date: "Monday, March 3, 2025", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer" },
       { week: 2, date: "N/A", time: "", title: "Independent Workbook Completion" },
@@ -16,19 +17,9 @@ const cohorts = [
     aiAddon: "Monday, March 24, 2025 | 11:00am – 12:00pm CT",
   },
   {
-    month: "April",
-    status: "FULL",
-    weeks: [
-      { week: 1, date: "Monday, April 7, 2025", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer" },
-      { week: 2, date: "N/A", time: "", title: "Independent Workbook Completion" },
-      { week: 3, date: "Monday, April 21, 2025", time: "11:00am – 12:00pm CT", title: "Live Q&A Webinar" },
-      { week: 4, date: "N/A", time: "", title: "N/A" },
-    ],
-    aiAddon: "Monday, April 28, 2025 | 11:00am – 12:00pm CT",
-  },
-  {
     month: "May",
     status: "OPEN",
+    stripeUrl: "https://buy.stripe.com/28o3cYcFLgTEaaI4go",
     weeks: [
       { week: 1, date: "Monday, May 5, 2025", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer" },
       { week: 2, date: "N/A", time: "", title: "Independent Workbook Completion" },
@@ -36,50 +27,6 @@ const cohorts = [
       { week: 4, date: "N/A", time: "", title: "N/A" },
     ],
     aiAddon: "Monday, May 26, 2025 | 11:00am – 12:00pm CT",
-  },
-  {
-    month: "June",
-    status: "OPEN",
-    weeks: [
-      { week: 1, date: "Monday, June 2, 2025", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer" },
-      { week: 2, date: "N/A", time: "", title: "Independent Workbook Completion" },
-      { week: 3, date: "Monday, June 16, 2025", time: "11:00am – 12:00pm CT", title: "Live Q&A Webinar" },
-      { week: 4, date: "N/A", time: "", title: "N/A" },
-    ],
-    aiAddon: "Monday, June 23, 2025 | 11:00am – 12:00pm CT",
-  },
-  {
-    month: "August",
-    status: "OPEN",
-    weeks: [
-      { week: 1, date: "Monday, August 4, 2025", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer" },
-      { week: 2, date: "N/A", time: "", title: "Independent Workbook Completion" },
-      { week: 3, date: "Monday, August 18, 2025", time: "11:00am – 12:00pm CT", title: "Live Q&A Webinar" },
-      { week: 4, date: "N/A", time: "", title: "N/A" },
-    ],
-    aiAddon: "Monday, August 25, 2025 | 11:00am – 12:00pm CT",
-  },
-  {
-    month: "October",
-    status: "OPEN",
-    weeks: [
-      { week: 1, date: "Monday, October 6, 2025", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer" },
-      { week: 2, date: "N/A", time: "", title: "Independent Workbook Completion" },
-      { week: 3, date: "Monday, October 20, 2025", time: "11:00am – 12:00pm CT", title: "Live Q&A Webinar" },
-      { week: 4, date: "N/A", time: "", title: "N/A" },
-    ],
-    aiAddon: "Monday, October 27, 2025 | 11:00am – 12:00pm CT",
-  },
-  {
-    month: "December",
-    status: "OPEN",
-    weeks: [
-      { week: 1, date: "Monday, December 1, 2025", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer" },
-      { week: 2, date: "N/A", time: "", title: "Independent Workbook Completion" },
-      { week: 3, date: "Monday, December 15, 2025", time: "11:00am – 12:00pm CT", title: "Live Q&A Webinar" },
-      { week: 4, date: "N/A", time: "", title: "N/A" },
-    ],
-    aiAddon: "Monday, December 22, 2025 | 11:00am – 12:00pm CT",
   },
 ];
 
@@ -122,9 +69,7 @@ export default function EssentialsRegistration() {
                 {/* Header */}
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-8 pb-6 border-b border-[#e5e0d8]">
                   <h3 className="text-2xl md:text-3xl text-[#1a1a1a]">{cohort.month}</h3>
-                  <span className={`text-sm font-semibold uppercase tracking-widest font-[family-name:var(--font-open-sans)] ${
-                    cohort.status === "FULL" ? "text-[#8a8178]" : "text-[#f57214]"
-                  }`}>
+                  <span className="text-sm font-semibold uppercase tracking-widest font-[family-name:var(--font-open-sans)] text-[#f57214]">
                     ESSENTIALS – {cohort.status}
                   </span>
                 </div>
@@ -161,19 +106,15 @@ export default function EssentialsRegistration() {
                 </div>
 
                 {/* CTA Button */}
-                {cohort.status === "FULL" ? (
-                  <span className="inline-flex items-center justify-center gap-3 px-8 py-4 text-lg bg-[#ccc] text-white rounded-lg w-full md:w-auto cursor-not-allowed">
-                    Cohort Full
-                  </span>
-                ) : (
-                  <a
-                    href="#"
-                    className="group inline-flex items-center justify-center gap-3 px-8 py-4 text-lg bg-[#1a1a1a] text-white rounded-lg transition-all duration-300 w-full md:w-auto"
-                  >
-                    Secure Your Spot
-                    <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
-                  </a>
-                )}
+                <a
+                  href={cohort.stripeUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group inline-flex items-center justify-center gap-3 px-8 py-4 text-lg bg-[#1a1a1a] text-white rounded-lg transition-all duration-300 w-full md:w-auto"
+                >
+                  Secure Your Spot
+                  <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
+                </a>
               </div>
             ))}
           </div>
