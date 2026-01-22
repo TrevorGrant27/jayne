@@ -238,6 +238,29 @@ export default function ClarityUniversity() {
           </div>
         </div>
       </section>
+
+      {/* Still Unsure? */}
+      <section className="py-24 lg:py-32 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-8">
+            Still unsure?
+          </h2>
+          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-12 font-[family-name:var(--font-open-sans)]">
+            Take our short Clarity Assessment to determine which path is best for your business needs. Prefer to talk it through with a human?
+          </p>
+          <div className="reveal">
+            <a
+              href="https://form.typeform.com/to/Bsx0IpzP"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group inline-flex items-center gap-3 px-10 py-5 text-lg bg-[#1a1a1a] text-white rounded-lg transition-all duration-300"
+            >
+              Book a call
+              <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
