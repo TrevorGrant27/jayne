@@ -278,7 +278,7 @@ export default function WorkWithUs() {
           <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-4 font-[family-name:var(--font-open-sans)]">
             And we have a team ready to execute them for you.
           </p>
-          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-12 font-[family-name:var(--font-open-sans)]">
+          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-20 font-[family-name:var(--font-open-sans)]">
             Strategists. Designers. Writers. Implementers. Whatever the work requires, we can take you from platform to market.
           </p>
           <h2 className="reveal text-3xl md:text-5xl text-[#1a1a1a] leading-[1.1] mb-6">
