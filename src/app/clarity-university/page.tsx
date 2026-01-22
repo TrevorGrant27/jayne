@@ -248,7 +248,14 @@ export default function ClarityUniversity() {
           <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-12 font-[family-name:var(--font-open-sans)]">
             Take our short Clarity Assessment to determine which path is best for your business needs. Prefer to talk it through with a human?
           </p>
-          <div className="reveal">
+          <div className="reveal flex flex-wrap gap-4">
+            <a
+              href="#"
+              className="group inline-flex items-center gap-3 px-10 py-5 text-lg bg-[#f57214] text-white rounded-lg transition-all duration-300"
+            >
+              Clarity Assessment
+              <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
+            </a>
             <a
               href="https://form.typeform.com/to/Bsx0IpzP"
               target="_blank"
