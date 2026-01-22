@@ -162,7 +162,7 @@ export default function PlusRegistration() {
             href="/clarity-university"
             className="text-[#f57214] hover:text-[#1a1a1a] transition-colors font-[family-name:var(--font-open-sans)] text-sm mb-6 inline-flex items-center gap-2"
           >
-            <span>←</span> Back to Clarity University
+            <span>←</span> Back to packages
           </Link>
           <h1 className="text-4xl md:text-6xl leading-[1.05] text-[#1a1a1a] opacity-0 animate-fade-in mb-8 uppercase tracking-wide">
             Plus Package Cohort Registration and Payment
