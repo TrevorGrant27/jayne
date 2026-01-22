@@ -244,8 +244,8 @@ export default function WorkWithUs() {
               <p className="text-base lg:text-lg text-[#1a1a1a] leading-relaxed mt-3 mb-6">
                 Gaining an outside perspective on our mission, position and purpose was invaluable. What we do is very complex, but Jayne helped us clarify and articulate our message, honing in on the &ldquo;where&rdquo; and &ldquo;how&rdquo; of how we drive growth for clients.
               </p>
-              <p className="text-sm text-[#8a8178] font-medium">Margo Posey</p>
-              <p className="text-xs text-[#9d968c]">President & CEO, Dallas/Fort Worth MSDC</p>
+              <p className="text-sm text-[#8a8178] font-medium">Brittany Kunkel</p>
+              <p className="text-xs text-[#9d968c]">Opportunity Strategist, NewEdge</p>
             </div>
 
             <div className="bg-[#faf9f7] rounded-2xl p-6 lg:p-8">
@@ -253,8 +253,8 @@ export default function WorkWithUs() {
               <p className="text-base lg:text-lg text-[#1a1a1a] leading-relaxed mt-3 mb-6">
                 No matter where you are in the business cycle, Jayne Agency&apos;s brand strategy workshop helps attendees ground themselves in their true, real sweet spot with tangible, actionable take-aways on how to strategically go to market.
               </p>
-              <p className="text-sm text-[#8a8178] font-medium">Brittany Kunkel</p>
-              <p className="text-xs text-[#9d968c]">Opportunity Strategist, NewEdge</p>
+              <p className="text-sm text-[#8a8178] font-medium">Margo Posey</p>
+              <p className="text-xs text-[#9d968c]">President & CEO, Dallas/Fort Worth MSDC</p>
             </div>
           </div>
         </div>
