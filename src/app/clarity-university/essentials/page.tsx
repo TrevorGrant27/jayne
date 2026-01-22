@@ -164,7 +164,7 @@ export default function EssentialsRegistration() {
           >
             <span>←</span> Back to packages
           </Link>
-          <h1 className="text-4xl md:text-6xl leading-[1.05] text-[#1a1a1a] opacity-0 animate-fade-in mb-8 uppercase tracking-wide">
+          <h1 className="text-4xl md:text-6xl leading-[1.05] text-[#1a1a1a] opacity-0 animate-fade-in mb-8 tracking-wide">
             Essentials Package Cohort Registration and Payment
           </h1>
           <p className="text-xl md:text-2xl text-[#8a8178] opacity-0 animate-fade-in animation-delay-100 font-[family-name:var(--font-open-sans)] leading-relaxed">
