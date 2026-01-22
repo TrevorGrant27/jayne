@@ -284,6 +284,9 @@ export default function WorkWithUs() {
           <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-[1.1] mb-6">
             Interested? Or just need help clarifying a few things?
           </h2>
+          <p className="reveal text-xl text-[#8a8178] mb-10 font-[family-name:var(--font-open-sans)]">
+            No pitch. No pressure. Just a conversation about what&apos;s possible.
+          </p>
           <div className="reveal">
             <a
               href="https://form.typeform.com/to/Bsx0IpzP"
