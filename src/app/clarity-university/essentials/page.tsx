@@ -256,16 +256,9 @@ export default function EssentialsRegistration() {
             Not sure if Essentials is right for you?
           </h2>
           <p className="reveal text-xl text-[#8a8178] mb-10 font-[family-name:var(--font-open-sans)]">
-            Compare all packages or talk it through with us.
+            Talk it through with us.
           </p>
-          <div className="reveal flex flex-wrap gap-4">
-            <Link
-              href="/clarity-university"
-              className="group inline-flex items-center gap-3 px-10 py-5 text-lg bg-[#1a1a1a] text-white rounded-lg transition-all duration-300"
-            >
-              Compare Packages
-              <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
-            </Link>
+          <div className="reveal">
             <a
               href="https://form.typeform.com/to/Bsx0IpzP"
               target="_blank"
