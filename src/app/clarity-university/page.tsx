@@ -127,10 +127,6 @@ export default function ClarityUniversity() {
                   <span>Interactive Guided Brand Platform Workbook Access/Download</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-green-500 mt-1">✓</span>
-                  <span>Access to the Clarity University Communication Platform <span className="text-xs text-[#f57214]">(Coming Soon)</span></span>
-                </li>
-                <li className="flex items-start gap-3">
                   <span className="text-[#ccc] mt-1">✗</span>
                   <span className="text-[#ccc]"><strong>Week 2:</strong> Workbook Homework + One-on-One Support</span>
                 </li>
@@ -145,10 +141,6 @@ export default function ClarityUniversity() {
                 <li className="flex items-start gap-3">
                   <span className="text-[#ccc] mt-1">✗</span>
                   <span className="text-[#ccc]">Inclusion in the Clarity University Business Directory</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-green-500 mt-1">✓</span>
-                  <span>Access to the Graduate Communication Platform <span className="text-xs text-[#f57214]">(Coming Soon)</span></span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[#ccc] mt-1">✗</span>
@@ -182,10 +174,6 @@ export default function ClarityUniversity() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-green-500 mt-1">✓</span>
-                  <span>Access to the Clarity University Communication Platform <span className="text-xs text-[#f57214]">(Coming Soon)</span></span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-green-500 mt-1">✓</span>
                   <span><strong className="text-[#1a1a1a]">Week 2:</strong> 1-Hour Workbook Guidance</span>
                 </li>
                 <li className="flex items-start gap-3">
@@ -199,10 +187,6 @@ export default function ClarityUniversity() {
                 <li className="flex items-start gap-3">
                   <span className="text-green-500 mt-1">✓</span>
                   <span>Inclusion in the Clarity University Business Directory</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-green-500 mt-1">✓</span>
-                  <span>Access to the Graduate Communication Platform <span className="text-xs text-[#f57214]">(Coming Soon)</span></span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-green-500 mt-1">✓</span>
@@ -233,10 +217,6 @@ export default function ClarityUniversity() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-green-500 mt-1">✓</span>
-                  <span>Access to the Clarity University Communication Platform <span className="text-xs text-[#f57214]">(Coming Soon)</span></span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-green-500 mt-1">✓</span>
                   <span><strong className="text-[#1a1a1a]">Week 2:</strong> 2.5 Hours Brand Strategy Consulting</span>
                 </li>
                 <li className="flex items-start gap-3">
@@ -250,10 +230,6 @@ export default function ClarityUniversity() {
                 <li className="flex items-start gap-3">
                   <span className="text-green-500 mt-1">✓</span>
                   <span>Inclusion in the Clarity University Business Directory</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-green-500 mt-1">✓</span>
-                  <span>Access to the Graduate Communication Platform <span className="text-xs text-[#f57214]">(Coming Soon)</span></span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-green-500 mt-1">✓</span>
