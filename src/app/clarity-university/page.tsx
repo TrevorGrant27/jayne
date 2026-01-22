@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 export default function ClarityUniversity() {
@@ -154,13 +155,13 @@ export default function ClarityUniversity() {
                   <span className="text-[#ccc]">Certificate of Program Completion</span>
                 </li>
               </ul>
-              <a
-                href="#"
+              <Link
+                href="/clarity-university/essentials"
                 className="mt-8 group inline-flex items-center justify-center gap-3 px-8 py-4 text-lg bg-[#1a1a1a] text-white rounded-lg transition-all duration-300 w-full"
               >
                 Essentials
                 <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
-              </a>
+              </Link>
             </div>
 
             {/* Plus - Most Popular */}
