@@ -54,6 +54,18 @@ export default function ClarityUniversity() {
           </div>
         </div>
       </section>
+
+      {/* It's Time to Strategize */}
+      <section className="py-24 lg:py-32 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-8">
+            It&apos;s Time to Strategize: Build your Brand Platform with Clarity University®
+          </h2>
+          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
+            Welcome to Clarity University® by Jayne Agency, a proven 4-week path to mastering the 10 essential brand assets within a brand platform that will positively impact your business&apos;s finance, culture, and market share. Designed for busy small and medium-sized business leaders, our program guides you through crafting an impactful 11-second elevator pitch and building a strong brand platform. Tailored for your schedule and budget, we offer a range of high-quality education, tools, support, and the community needed to enhance your brand&apos;s strategic potential without overburdening your resources, through flexible package options.
+          </p>
+        </div>
+      </section>
     </main>
   );
 }
