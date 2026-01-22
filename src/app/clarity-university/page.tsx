@@ -67,6 +67,42 @@ export default function ClarityUniversity() {
         </div>
       </section>
 
+      {/* Program Deliverables and Outcomes */}
+      <section className="py-24 lg:py-32 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-16">
+            Unlock Your Brand&apos;s Full Potential: Program Deliverables and Outcomes
+          </h2>
+
+          <div className="space-y-12">
+            <div className="reveal">
+              <p className="text-2xl md:text-3xl text-[#f57214] font-semibold font-[family-name:var(--font-open-sans)] mb-2">Master the 10 Assets of Brand Strategy</p>
+              <p className="text-xl md:text-2xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Equip yourself with the knowledge to utilize ten key brand assets, driving financial growth, culture enhancement, and market share expansion.</p>
+            </div>
+
+            <div className="reveal">
+              <p className="text-2xl md:text-3xl text-[#f57214] font-semibold font-[family-name:var(--font-open-sans)] mb-2">Hands-On Brand Platform Development</p>
+              <p className="text-xl md:text-2xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Engage in a guided, hands-on approach to developing your Brand Platform, transforming your brand&apos;s theoretical concepts into actionable strategies.</p>
+            </div>
+
+            <div className="reveal">
+              <p className="text-2xl md:text-3xl text-[#f57214] font-semibold font-[family-name:var(--font-open-sans)] mb-2">Craft a Compelling 11-Second Elevator Pitch</p>
+              <p className="text-xl md:text-2xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Learn to concisely and effectively communicate your brand&apos;s position and promise, making every interaction count.</p>
+            </div>
+
+            <div className="reveal">
+              <p className="text-2xl md:text-3xl text-[#f57214] font-semibold font-[family-name:var(--font-open-sans)] mb-2">Live Q&A and Community Support</p>
+              <p className="text-xl md:text-2xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Gain access to live support through Q&A webinars and a vibrant community for ongoing feedback and networking.</p>
+            </div>
+
+            <div className="reveal">
+              <p className="text-2xl md:text-3xl text-[#f57214] font-semibold font-[family-name:var(--font-open-sans)] mb-2">Tailored for Leaders and Teams</p>
+              <p className="text-xl md:text-2xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Whether you&apos;re a business leader or designating a team member, the program&apos;s flexibility allows for effective learning and application within your organization.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Choose Your Package */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-6xl mx-auto">
