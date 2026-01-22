@@ -136,7 +136,7 @@ export default function Results() {
                     </span>
                   </div>
                   <div className="flex-1">
-                    <p className="text-sm md:text-base text-[#f57214] uppercase tracking-widest mb-2">
+                    <p className="text-sm md:text-base text-[#f57214] uppercase tracking-widest font-semibold font-[family-name:var(--font-open-sans)] mb-2">
                       {study.client}
                     </p>
                     <h2 className="text-lg md:text-xl text-[#1a1a1a] leading-snug group-hover:text-[#f57214] transition-colors">
