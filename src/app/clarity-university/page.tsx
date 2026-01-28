@@ -313,7 +313,17 @@ export default function ClarityUniversity() {
               </div>
             </div>
 
-            <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10">
+            <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10 overflow-hidden">
+              <div className="mb-8 -mx-8 lg:-mx-10 -mt-8 lg:-mt-10" style={{padding: "56.25% 0 0 0", position: "relative"}}>
+                <iframe
+                  src="https://player.vimeo.com/video/909586708?badge=0&autopause=0&player_id=0&app_id=58479"
+                  frameBorder="0"
+                  allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+                  title="Clarity University - Jared"
+                />
+              </div>
               <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
               <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
                 One of the things that was important for me […] was how brand touches so many different things. I had to take a step back as a founder of a business […] and understand that brand touches HR, touches finances, it touches sales, it touches operations.
@@ -337,7 +347,17 @@ export default function ClarityUniversity() {
               </div>
             </div>
 
-            <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10">
+            <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10 overflow-hidden">
+              <div className="mb-8 -mx-8 lg:-mx-10 -mt-8 lg:-mt-10" style={{padding: "75% 0 0 0", position: "relative"}}>
+                <iframe
+                  src="https://player.vimeo.com/video/899346470?badge=0&autopause=0&player_id=0&app_id=58479"
+                  frameBorder="0"
+                  allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+                  title="Mother's Trust - Lori Dann Testimonial"
+                />
+              </div>
               <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
               <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
                 We have a really, really loyal following of donors, but we&apos;re trying to expand that. Until now, we didn&apos;t really know how to make them [new donors] care…Clarity University helped us identify how to approach those people with our unique organization, and explain why they should spend their dollars with us.
