@@ -425,6 +425,16 @@ export default function ClarityUniversity() {
             Unlock Your Brand&apos;s Full Potential: Program Deliverables and Outcomes
           </h2>
 
+          <div className="max-w-2xl sm:max-w-3xl md:max-w-4xl lg:max-w-5xl mx-auto mb-16">
+            <Image
+              src="/JA Website Illustrations 10 Assets (2).png"
+              alt="The 10 brand assets"
+              width={800}
+              height={1200}
+              className="w-full h-auto reveal"
+            />
+          </div>
+
           <div className="space-y-12">
             <div className="reveal">
               <p className="text-2xl md:text-3xl text-[#f57214] font-semibold font-[family-name:var(--font-open-sans)] mb-2">Master the 10 Assets of Brand Strategy</p>
