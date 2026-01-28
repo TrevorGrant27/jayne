@@ -39,11 +39,15 @@ export default function Speaking() {
         </div>
       </section>
 
-      {/* About the Speaker */}
+      {/* About the Speakers */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-4xl mx-auto">
-          <div className="reveal grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16 items-start">
-            {/* Image */}
+          <p className="reveal text-lg md:text-xl text-[#f57214] uppercase tracking-widest font-semibold font-[family-name:var(--font-open-sans)] mb-16">
+            About the Speakers
+          </p>
+
+          {/* Brooke */}
+          <div className="reveal grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16 items-start mb-24">
             <div className="relative">
               <div className="aspect-[4/5] bg-[#f5f1ea] rounded-2xl overflow-hidden relative">
                 <Image
@@ -54,28 +58,79 @@ export default function Speaking() {
                 />
               </div>
             </div>
-
-            {/* Content */}
             <div>
-              <p className="text-lg md:text-xl text-[#f57214] uppercase tracking-widest font-semibold font-[family-name:var(--font-open-sans)] mb-4">
-                About the Speaker
-              </p>
               <h2 className="text-3xl md:text-4xl text-[#1a1a1a] leading-[1.1] mb-4">
                 Brooke Foley
               </h2>
               <p className="text-xl md:text-2xl text-[#f57214] italic mb-6">
-                Agent of Intrigue
+                Agent of Intrigue | Program Leader
               </p>
-
               <div className="space-y-4 text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
                 <p>
-                  Co-founder and CEO of Jayne Agency and Clarity University.
+                  Co-founder and CEO of Jayne and Clarity University; Previous DDB, Ogilvy, Razorfish UX and Chief Creative Officer; Branding Expert for Celebrity Brands, Fortune 50s and the emerging entrepreneur sectors.
                 </p>
                 <p>
-                  Previously Razorfish Chief Creative Officer and Executive Creative Director at DDB and Ogilvy.
+                  Investor | Author | Pitch Expert | Board Chair
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Brad */}
+          <div className="reveal grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16 items-start mb-24">
+            <div className="relative">
+              <div className="aspect-[4/5] bg-[#f5f1ea] rounded-2xl overflow-hidden relative">
+                <Image
+                  src="/brad.png"
+                  alt="Brad Pierce"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+            </div>
+            <div>
+              <h2 className="text-3xl md:text-4xl text-[#1a1a1a] leading-[1.1] mb-4">
+                Brad Pierce
+              </h2>
+              <p className="text-xl md:text-2xl text-[#f57214] italic mb-6">
+                Program Facilitator | Chief Strategy Officer
+              </p>
+              <div className="space-y-4 text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
+                <p>
+                  Co-developer of the Clarity University® methodology and core curriculum; 13+ years at Jayne leading, facilitating, and evolving the firm&apos;s strategic approach.
                 </p>
                 <p>
-                  Led creative and strategy work at Kraft, Microsoft, TD Ameritrade, Pepsico, Abbott and many other organizations from SMEs to Fortune 50.
+                  Serves as lead strategist across engagements spanning early-stage startups to Fortune 50 enterprises; responsible for translating complex organizational, market, and brand challenges into actionable strategy frameworks.
+                </p>
+                <p>
+                  Primary facilitator of Clarity University cohorts, guiding leaders through brand clarity, positioning, and growth clarity and alignment.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Varronica */}
+          <div className="reveal grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16 items-start">
+            <div className="relative">
+              <div className="aspect-[4/5] bg-[#f5f1ea] rounded-2xl overflow-hidden relative">
+                <Image
+                  src="/varonnica.png"
+                  alt="Varronica Kirn"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+            </div>
+            <div>
+              <h2 className="text-3xl md:text-4xl text-[#1a1a1a] leading-[1.1] mb-4">
+                Varronica Kirn
+              </h2>
+              <p className="text-xl md:text-2xl text-[#f57214] italic mb-6">
+                Program Facilitator | Brand Consultant and Strategist
+              </p>
+              <div className="space-y-4 text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
+                <p>
+                  Co-developer of the Clarity University® methodology and core curriculum, testing and adaptation working with Jayne custom platform partners for custom education including NMSDC (501c3), WBENC (501c3) overseeing cohorts and Jayne Private Clients.
                 </p>
               </div>
             </div>
