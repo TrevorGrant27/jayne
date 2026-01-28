@@ -46,92 +46,91 @@ export default function Speaking() {
             About the Speakers
           </p>
 
-          {/* Brooke */}
-          <div className="reveal grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16 items-start mb-24">
-            <div className="relative">
-              <div className="aspect-[4/5] bg-[#f5f1ea] rounded-2xl overflow-hidden relative">
+          <div className="space-y-16">
+            {/* Brooke */}
+            <div className="reveal flex flex-col md:flex-row items-start gap-8">
+              <div className="shrink-0">
                 <Image
                   src="/brooke.png"
                   alt="Brooke Foley"
-                  fill
-                  className="object-cover"
+                  width={160}
+                  height={160}
+                  className="rounded-full object-cover w-32 h-32 md:w-40 md:h-40"
                 />
               </div>
-            </div>
-            <div>
-              <h2 className="text-3xl md:text-4xl text-[#1a1a1a] leading-[1.1] mb-4">
-                Brooke Foley
-              </h2>
-              <p className="text-xl md:text-2xl text-[#f57214] italic mb-6">
-                Agent of Intrigue | Program Leader
-              </p>
-              <div className="space-y-4 text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
-                <p>
-                  Co-founder and CEO of Jayne and Clarity University; Previous DDB, Ogilvy, Razorfish UX and Chief Creative Officer; Branding Expert for Celebrity Brands, Fortune 50s and the emerging entrepreneur sectors.
+              <div>
+                <h2 className="text-2xl md:text-3xl text-[#1a1a1a] leading-[1.1] mb-2">
+                  Brooke Foley
+                </h2>
+                <p className="text-lg md:text-xl text-[#f57214] italic mb-4">
+                  Agent of Intrigue | Program Leader
                 </p>
-                <p>
-                  Investor | Author | Pitch Expert | Board Chair
-                </p>
+                <div className="space-y-3 text-base md:text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
+                  <p>
+                    Co-founder and CEO of Jayne and Clarity University; Previous DDB, Ogilvy, Razorfish UX and Chief Creative Officer; Branding Expert for Celebrity Brands, Fortune 50s and the emerging entrepreneur sectors.
+                  </p>
+                  <p>
+                    Investor | Author | Pitch Expert | Board Chair
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
 
-          {/* Brad */}
-          <div className="reveal grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16 items-start mb-24">
-            <div className="relative">
-              <div className="aspect-[4/5] bg-[#f5f1ea] rounded-2xl overflow-hidden relative">
+            {/* Brad */}
+            <div className="reveal flex flex-col md:flex-row items-start gap-8">
+              <div className="shrink-0">
                 <Image
                   src="/brad.png"
                   alt="Brad Pierce"
-                  fill
-                  className="object-cover"
+                  width={160}
+                  height={160}
+                  className="rounded-full object-cover w-32 h-32 md:w-40 md:h-40"
                 />
               </div>
-            </div>
-            <div>
-              <h2 className="text-3xl md:text-4xl text-[#1a1a1a] leading-[1.1] mb-4">
-                Brad Pierce
-              </h2>
-              <p className="text-xl md:text-2xl text-[#f57214] italic mb-6">
-                Program Facilitator | Chief Strategy Officer
-              </p>
-              <div className="space-y-4 text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
-                <p>
-                  Co-developer of the Clarity University® methodology and core curriculum; 13+ years at Jayne leading, facilitating, and evolving the firm&apos;s strategic approach.
+              <div>
+                <h2 className="text-2xl md:text-3xl text-[#1a1a1a] leading-[1.1] mb-2">
+                  Brad Pierce
+                </h2>
+                <p className="text-lg md:text-xl text-[#f57214] italic mb-4">
+                  Program Facilitator | Chief Strategy Officer
                 </p>
-                <p>
-                  Serves as lead strategist across engagements spanning early-stage startups to Fortune 50 enterprises; responsible for translating complex organizational, market, and brand challenges into actionable strategy frameworks.
-                </p>
-                <p>
-                  Primary facilitator of Clarity University cohorts, guiding leaders through brand clarity, positioning, and growth clarity and alignment.
-                </p>
+                <div className="space-y-3 text-base md:text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
+                  <p>
+                    Co-developer of the Clarity University® methodology and core curriculum; 13+ years at Jayne leading, facilitating, and evolving the firm&apos;s strategic approach.
+                  </p>
+                  <p>
+                    Serves as lead strategist across engagements spanning early-stage startups to Fortune 50 enterprises; responsible for translating complex organizational, market, and brand challenges into actionable strategy frameworks.
+                  </p>
+                  <p>
+                    Primary facilitator of Clarity University cohorts, guiding leaders through brand clarity, positioning, and growth clarity and alignment.
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
 
-          {/* Varronica */}
-          <div className="reveal grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16 items-start">
-            <div className="relative">
-              <div className="aspect-[4/5] bg-[#f5f1ea] rounded-2xl overflow-hidden relative">
+            {/* Varronica */}
+            <div className="reveal flex flex-col md:flex-row items-start gap-8">
+              <div className="shrink-0">
                 <Image
                   src="/varonnica.png"
                   alt="Varronica Kirn"
-                  fill
-                  className="object-cover"
+                  width={160}
+                  height={160}
+                  className="rounded-full object-cover w-32 h-32 md:w-40 md:h-40"
                 />
               </div>
-            </div>
-            <div>
-              <h2 className="text-3xl md:text-4xl text-[#1a1a1a] leading-[1.1] mb-4">
-                Varronica Kirn
-              </h2>
-              <p className="text-xl md:text-2xl text-[#f57214] italic mb-6">
-                Program Facilitator | Brand Consultant and Strategist
-              </p>
-              <div className="space-y-4 text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
-                <p>
-                  Co-developer of the Clarity University® methodology and core curriculum, testing and adaptation working with Jayne custom platform partners for custom education including NMSDC (501c3), WBENC (501c3) overseeing cohorts and Jayne Private Clients.
+              <div>
+                <h2 className="text-2xl md:text-3xl text-[#1a1a1a] leading-[1.1] mb-2">
+                  Varronica Kirn
+                </h2>
+                <p className="text-lg md:text-xl text-[#f57214] italic mb-4">
+                  Program Facilitator | Brand Consultant and Strategist
                 </p>
+                <div className="space-y-3 text-base md:text-lg text-[#8a8178] leading-relaxed font-[family-name:var(--font-open-sans)]">
+                  <p>
+                    Co-developer of the Clarity University® methodology and core curriculum, testing and adaptation working with Jayne custom platform partners for custom education including NMSDC (501c3), WBENC (501c3) overseeing cohorts and Jayne Private Clients.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
