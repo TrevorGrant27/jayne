@@ -25,7 +25,7 @@ export default function ClarityUniversity() {
       <section className="py-8 lg:py-16 px-6">
         <div className="max-w-sm sm:max-w-md md:max-w-sm mx-auto">
           <Image
-            src="/JA Website Illustrations 10 Assets (2).png"
+            src="/JA Website Illustrations 10 Assets NEW.png"
             alt="The 10 brand assets"
             width={800}
             height={1200}
@@ -440,7 +440,7 @@ export default function ClarityUniversity() {
 
           <div className="max-w-sm sm:max-w-md md:max-w-sm mx-auto mb-16">
             <Image
-              src="/JA Website Illustrations 10 Assets (2).png"
+              src="/JA Website Illustrations 10 Assets NEW.png"
               alt="The 10 brand assets"
               width={800}
               height={1200}
