@@ -21,6 +21,19 @@ export default function ClarityUniversity() {
         </div>
       </section>
 
+      {/* 10 Assets Graphic */}
+      <section className="py-8 lg:py-16 px-6">
+        <div className="max-w-sm sm:max-w-md md:max-w-sm mx-auto">
+          <Image
+            src="/JA Website Illustrations 10 Assets (2).png"
+            alt="The 10 brand assets"
+            width={800}
+            height={1200}
+            className="w-full h-auto reveal"
+          />
+        </div>
+      </section>
+
       {/* 1. Recognize Any of These? */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-4xl mx-auto">
