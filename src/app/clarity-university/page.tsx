@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 export default function ClarityUniversity() {
@@ -259,12 +260,23 @@ export default function ClarityUniversity() {
               <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
                 They just helped me mitigate a lot of risk, saved me a lot of money, and I&apos;m actually enjoying the whole experience a lot more. I was feeling like a deer in headlights. I really couldn&apos;t get [my brand message] out. And now I can.
               </p>
-              <p className="text-base text-[#8a8178] font-medium">
-                Stefanie Schodrof
-              </p>
-              <p className="text-sm text-[#9d968c]">
-                Founder, Senseory
-              </p>
+              <div className="flex items-center gap-4">
+                <Image
+                  src="/stef.png"
+                  alt="Stefanie Schodrof"
+                  width={56}
+                  height={56}
+                  className="rounded-full object-cover"
+                />
+                <div>
+                  <p className="text-base text-[#8a8178] font-medium">
+                    Stefanie Schodrof
+                  </p>
+                  <p className="text-sm text-[#9d968c]">
+                    Founder, Senseory
+                  </p>
+                </div>
+              </div>
             </div>
 
             <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10">
@@ -272,12 +284,23 @@ export default function ClarityUniversity() {
               <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
                 I have to say, Clarity University was transformational! I&apos;ve had so many epiphanies; the haze is gone, and there is a clear and concise direction. My favorite parts were defining what sets me apart, crafting a compelling personal brand story and messaging (really liked this exercise), and developing a strategic plan to build my brand across channels—highly recommend!
               </p>
-              <p className="text-base text-[#8a8178] font-medium">
-                John Taylor
-              </p>
-              <p className="text-sm text-[#9d968c]">
-                Sr. Director Supplier Outreach, Medtronic
-              </p>
+              <div className="flex items-center gap-4">
+                <Image
+                  src="/john.png"
+                  alt="John Taylor"
+                  width={56}
+                  height={56}
+                  className="rounded-full object-cover"
+                />
+                <div>
+                  <p className="text-base text-[#8a8178] font-medium">
+                    John Taylor
+                  </p>
+                  <p className="text-sm text-[#9d968c]">
+                    Sr. Director Supplier Outreach, Medtronic
+                  </p>
+                </div>
+              </div>
             </div>
 
             <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10">
@@ -285,12 +308,23 @@ export default function ClarityUniversity() {
               <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
                 One of the things that was important for me […] was how brand touches so many different things. I had to take a step back as a founder of a business […] and understand that brand touches HR, touches finances, it touches sales, it touches operations.
               </p>
-              <p className="text-base text-[#8a8178] font-medium">
-                Jared Gibson
-              </p>
-              <p className="text-sm text-[#9d968c]">
-                Co-Founder, Outworks
-              </p>
+              <div className="flex items-center gap-4">
+                <Image
+                  src="/jared.png"
+                  alt="Jared Gibson"
+                  width={56}
+                  height={56}
+                  className="rounded-full object-cover"
+                />
+                <div>
+                  <p className="text-base text-[#8a8178] font-medium">
+                    Jared Gibson
+                  </p>
+                  <p className="text-sm text-[#9d968c]">
+                    Co-Founder, Outworks
+                  </p>
+                </div>
+              </div>
             </div>
 
             <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10">
@@ -298,12 +332,23 @@ export default function ClarityUniversity() {
               <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
                 We have a really, really loyal following of donors, but we&apos;re trying to expand that. Until now, we didn&apos;t really know how to make them [new donors] care…Clarity University helped us identify how to approach those people with our unique organization, and explain why they should spend their dollars with us.
               </p>
-              <p className="text-base text-[#8a8178] font-medium">
-                Lori Dann
-              </p>
-              <p className="text-sm text-[#9d968c]">
-                Founder, MyPLC, Board Chair, Mother&apos;s Trust Foundation
-              </p>
+              <div className="flex items-center gap-4">
+                <Image
+                  src="/lori.png"
+                  alt="Lori Dann"
+                  width={56}
+                  height={56}
+                  className="rounded-full object-cover"
+                />
+                <div>
+                  <p className="text-base text-[#8a8178] font-medium">
+                    Lori Dann
+                  </p>
+                  <p className="text-sm text-[#9d968c]">
+                    Founder, MyPLC, Board Chair, Mother&apos;s Trust Foundation
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
