@@ -425,7 +425,7 @@ export default function ClarityUniversity() {
             Unlock Your Brand&apos;s Full Potential: Program Deliverables and Outcomes
           </h2>
 
-          <div className="max-w-sm sm:max-w-md md:max-w-lg mx-auto mb-16">
+          <div className="max-w-sm sm:max-w-md md:max-w-sm mx-auto mb-16">
             <Image
               src="/JA Website Illustrations 10 Assets (2).png"
               alt="The 10 brand assets"
