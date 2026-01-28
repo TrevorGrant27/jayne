@@ -397,6 +397,13 @@ export default function ClarityUniversity() {
                 As an entrepreneur, it can be a really lonely job. So listening to the challenges that others are going through allows me to be able to relate and resonate with whatever I was doing.
               </p>
               <div className="flex items-center gap-4">
+                <Image
+                  src="/Headshots CU DC.png"
+                  alt="DC Crenshaw"
+                  width={56}
+                  height={56}
+                  className="rounded-full object-cover"
+                />
                 <div>
                   <p className="text-base text-[#8a8178] font-medium">
                     DC Crenshaw
