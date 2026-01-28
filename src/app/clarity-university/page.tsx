@@ -217,7 +217,7 @@ export default function ClarityUniversity() {
       </section>
 
       {/* 4. Still Unsure? */}
-      <section className="py-24 lg:py-32 px-6">
+      <section className="py-24 lg:py-32 px-6 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-8">
             Still unsure?
