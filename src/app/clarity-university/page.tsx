@@ -20,7 +20,7 @@ export default function ClarityUniversity() {
         </div>
       </section>
 
-      {/* Recognize Any of These? */}
+      {/* 1. Recognize Any of These? */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-4xl mx-auto">
           <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-16">
@@ -56,7 +56,7 @@ export default function ClarityUniversity() {
         </div>
       </section>
 
-      {/* It's Time to Strategize */}
+      {/* 2. It's Time to Strategize */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-4xl mx-auto">
           <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-8">
@@ -68,43 +68,7 @@ export default function ClarityUniversity() {
         </div>
       </section>
 
-      {/* Program Deliverables and Outcomes */}
-      <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-16">
-            Unlock Your Brand&apos;s Full Potential: Program Deliverables and Outcomes
-          </h2>
-
-          <div className="space-y-12">
-            <div className="reveal">
-              <p className="text-2xl md:text-3xl text-[#f57214] font-semibold font-[family-name:var(--font-open-sans)] mb-2">Master the 10 Assets of Brand Strategy</p>
-              <p className="text-xl md:text-2xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Equip yourself with the knowledge to utilize ten key brand assets, driving financial growth, culture enhancement, and market share expansion.</p>
-            </div>
-
-            <div className="reveal">
-              <p className="text-2xl md:text-3xl text-[#f57214] font-semibold font-[family-name:var(--font-open-sans)] mb-2">Hands-On Brand Platform Development</p>
-              <p className="text-xl md:text-2xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Engage in a guided, hands-on approach to developing your Brand Platform, transforming your brand&apos;s theoretical concepts into actionable strategies.</p>
-            </div>
-
-            <div className="reveal">
-              <p className="text-2xl md:text-3xl text-[#f57214] font-semibold font-[family-name:var(--font-open-sans)] mb-2">Craft a Compelling 11-Second Elevator Pitch</p>
-              <p className="text-xl md:text-2xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Learn to concisely and effectively communicate your brand&apos;s position and promise, making every interaction count.</p>
-            </div>
-
-            <div className="reveal">
-              <p className="text-2xl md:text-3xl text-[#f57214] font-semibold font-[family-name:var(--font-open-sans)] mb-2">Live Q&A and Community Support</p>
-              <p className="text-xl md:text-2xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Gain access to live support through Q&A webinars and a vibrant community for ongoing feedback and networking.</p>
-            </div>
-
-            <div className="reveal">
-              <p className="text-2xl md:text-3xl text-[#f57214] font-semibold font-[family-name:var(--font-open-sans)] mb-2">Tailored for Leaders and Teams</p>
-              <p className="text-xl md:text-2xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Whether you&apos;re a business leader or designating a team member, the program&apos;s flexibility allows for effective learning and application within your organization.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Choose Your Package */}
+      {/* 3. Choose Your Package */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-6xl mx-auto">
           <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-16">
@@ -252,7 +216,37 @@ export default function ClarityUniversity() {
         </div>
       </section>
 
-      {/* Alumni Success Stories */}
+      {/* 4. Still Unsure? */}
+      <section className="py-24 lg:py-32 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-8">
+            Still unsure?
+          </h2>
+          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-12 font-[family-name:var(--font-open-sans)]">
+            Take our short Clarity Assessment to determine which path is best for your business needs. Prefer to talk it through with a human?
+          </p>
+          <div className="reveal flex flex-wrap gap-4">
+            <a
+              href="#"
+              className="group inline-flex items-center gap-3 px-10 py-5 text-lg bg-[#f57214] text-white rounded-lg transition-all duration-300"
+            >
+              Clarity Assessment
+              <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
+            </a>
+            <a
+              href="https://form.typeform.com/to/Bsx0IpzP"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group inline-flex items-center gap-3 px-10 py-5 text-lg bg-[#1a1a1a] text-white rounded-lg transition-all duration-300"
+            >
+              Book a call
+              <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* 5. Alumni Success Stories */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-6xl mx-auto">
           <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-16">
@@ -315,32 +309,38 @@ export default function ClarityUniversity() {
         </div>
       </section>
 
-      {/* Still Unsure? */}
+      {/* 6. Unlock Your Brand's Full Potential */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-4xl mx-auto">
-          <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-8">
-            Still unsure?
+          <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-16">
+            Unlock Your Brand&apos;s Full Potential: Program Deliverables and Outcomes
           </h2>
-          <p className="reveal text-xl md:text-2xl text-[#8a8178] leading-relaxed mb-12 font-[family-name:var(--font-open-sans)]">
-            Take our short Clarity Assessment to determine which path is best for your business needs. Prefer to talk it through with a human?
-          </p>
-          <div className="reveal flex flex-wrap gap-4">
-            <a
-              href="#"
-              className="group inline-flex items-center gap-3 px-10 py-5 text-lg bg-[#f57214] text-white rounded-lg transition-all duration-300"
-            >
-              Clarity Assessment
-              <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
-            </a>
-            <a
-              href="https://form.typeform.com/to/Bsx0IpzP"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group inline-flex items-center gap-3 px-10 py-5 text-lg bg-[#1a1a1a] text-white rounded-lg transition-all duration-300"
-            >
-              Book a call
-              <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
-            </a>
+
+          <div className="space-y-12">
+            <div className="reveal">
+              <p className="text-2xl md:text-3xl text-[#f57214] font-semibold font-[family-name:var(--font-open-sans)] mb-2">Master the 10 Assets of Brand Strategy</p>
+              <p className="text-xl md:text-2xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Equip yourself with the knowledge to utilize ten key brand assets, driving financial growth, culture enhancement, and market share expansion.</p>
+            </div>
+
+            <div className="reveal">
+              <p className="text-2xl md:text-3xl text-[#f57214] font-semibold font-[family-name:var(--font-open-sans)] mb-2">Hands-On Brand Platform Development</p>
+              <p className="text-xl md:text-2xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Engage in a guided, hands-on approach to developing your Brand Platform, transforming your brand&apos;s theoretical concepts into actionable strategies.</p>
+            </div>
+
+            <div className="reveal">
+              <p className="text-2xl md:text-3xl text-[#f57214] font-semibold font-[family-name:var(--font-open-sans)] mb-2">Craft a Compelling 11-Second Elevator Pitch</p>
+              <p className="text-xl md:text-2xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Learn to concisely and effectively communicate your brand&apos;s position and promise, making every interaction count.</p>
+            </div>
+
+            <div className="reveal">
+              <p className="text-2xl md:text-3xl text-[#f57214] font-semibold font-[family-name:var(--font-open-sans)] mb-2">Live Q&A and Community Support</p>
+              <p className="text-xl md:text-2xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Gain access to live support through Q&A webinars and a vibrant community for ongoing feedback and networking.</p>
+            </div>
+
+            <div className="reveal">
+              <p className="text-2xl md:text-3xl text-[#f57214] font-semibold font-[family-name:var(--font-open-sans)] mb-2">Tailored for Leaders and Teams</p>
+              <p className="text-xl md:text-2xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Whether you&apos;re a business leader or designating a team member, the program&apos;s flexibility allows for effective learning and application within your organization.</p>
+            </div>
           </div>
         </div>
       </section>
