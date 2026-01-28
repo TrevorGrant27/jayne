@@ -380,6 +380,29 @@ export default function ClarityUniversity() {
                 </div>
               </div>
             </div>
+
+            <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10 overflow-hidden">
+              <div className="mb-8 -mx-8 lg:-mx-10 -mt-8 lg:-mt-10" style={{padding: "56.25% 0 0 0", position: "relative"}}>
+                <iframe
+                  src="https://player.vimeo.com/video/1092834364?badge=0&autopause=0&player_id=0&app_id=58479"
+                  frameBorder="0"
+                  allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+                  title="DC Crenshaw FOCUSES at Clarity University"
+                />
+              </div>
+              <div className="flex items-center gap-4">
+                <div>
+                  <p className="text-base text-[#8a8178] font-medium">
+                    DC Crenshaw
+                  </p>
+                  <p className="text-sm text-[#9d968c]">
+                    Co-Founder, Little Diners Crew
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
