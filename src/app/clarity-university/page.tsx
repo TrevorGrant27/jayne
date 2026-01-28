@@ -57,7 +57,7 @@ export default function ClarityUniversity() {
       </section>
 
       {/* 2. It's Time to Strategize */}
-      <section className="py-24 lg:py-32 px-6">
+      <section className="py-24 lg:py-32 px-6 bg-[#e8e5e0]">
         <div className="max-w-4xl mx-auto">
           <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-8">
             It&apos;s Time to Strategize: Build your Brand Platform with Clarity University®
