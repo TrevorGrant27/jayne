@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 export default function ClarityUniversity() {
@@ -20,7 +21,20 @@ export default function ClarityUniversity() {
         </div>
       </section>
 
-      {/* Recognize Any of These? */}
+      {/* 10 Assets Graphic */}
+      <section className="py-8 lg:py-16 px-6">
+        <div className="max-w-sm sm:max-w-md md:max-w-sm mx-auto">
+          <Image
+            src="/JA Website Illustrations 10 Assets NEW.png"
+            alt="The 10 brand assets"
+            width={800}
+            height={1200}
+            className="w-full h-auto reveal"
+          />
+        </div>
+      </section>
+
+      {/* 1. Recognize Any of These? */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-4xl mx-auto">
           <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-16">
@@ -56,8 +70,8 @@ export default function ClarityUniversity() {
         </div>
       </section>
 
-      {/* It's Time to Strategize */}
-      <section className="py-24 lg:py-32 px-6">
+      {/* 2. It's Time to Strategize */}
+      <section className="py-24 lg:py-32 px-6 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-8">
             It&apos;s Time to Strategize: Build your Brand Platform with Clarity University®
@@ -68,43 +82,7 @@ export default function ClarityUniversity() {
         </div>
       </section>
 
-      {/* Program Deliverables and Outcomes */}
-      <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-16">
-            Unlock Your Brand&apos;s Full Potential: Program Deliverables and Outcomes
-          </h2>
-
-          <div className="space-y-12">
-            <div className="reveal">
-              <p className="text-2xl md:text-3xl text-[#f57214] font-semibold font-[family-name:var(--font-open-sans)] mb-2">Master the 10 Assets of Brand Strategy</p>
-              <p className="text-xl md:text-2xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Equip yourself with the knowledge to utilize ten key brand assets, driving financial growth, culture enhancement, and market share expansion.</p>
-            </div>
-
-            <div className="reveal">
-              <p className="text-2xl md:text-3xl text-[#f57214] font-semibold font-[family-name:var(--font-open-sans)] mb-2">Hands-On Brand Platform Development</p>
-              <p className="text-xl md:text-2xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Engage in a guided, hands-on approach to developing your Brand Platform, transforming your brand&apos;s theoretical concepts into actionable strategies.</p>
-            </div>
-
-            <div className="reveal">
-              <p className="text-2xl md:text-3xl text-[#f57214] font-semibold font-[family-name:var(--font-open-sans)] mb-2">Craft a Compelling 11-Second Elevator Pitch</p>
-              <p className="text-xl md:text-2xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Learn to concisely and effectively communicate your brand&apos;s position and promise, making every interaction count.</p>
-            </div>
-
-            <div className="reveal">
-              <p className="text-2xl md:text-3xl text-[#f57214] font-semibold font-[family-name:var(--font-open-sans)] mb-2">Live Q&A and Community Support</p>
-              <p className="text-xl md:text-2xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Gain access to live support through Q&A webinars and a vibrant community for ongoing feedback and networking.</p>
-            </div>
-
-            <div className="reveal">
-              <p className="text-2xl md:text-3xl text-[#f57214] font-semibold font-[family-name:var(--font-open-sans)] mb-2">Tailored for Leaders and Teams</p>
-              <p className="text-xl md:text-2xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Whether you&apos;re a business leader or designating a team member, the program&apos;s flexibility allows for effective learning and application within your organization.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Choose Your Package */}
+      {/* 3. Choose Your Package */}
       <section className="py-24 lg:py-32 px-6">
         <div className="max-w-6xl mx-auto">
           <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-16">
@@ -252,71 +230,8 @@ export default function ClarityUniversity() {
         </div>
       </section>
 
-      {/* Alumni Success Stories */}
-      <section className="py-24 lg:py-32 px-6">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-16">
-            Clarity University® Alumni Success Stories
-          </h2>
-
-          <div className="reveal grid md:grid-cols-2 gap-8 lg:gap-12">
-            <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10">
-              <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
-              <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
-                They just helped me mitigate a lot of risk, saved me a lot of money, and I&apos;m actually enjoying the whole experience a lot more. I was feeling like a deer in headlights. I really couldn&apos;t get [my brand message] out. And now I can.
-              </p>
-              <p className="text-base text-[#8a8178] font-medium">
-                Stefanie Schodrof
-              </p>
-              <p className="text-sm text-[#9d968c]">
-                Founder, Senseory
-              </p>
-            </div>
-
-            <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10">
-              <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
-              <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
-                I have to say, Clarity University was transformational! I&apos;ve had so many epiphanies; the haze is gone, and there is a clear and concise direction. My favorite parts were defining what sets me apart, crafting a compelling personal brand story and messaging (really liked this exercise), and developing a strategic plan to build my brand across channels—highly recommend!
-              </p>
-              <p className="text-base text-[#8a8178] font-medium">
-                John Taylor
-              </p>
-              <p className="text-sm text-[#9d968c]">
-                Sr. Director Supplier Outreach, Medtronic
-              </p>
-            </div>
-
-            <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10">
-              <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
-              <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
-                One of the things that was important for me […] was how brand touches so many different things. I had to take a step back as a founder of a business […] and understand that brand touches HR, touches finances, it touches sales, it touches operations.
-              </p>
-              <p className="text-base text-[#8a8178] font-medium">
-                Jared Gibson
-              </p>
-              <p className="text-sm text-[#9d968c]">
-                Co-Founder, Outworks
-              </p>
-            </div>
-
-            <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10">
-              <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
-              <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
-                We have a really, really loyal following of donors, but we&apos;re trying to expand that. Until now, we didn&apos;t really know how to make them [new donors] care…Clarity University helped us identify how to approach those people with our unique organization, and explain why they should spend their dollars with us.
-              </p>
-              <p className="text-base text-[#8a8178] font-medium">
-                Lori Dann
-              </p>
-              <p className="text-sm text-[#9d968c]">
-                Founder, MyPLC, Board Chair, Mother&apos;s Trust Foundation
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Still Unsure? */}
-      <section className="py-24 lg:py-32 px-6">
+      {/* 4. Still Unsure? */}
+      <section className="py-24 lg:py-32 px-6 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-8">
             Still unsure?
@@ -326,7 +241,9 @@ export default function ClarityUniversity() {
           </p>
           <div className="reveal flex flex-wrap gap-4">
             <a
-              href="#"
+              href="https://form.typeform.com/to/UlCaLLMV"
+              target="_blank"
+              rel="noopener noreferrer"
               className="group inline-flex items-center gap-3 px-10 py-5 text-lg bg-[#f57214] text-white rounded-lg transition-all duration-300"
             >
               Clarity Assessment
@@ -341,6 +258,213 @@ export default function ClarityUniversity() {
               Book a call
               <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
             </a>
+          </div>
+        </div>
+      </section>
+
+      {/* 5. Alumni Success Stories */}
+      <section className="py-24 lg:py-32 px-6">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-16">
+            Clarity University® Alumni Success Stories
+          </h2>
+
+          <div className="reveal grid md:grid-cols-2 gap-8 lg:gap-12">
+            <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10 overflow-hidden">
+              <div className="mb-8 -mx-8 lg:-mx-10 -mt-8 lg:-mt-10" style={{padding: "56.25% 0 0 0", position: "relative"}}>
+                <iframe
+                  src="https://player.vimeo.com/video/908872505?badge=0&autopause=0&player_id=0&app_id=58479"
+                  frameBorder="0"
+                  allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+                  title="Clarity University - Stef"
+                />
+              </div>
+              <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
+              <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
+                They just helped me mitigate a lot of risk, saved me a lot of money, and I&apos;m actually enjoying the whole experience a lot more. I was feeling like a deer in headlights. I really couldn&apos;t get [my brand message] out. And now I can.
+              </p>
+              <div className="flex items-center gap-4">
+                <Image
+                  src="/stef.png"
+                  alt="Stefanie Schodrof"
+                  width={56}
+                  height={56}
+                  className="rounded-full object-cover"
+                />
+                <div>
+                  <p className="text-base text-[#8a8178] font-medium">
+                    Stefanie Schodrof
+                  </p>
+                  <p className="text-sm text-[#9d968c]">
+                    Founder, Senseory
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10">
+              <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
+              <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
+                I have to say, Clarity University was transformational! I&apos;ve had so many epiphanies; the haze is gone, and there is a clear and concise direction. My favorite parts were defining what sets me apart, crafting a compelling personal brand story and messaging (really liked this exercise), and developing a strategic plan to build my brand across channels—highly recommend!
+              </p>
+              <div className="flex items-center gap-4">
+                <Image
+                  src="/john.png"
+                  alt="John Taylor"
+                  width={56}
+                  height={56}
+                  className="rounded-full object-cover"
+                />
+                <div>
+                  <p className="text-base text-[#8a8178] font-medium">
+                    John Taylor
+                  </p>
+                  <p className="text-sm text-[#9d968c]">
+                    Sr. Director Supplier Outreach, Medtronic
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10 overflow-hidden">
+              <div className="mb-8 -mx-8 lg:-mx-10 -mt-8 lg:-mt-10" style={{padding: "56.25% 0 0 0", position: "relative"}}>
+                <iframe
+                  src="https://player.vimeo.com/video/909586708?badge=0&autopause=0&player_id=0&app_id=58479"
+                  frameBorder="0"
+                  allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+                  title="Clarity University - Jared"
+                />
+              </div>
+              <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
+              <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
+                One of the things that was important for me […] was how brand touches so many different things. I had to take a step back as a founder of a business […] and understand that brand touches HR, touches finances, it touches sales, it touches operations.
+              </p>
+              <div className="flex items-center gap-4">
+                <Image
+                  src="/jared.png"
+                  alt="Jared Gibson"
+                  width={56}
+                  height={56}
+                  className="rounded-full object-cover"
+                />
+                <div>
+                  <p className="text-base text-[#8a8178] font-medium">
+                    Jared Gibson
+                  </p>
+                  <p className="text-sm text-[#9d968c]">
+                    Co-Founder, Outworks
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10 overflow-hidden">
+              <div className="mb-8 -mx-8 lg:-mx-10 -mt-8 lg:-mt-10" style={{padding: "75% 0 0 0", position: "relative"}}>
+                <iframe
+                  src="https://player.vimeo.com/video/899346470?badge=0&autopause=0&player_id=0&app_id=58479"
+                  frameBorder="0"
+                  allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+                  title="Mother's Trust - Lori Dann Testimonial"
+                />
+              </div>
+              <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
+              <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
+                We have a really, really loyal following of donors, but we&apos;re trying to expand that. Until now, we didn&apos;t really know how to make them [new donors] care…Clarity University helped us identify how to approach those people with our unique organization, and explain why they should spend their dollars with us.
+              </p>
+              <div className="flex items-center gap-4">
+                <Image
+                  src="/lori.png"
+                  alt="Lori Dann"
+                  width={56}
+                  height={56}
+                  className="rounded-full object-cover"
+                />
+                <div>
+                  <p className="text-base text-[#8a8178] font-medium">
+                    Lori Dann
+                  </p>
+                  <p className="text-sm text-[#9d968c]">
+                    Founder, MyPLC, Board Chair, Mother&apos;s Trust Foundation
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-[#faf9f7] rounded-2xl p-8 lg:p-10 overflow-hidden">
+              <div className="mb-8 -mx-8 lg:-mx-10 -mt-8 lg:-mt-10" style={{padding: "56.25% 0 0 0", position: "relative"}}>
+                <iframe
+                  src="https://player.vimeo.com/video/1092834364?badge=0&autopause=0&player_id=0&app_id=58479"
+                  frameBorder="0"
+                  allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+                  title="DC Crenshaw FOCUSES at Clarity University"
+                />
+              </div>
+              <span className="text-6xl lg:text-7xl text-[#f57214] leading-none font-serif">&ldquo;</span>
+              <p className="text-lg lg:text-xl text-[#1a1a1a] leading-relaxed mt-4 mb-8">
+                As an entrepreneur, it can be a really lonely job. So listening to the challenges that others are going through allows me to be able to relate and resonate with whatever I was doing.
+              </p>
+              <div className="flex items-center gap-4">
+                <Image
+                  src="/Headshots CU DC.png"
+                  alt="DC Crenshaw"
+                  width={56}
+                  height={56}
+                  className="rounded-full object-cover"
+                />
+                <div>
+                  <p className="text-base text-[#8a8178] font-medium">
+                    DC Crenshaw
+                  </p>
+                  <p className="text-sm text-[#9d968c]">
+                    Co-Founder, Little Diners Crew
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 6. Unlock Your Brand's Full Potential */}
+      <section className="py-24 lg:py-32 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="reveal text-4xl md:text-5xl text-[#1a1a1a] leading-tight mb-16">
+            Unlock Your Brand&apos;s Full Potential: Program Deliverables and Outcomes
+          </h2>
+
+          <div className="space-y-12">
+            <div className="reveal">
+              <p className="text-2xl md:text-3xl text-[#f57214] font-semibold font-[family-name:var(--font-open-sans)] mb-2">Master the 10 Assets of Brand Strategy</p>
+              <p className="text-xl md:text-2xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Equip yourself with the knowledge to utilize ten key brand assets, driving financial growth, culture enhancement, and market share expansion.</p>
+            </div>
+
+            <div className="reveal">
+              <p className="text-2xl md:text-3xl text-[#f57214] font-semibold font-[family-name:var(--font-open-sans)] mb-2">Hands-On Brand Platform Development</p>
+              <p className="text-xl md:text-2xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Engage in a guided, hands-on approach to developing your Brand Platform, transforming your brand&apos;s theoretical concepts into actionable strategies.</p>
+            </div>
+
+            <div className="reveal">
+              <p className="text-2xl md:text-3xl text-[#f57214] font-semibold font-[family-name:var(--font-open-sans)] mb-2">Craft a Compelling 11-Second Elevator Pitch</p>
+              <p className="text-xl md:text-2xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Learn to concisely and effectively communicate your brand&apos;s position and promise, making every interaction count.</p>
+            </div>
+
+            <div className="reveal">
+              <p className="text-2xl md:text-3xl text-[#f57214] font-semibold font-[family-name:var(--font-open-sans)] mb-2">Live Q&A and Community Support</p>
+              <p className="text-xl md:text-2xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Gain access to live support through Q&A webinars and a vibrant community for ongoing feedback and networking.</p>
+            </div>
+
+            <div className="reveal">
+              <p className="text-2xl md:text-3xl text-[#f57214] font-semibold font-[family-name:var(--font-open-sans)] mb-2">Tailored for Leaders and Teams</p>
+              <p className="text-xl md:text-2xl text-[#8a8178] font-[family-name:var(--font-open-sans)]">Whether you&apos;re a business leader or designating a team member, the program&apos;s flexibility allows for effective learning and application within your organization.</p>
+            </div>
           </div>
         </div>
       </section>

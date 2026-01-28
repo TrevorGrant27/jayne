@@ -31,7 +31,7 @@ const cohorts = [
   {
     month: "March",
     status: "OPEN",
-    stripeUrl: "https://buy.stripe.com/6oE8xi8pvgTE5Us14E",
+    stripeUrl: "https://buy.stripe.com/cNieVc43L2ua7STbGB9Ve13",
     weeks: [
       { week: 1, date: "Monday, March 3, 2025", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer and Workbook Guidance Session" },
       { week: 2, date: "Monday, March 10, 2025", time: "11:00am – 1:30pm CT", title: "2.5 Hours Brand Strategy Consulting" },
@@ -55,7 +55,7 @@ const cohorts = [
   {
     month: "May",
     status: "OPEN",
-    stripeUrl: "https://buy.stripe.com/7sI9Bm7lr32O6Yw8wS",
+    stripeUrl: "https://buy.stripe.com/cNieVc43L2ua7STbGB9Ve13",
     weeks: [
       { week: 1, date: "Monday, May 5, 2025", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer and Workbook Guidance Session" },
       { week: 2, date: "Monday, May 12, 2025", time: "11:00am – 1:30pm CT", title: "2.5 Hours Brand Strategy Consulting" },
@@ -66,8 +66,8 @@ const cohorts = [
   },
   {
     month: "June",
-    status: "CLOSED",
-    stripeUrl: "",
+    status: "OPEN",
+    stripeUrl: "https://buy.stripe.com/cNieVc43L2ua7STbGB9Ve13",
     weeks: [
       { week: 1, date: "Monday, June 2, 2025", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer and Workbook Guidance Session" },
       { week: 2, date: "Monday, June 9, 2025", time: "11:00am – 1:30pm CT", title: "2.5 Hours Brand Strategy Consulting" },
@@ -78,8 +78,8 @@ const cohorts = [
   },
   {
     month: "July",
-    status: "CLOSED",
-    stripeUrl: "",
+    status: "OPEN",
+    stripeUrl: "https://buy.stripe.com/cNieVc43L2ua7STbGB9Ve13",
     weeks: [
       { week: 1, date: "Monday, July 7, 2025", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer and Workbook Guidance Session" },
       { week: 2, date: "Monday, July 14, 2025", time: "11:00am – 1:30pm CT", title: "2.5 Hours Brand Strategy Consulting" },
@@ -90,8 +90,8 @@ const cohorts = [
   },
   {
     month: "August",
-    status: "CLOSED",
-    stripeUrl: "",
+    status: "OPEN",
+    stripeUrl: "https://buy.stripe.com/cNieVc43L2ua7STbGB9Ve13",
     weeks: [
       { week: 1, date: "Monday, August 4, 2025", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer and Workbook Guidance Session" },
       { week: 2, date: "Monday, August 11, 2025", time: "11:00am – 1:30pm CT", title: "2.5 Hours Brand Strategy Consulting" },
@@ -102,8 +102,8 @@ const cohorts = [
   },
   {
     month: "September",
-    status: "CLOSED",
-    stripeUrl: "",
+    status: "OPEN",
+    stripeUrl: "https://buy.stripe.com/cNieVc43L2ua7STbGB9Ve13",
     weeks: [
       { week: 1, date: "Monday, September 8, 2025", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer and Workbook Guidance Session" },
       { week: 2, date: "Monday, September 15, 2025", time: "11:00am – 1:30pm CT", title: "2.5 Hours Brand Strategy Consulting" },
@@ -114,8 +114,8 @@ const cohorts = [
   },
   {
     month: "October",
-    status: "CLOSED",
-    stripeUrl: "",
+    status: "OPEN",
+    stripeUrl: "https://buy.stripe.com/cNieVc43L2ua7STbGB9Ve13",
     weeks: [
       { week: 1, date: "Monday, October 6, 2025", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer and Workbook Guidance Session" },
       { week: 2, date: "Monday, October 13, 2025", time: "11:00am – 1:30pm CT", title: "2.5 Hours Brand Strategy Consulting" },
@@ -126,8 +126,8 @@ const cohorts = [
   },
   {
     month: "November",
-    status: "CLOSED",
-    stripeUrl: "",
+    status: "OPEN",
+    stripeUrl: "https://buy.stripe.com/cNieVc43L2ua7STbGB9Ve13",
     weeks: [
       { week: 1, date: "Monday, November 3, 2025", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer and Workbook Guidance Session" },
       { week: 2, date: "Monday, November 10, 2025", time: "11:00am – 1:30pm CT", title: "2.5 Hours Brand Strategy Consulting" },
@@ -138,8 +138,8 @@ const cohorts = [
   },
   {
     month: "December",
-    status: "CLOSED",
-    stripeUrl: "",
+    status: "OPEN",
+    stripeUrl: "https://buy.stripe.com/cNieVc43L2ua7STbGB9Ve13",
     weeks: [
       { week: 1, date: "Monday, December 1, 2025", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer and Workbook Guidance Session" },
       { week: 2, date: "Monday, December 8, 2025", time: "11:00am – 1:30pm CT", title: "2.5 Hours Brand Strategy Consulting" },

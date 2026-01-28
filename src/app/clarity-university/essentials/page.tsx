@@ -31,7 +31,7 @@ const cohorts = [
   {
     month: "March",
     status: "OPEN",
-    stripeUrl: "https://buy.stripe.com/5kAdRCdJPbzkfv23cK",
+    stripeUrl: "https://buy.stripe.com/14A14mcAhgl01uvaCx9Ve11",
     weeks: [
       { week: 1, date: "Monday, March 3, 2025", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer" },
       { week: 2, date: "N/A", time: "", title: "Independent Workbook Completion" },
@@ -55,7 +55,7 @@ const cohorts = [
   {
     month: "May",
     status: "OPEN",
-    stripeUrl: "https://buy.stripe.com/28o3cYcFLgTEaaI4go",
+    stripeUrl: "https://buy.stripe.com/14A14mcAhgl01uvaCx9Ve11",
     weeks: [
       { week: 1, date: "Monday, May 5, 2025", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer" },
       { week: 2, date: "N/A", time: "", title: "Independent Workbook Completion" },
@@ -66,8 +66,8 @@ const cohorts = [
   },
   {
     month: "June",
-    status: "CLOSED",
-    stripeUrl: "",
+    status: "OPEN",
+    stripeUrl: "https://buy.stripe.com/14A14mcAhgl01uvaCx9Ve11",
     weeks: [
       { week: 1, date: "Monday, June 2, 2025", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer" },
       { week: 2, date: "N/A", time: "", title: "Independent Workbook Completion" },
@@ -78,8 +78,8 @@ const cohorts = [
   },
   {
     month: "July",
-    status: "CLOSED",
-    stripeUrl: "",
+    status: "OPEN",
+    stripeUrl: "https://buy.stripe.com/14A14mcAhgl01uvaCx9Ve11",
     weeks: [
       { week: 1, date: "Monday, July 7, 2025", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer" },
       { week: 2, date: "N/A", time: "", title: "Independent Workbook Completion" },
@@ -90,8 +90,8 @@ const cohorts = [
   },
   {
     month: "August",
-    status: "CLOSED",
-    stripeUrl: "",
+    status: "OPEN",
+    stripeUrl: "https://buy.stripe.com/14A14mcAhgl01uvaCx9Ve11",
     weeks: [
       { week: 1, date: "Monday, August 4, 2025", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer" },
       { week: 2, date: "N/A", time: "", title: "Independent Workbook Completion" },
@@ -102,8 +102,8 @@ const cohorts = [
   },
   {
     month: "September",
-    status: "CLOSED",
-    stripeUrl: "",
+    status: "OPEN",
+    stripeUrl: "https://buy.stripe.com/14A14mcAhgl01uvaCx9Ve11",
     weeks: [
       { week: 1, date: "Monday, September 8, 2025", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer" },
       { week: 2, date: "N/A", time: "", title: "Independent Workbook Completion" },
@@ -114,8 +114,8 @@ const cohorts = [
   },
   {
     month: "October",
-    status: "CLOSED",
-    stripeUrl: "",
+    status: "OPEN",
+    stripeUrl: "https://buy.stripe.com/14A14mcAhgl01uvaCx9Ve11",
     weeks: [
       { week: 1, date: "Monday, October 6, 2025", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer" },
       { week: 2, date: "N/A", time: "", title: "Independent Workbook Completion" },
@@ -126,8 +126,8 @@ const cohorts = [
   },
   {
     month: "November",
-    status: "CLOSED",
-    stripeUrl: "",
+    status: "OPEN",
+    stripeUrl: "https://buy.stripe.com/14A14mcAhgl01uvaCx9Ve11",
     weeks: [
       { week: 1, date: "Monday, November 3, 2025", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer" },
       { week: 2, date: "N/A", time: "", title: "Independent Workbook Completion" },
@@ -138,8 +138,8 @@ const cohorts = [
   },
   {
     month: "December",
-    status: "CLOSED",
-    stripeUrl: "",
+    status: "OPEN",
+    stripeUrl: "https://buy.stripe.com/14A14mcAhgl01uvaCx9Ve11",
     weeks: [
       { week: 1, date: "Monday, December 1, 2025", time: "11:00am – 1:00pm CT", title: "Brand Platform Primer" },
       { week: 2, date: "N/A", time: "", title: "Independent Workbook Completion" },
